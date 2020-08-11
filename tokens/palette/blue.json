@@ -1,0 +1,37 @@
+{
+  "color": {
+    "blue": {
+      "blue-10": {
+        "value": "#ebf4ff",
+        "name": "blue_10"
+      },
+      "blue-20": {
+        "value": "#cadefe"
+      },
+      "blue-30": {
+        "value": "#9dc2fd"
+      },
+      "blue-40": {
+        "value": "#78a9ff"
+      },
+      "blue-50": {
+        "value": "#4080fb"
+      },
+      "blue-60": {
+        "value": "#165cfa"
+      },
+      "blue-70": {
+        "value": "#053fc4"
+      },
+      "blue-80": {
+        "value": "#022b8f"
+      },
+      "blue-90": {
+        "value": "#011d5f"
+      },
+      "blue-100": {
+        "value": "#011338"
+      }
+    }
+  }
+}

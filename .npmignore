@@ -1,0 +1,6 @@
+.vscode/
+public/
+src/
+tests/
+tokens/
+package.json

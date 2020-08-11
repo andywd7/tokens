@@ -1,8 +1,12 @@
-import Vue from "vue";
-import VueRouter from "vue-router";
-import Home from "../views/Home.vue";
+import Vue from "vue"
+import VueRouter from "vue-router"
 
-Vue.use(VueRouter);
+import Home from "../views/Home"
+import Test from "../views/Test"
+import ColorContrast from "../views/ColorContrast"
+import TokenCategory from "../components/TokenCategory"
+
+Vue.use(VueRouter)
 
 const routes = [
   {
@@ -11,20 +15,40 @@ const routes = [
     component: Home
   },
   {
-    path: "/about",
-    name: "About",
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () =>
-      import(/* webpackChunkName: "about" */ "../views/About.vue")
+    path: "/tokens",
+    name: "Tokens",
+    component: Home,
+    children: [
+      {
+        path: ":token",
+        name: "token",
+        component: TokenCategory
+      },
+      {
+        path: "color/contrast-matrix",
+        name: "contrast-matrix",
+        component: ColorContrast
+      }
+    ]
+  },
+  {
+    path: "/themes",
+    name: "Themes",
+    component: Home,
+    children: [
+      {
+        path: "theme",
+        name: "theme",
+        component: Test
+      }
+    ]
   }
-];
+]
 
 const router = new VueRouter({
   mode: "history",
-  base: process.env.BASE_URL,
+  // base: process.env.BASE_URL,
   routes
-});
+})
 
-export default router;
+export default router

@@ -1,0 +1,36 @@
+{
+  "color": {
+    "purple": {
+      "purple-10": {
+        "value": "#f6f2ff"
+      },
+      "purple-20": {
+        "value": "#e8dbfe"
+      },
+      "purple-30": {
+        "value": "#d4bdfd"
+      },
+      "purple-40": {
+        "value": "#bd98fc"
+      },
+      "purple-50": {
+        "value": "#a473fc"
+      },
+      "purple-60": {
+        "value": "#8949f8"
+      },
+      "purple-70": {
+        "value": "#6932c1"
+      },
+      "purple-80": {
+        "value": "#492389"
+      },
+      "purple-90": {
+        "value": "#31175c"
+      },
+      "purple-100": {
+        "value": "#1c102f"
+      }
+    }
+  }
+}

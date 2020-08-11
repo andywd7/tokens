@@ -1,0 +1,36 @@
+{
+  "color": {
+    "green": {
+      "green-10": {
+        "value": "#defbe6"
+      },
+      "green-20": {
+        "value": "#a7f0ba"
+      },
+      "green-30": {
+        "value": "#6fdc8c"
+      },
+      "green-40": {
+        "value": "#42be65"
+      },
+      "green-50": {
+        "value": "#24a148"
+      },
+      "green-60": {
+        "value": "#198038"
+      },
+      "green-70": {
+        "value": "#0e6027"
+      },
+      "green-80": {
+        "value": "#044317"
+      },
+      "green-90": {
+        "value": "#022d0d"
+      },
+      "green-100": {
+        "value": "#071908"
+      }
+    }
+  }
+}

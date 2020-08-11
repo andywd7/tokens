@@ -1,0 +1,36 @@
+{
+  "color": {
+    "teal": {
+      "teal-10": {
+        "value": "#d9fbfb"
+      },
+      "teal-20": {
+        "value": "#9ef0f0"
+      },
+      "teal-30": {
+        "value": "#3ddbd9"
+      },
+      "teal-40": {
+        "value": "#08bdba"
+      },
+      "teal-50": {
+        "value": "#009d9a"
+      },
+      "teal-60": {
+        "value": "#007d79"
+      },
+      "teal-70": {
+        "value": "#005d5d"
+      },
+      "teal-80": {
+        "value": "#004144"
+      },
+      "teal-90": {
+        "value": "#022b30"
+      },
+      "teal-100": {
+        "value": "#081a1c"
+      }
+    }
+  }
+}

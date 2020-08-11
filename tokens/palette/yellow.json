@@ -1,0 +1,36 @@
+{
+  "color": {
+    "yellow": {
+      "yellow-10": {
+        "value": "#fffff1"
+      },
+      "yellow-20": {
+        "value": "#fcfbd1"
+      },
+      "yellow-30": {
+        "value": "#fffea8"
+      },
+      "yellow-40": {
+        "value": "#fffd7e"
+      },
+      "yellow-50": {
+        "value": "#fbf95b"
+      },
+      "yellow-60": {
+        "value": "#f5f336"
+      },
+      "yellow-70": {
+        "value": "#a2a32b"
+      },
+      "yellow-80": {
+        "value": "#77761c"
+      },
+      "yellow-90": {
+        "value": "#4e4d0d"
+      },
+      "yellow-100": {
+        "value": "#2b2b0b"
+      }
+    }
+  }
+}

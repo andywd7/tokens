@@ -1,0 +1,36 @@
+{
+  "color": {
+    "magenta": {
+      "magenta-10": {
+        "value": "#fff0f7"
+      },
+      "magenta-20": {
+        "value": "#fed7e8"
+      },
+      "magenta-30": {
+        "value": "#fdb0d2"
+      },
+      "magenta-40": {
+        "value": "#fd80b6"
+      },
+      "magenta-50": {
+        "value": "#ec5696"
+      },
+      "magenta-60": {
+        "value": "#cf2c71"
+      },
+      "magenta-70": {
+        "value": "#9d1c53"
+      },
+      "magenta-80": {
+        "value": "#730d37"
+      },
+      "magenta-90": {
+        "value": "#500424"
+      },
+      "magenta-100": {
+        "value": "#290b18"
+      }
+    }
+  }
+}

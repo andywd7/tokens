@@ -1,32 +1,37 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+    <div class="row no-gutters flex-xl-nowrap">
+      <div class="col-md-3 col-xl-2">
+        <Sidebar />
+      </div>
+      <main role="main" class="col-md-9 col-xl-10 bd-content">
+        <title-block />
+        <div class="px-5">
+          <div class="row">
+            <div class="col-md-9">
+              <router-view />
+            </div>
+          </div>
+        </div>
+      </main>
     </div>
-    <router-view />
   </div>
 </template>
 
-<style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
+<script>
+import Sidebar from "./components/Sidebar"
+import TitleBlock from "./components/TitleBlock"
 
-#nav {
-  padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
+export default {
+  components: {
+    Sidebar,
+    TitleBlock
   }
+}
+</script>
+
+<style lang="scss" scoped>
+.bd-content {
+  order: 1;
 }
 </style>

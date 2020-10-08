@@ -69,33 +69,33 @@ export default {
   },
   methods: {
     isAccessible(bg, txt) {
-      const isA = {}
-      switch (this.view) {
-        case "Passed":
-          contrast.isAccessible(bg, txt)
-          break
-        case "Failed":
-          !contrast.isAccessible(bg, txt)
-          break
-        case "AA":
-          contrast.score(bg, txt) === "AA"
-          break
-        case "AAA":
-          contrast.score(bg, txt) === "AAA"
-          break
-        // if (this.view === "Passed") {
-        //   return contrast.isAccessible(bg, txt)
-        // } else if (this.view === "Failed") {
-        //   return !contrast.isAccessible(bg, txt)
-        // } else if (this.view === "AA") {
-        //   return contrast.score(bg, txt) === "AA"
-        // } else if (this.view === "AAA") {
-        //   return contrast.score(bg, txt) === "AAA"
-        // } else {
-        //   return true
-        // }
+      // const isA = {}
+      // switch (this.view) {
+      //   case "Passed":
+      //     contrast.isAccessible(bg, txt)
+      //     break
+      //   case "Failed":
+      //     !contrast.isAccessible(bg, txt)
+      //     break
+      //   case "AA":
+      //     contrast.score(bg, txt) === "AA"
+      //     break
+      //   case "AAA":
+      //     contrast.score(bg, txt) === "AAA"
+      //     break
+      if (this.view === "Passed") {
+        return contrast.isAccessible(bg, txt)
+      } else if (this.view === "Failed") {
+        return !contrast.isAccessible(bg, txt)
+      } else if (this.view === "AA") {
+        return contrast.score(bg, txt) === "AA"
+      } else if (this.view === "AAA") {
+        return contrast.score(bg, txt) === "AAA"
+      } else {
+        return true
       }
-      return isA
+      // }
+      // return isA
     },
     score(bg, txt) {
       if (contrast.score(bg, txt) === "AA") {

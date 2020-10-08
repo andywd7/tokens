@@ -47,6 +47,11 @@ export default {
     styles() {
       const styles = {}
       switch (this.token.attributes.category) {
+        // case "theme":
+        //   // case "background-color":
+        //   styles.backgroundColor = this.token.value
+        //   // styles.borderColor = tokens.borderColorSofter
+        //   break
         case "color":
           // case "background-color":
           styles.backgroundColor = this.token.value

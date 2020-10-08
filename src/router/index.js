@@ -2,9 +2,10 @@ import Vue from "vue"
 import VueRouter from "vue-router"
 
 import Home from "../views/Home"
-import Test from "../views/Test"
+// import Tokens from "../views/Tokens"
 import ColorContrast from "../views/ColorContrast"
 import TokenCategory from "../components/TokenCategory"
+import ThemeCategory from "../components/ThemeCategory"
 
 Vue.use(VueRouter)
 
@@ -39,7 +40,7 @@ const routes = [
       {
         path: "theme",
         name: "theme",
-        component: Test
+        component: ThemeCategory
       }
     ]
   }

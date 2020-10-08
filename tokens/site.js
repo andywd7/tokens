@@ -8,7 +8,7 @@ module.exports = StyleDictionary => {
       //   const prefix = config.prefix ? `${config.prefix}-` : "";
       const toRet = {}
       const grouped = _.groupBy(dictionary.allProperties, "attributes.category")
-      // console.log(grouped);
+      // console.log(grouped)
       const keys = Object.keys(grouped)
       /* eslint-disable */
       for (const key of keys) {
@@ -30,7 +30,7 @@ module.exports = StyleDictionary => {
         }
       }
       /* eslint-enable */
-      // console.log(toRet);
+      // console.log(toRet)
       return JSON.stringify(toRet, null, 2)
     }
   })

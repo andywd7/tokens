@@ -59,6 +59,7 @@ export default {
     },
     test(r) {
       if (r.name === "Tokens") {
+        // console.log(r.children)
         const t = r.children.concat(this.tokenRoutes)
         t.shift()
         return t.sort((a, b) => (a.name > b.name ? 1 : -1))
@@ -76,14 +77,12 @@ export default {
   padding-top: 1rem;
 }
 
-@include media-breakpoint-up(md) {
-  .bd-links {
-    max-height: calc(100vh - 103px);
-    overflow-y: auto;
-  }
+.bd-links {
+  max-height: calc(100vh - 103px);
+  overflow-y: auto;
+}
 
-  .bd-links {
-    display: block !important;
-  }
+.bd-links {
+  display: block !important;
 }
 </style>

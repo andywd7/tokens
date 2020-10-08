@@ -4,7 +4,7 @@ require("./site")(StyleDictionary)
 // REGISTER CUSTOM FORMATS + TEMPLATES + TRANSFORMS + TRANSFORM GROUPS
 
 StyleDictionary.registerTransform({
-  name: "name/removeColor",
+  name: "name/color",
   type: "name",
   matcher: function(prop) {
     return prop.path[0] === "color"
@@ -15,6 +15,20 @@ StyleDictionary.registerTransform({
         prop.attributes.category + "(_|-)" + prop.attributes.type + "(_|-)",
         "gi"
       ),
+      ""
+    )
+  }
+})
+
+StyleDictionary.registerTransform({
+  name: "name/theme",
+  type: "name",
+  matcher: function(prop) {
+    return prop.path[1] === "theme"
+  },
+  transformer: function(prop) {
+    return prop.name.replace(
+      new RegExp(prop.attributes.category + "(_|-)", "gi"),
       ""
     )
   }
@@ -37,14 +51,14 @@ StyleDictionary.registerFilter({
 StyleDictionary.registerFilter({
   name: "isTheme",
   matcher: function(prop) {
-    return prop.theme
+    return prop.path[0] === "theme"
   }
 })
 
 StyleDictionary.registerFilter({
   name: "isNotTheme",
   matcher: function(prop) {
-    return !prop.theme
+    return prop.path[0] !== "theme"
   }
 })
 
@@ -54,7 +68,8 @@ StyleDictionary.registerTransformGroup({
   transforms: [
     "attribute/cti",
     "name/cti/kebab",
-    "name/removeColor",
+    "name/color",
+    "name/theme",
     "time/seconds",
     "size/px",
     "color/css"
@@ -66,7 +81,8 @@ StyleDictionary.registerTransformGroup({
   transforms: [
     "attribute/cti",
     "name/cti/constant",
-    "name/removeColor",
+    "name/color",
+    "name/theme",
     "size/px",
     "color/hex"
   ]
@@ -77,7 +93,8 @@ StyleDictionary.registerTransformGroup({
   transforms: [
     "attribute/cti",
     "name/cti/kebab",
-    "name/removeColor",
+    "name/color",
+    "name/theme",
     "size/px",
     "color/hex"
   ]
@@ -165,17 +182,6 @@ StyleDictionary.extend({
           destination: `docs.json`,
           format: "site",
           filter: "isNotTheme"
-        }
-      ]
-    },
-    "theme/dark-scss": {
-      transformGroup: "tokens-scss",
-      buildPath: `public/tokens/theme/dark/`,
-      files: [
-        {
-          destination: `dark.scss`,
-          format: "scss/variables",
-          filter: "isTheme"
         }
       ]
     }

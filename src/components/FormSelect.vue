@@ -1,6 +1,6 @@
 <template>
   <div class="flex-1">
-    <label for="formSelect">Format:</label>
+    <!-- <label for="formSelect">Format:</label> -->
     <select id="formSelect" @change="change" class="custom-select">
       <option
         v-for="(opt, i) in options"

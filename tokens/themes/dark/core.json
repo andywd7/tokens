@@ -1,38 +1,35 @@
 {
   "theme": {
-    "ui_background": {
-      "value": "{color.grey.grey-90.value}",
-      "theme": "dark",
-      "docs": {
-        "role": "Default page background"
-      }
-    },
-    "interactive_01": {
-      "value": "{color.blue.blue-60.value}",
-      "theme": "dark",
-      "docs": {
-        "role": "Primary interactive color; Interactive text; Selected elements; Featured elements"
-      }
-    },
-    "interactive_02": {
-      "value": "{color.grey.grey-60.value}",
-      "theme": "dark",
-      "docs": {
-        "role": "Secondary button"
-      }
-    },
-    "interactive_03": {
-      "value": "#fff",
-      "theme": "dark",
-      "docs": {
-        "role": "Tertiary button"
-      }
-    },
-    "interactive_04": {
-      "value": "{color.blue.blue-50.value}",
-      "theme": "dark",
-      "docs": {
-        "role": "Selected nav indicator; Acgive elements"
+    "dark": {
+      "ui_background": {
+        "value": "{color.grey.grey-90.value}",
+        "docs": {
+          "role": "Default page background"
+        }
+      },
+      "interactive_01": {
+        "value": "{color.blue.blue-60.value}",
+        "docs": {
+          "role": "Primary interactive color; Interactive text; Selected elements; Featured elements"
+        }
+      },
+      "interactive_02": {
+        "value": "{color.grey.grey-60.value}",
+        "docs": {
+          "role": "Secondary button"
+        }
+      },
+      "interactive_03": {
+        "value": "#fff",
+        "docs": {
+          "role": "Tertiary button"
+        }
+      },
+      "interactive_04": {
+        "value": "{color.blue.blue-50.value}",
+        "docs": {
+          "role": "Selected nav indicator; Acgive elements"
+        }
       }
     }
   }

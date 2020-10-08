@@ -59,20 +59,20 @@ export default {
   order: 0;
 }
 
-@include media-breakpoint-up(md) {
-  .bd-sidebar {
-    border-right: 1px solid rgba(0, 0, 0, 0.1);
-    height: 100vh;
-    position: sticky;
-    top: 0;
-  }
+/* @include media-breakpoint-up(md) { */
+.bd-sidebar {
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+  height: 100vh;
+  position: sticky;
+  top: 0;
 }
+/* } */
 
-@include media-breakpoint-up(lg) {
-  .bd-sidebar {
-    flex: 0 1 320px;
-  }
+/* @include media-breakpoint-up(lg) { */
+.bd-sidebar {
+  flex: 0 1 320px;
 }
+/* } */
 
 .bd-search {
   border-bottom: 1px solid rgba(0, 0, 0, 0.05);

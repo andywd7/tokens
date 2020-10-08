@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 11 Aug 2020 16:20:13 GMT
+ * Generated on Thu, 08 Oct 2020 08:24:33 GMT
  */
 
 export const BORDER_RADIUS_01 = "3px";

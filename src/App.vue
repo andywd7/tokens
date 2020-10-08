@@ -5,7 +5,7 @@
         <Sidebar />
       </div>
       <main role="main" class="col-md-9 col-xl-10 bd-content">
-        <title-block />
+        <title-block :title="this.$route.name" />
         <div class="px-5">
           <div class="row">
             <div class="col-md-9">

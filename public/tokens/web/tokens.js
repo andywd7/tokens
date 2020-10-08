@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 11 Aug 2020 16:20:13 GMT
+ * Generated on Thu, 08 Oct 2020 08:24:33 GMT
  */
 
 export const BORDER_RADIUS_01 = "3px";
@@ -33,3 +33,13 @@ export const LINE_HEIGHT_06 = "26px";
 export const LINE_HEIGHT_07 = "36px";
 export const LINE_HEIGHT_08 = "40px";
 export const LINE_HEIGHT_09 = "50px";
+export const THEME_DARK_UI_BACKGROUND = "#21272a";
+export const THEME_DARK_INTERACTIVE_01 = "#165cfa";
+export const THEME_DARK_INTERACTIVE_02 = "#697077";
+export const THEME_DARK_INTERACTIVE_03 = "#fff";
+export const THEME_DARK_INTERACTIVE_04 = "#4080fb";
+export const THEME_LIGHT_UI_BACKGROUND = "#f2f4f8";
+export const THEME_LIGHT_INTERACTIVE_01 = "#ebf4ff";
+export const THEME_LIGHT_INTERACTIVE_02 = "#f2f4f8";
+export const THEME_LIGHT_INTERACTIVE_03 = "#fff";
+export const THEME_LIGHT_INTERACTIVE_04 = "#ebf4ff";

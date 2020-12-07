@@ -1,0 +1,54 @@
+import { TabsState } from "@storybook/components"
+import { Figma } from "storybook-addon-designs/blocks"
+import { Var } from "@dan-nz/storybook-documentation-primitives"
+import themeDark from "../../../tokens/themes/theme.json"
+import { SPACING_08 } from "../../../tokens/web/js/tokensAndPalette"
+
+## Style
+
+export const toks = Object.values(themeDark.theme).map((t, i) => {
+  const styles = {
+    backgroundColor: t.value,
+    borderRadius: SPACING_08,
+    height: SPACING_08,
+    width: SPACING_08
+  }
+  return (
+    <tr key={i}>
+      <td><Var>{"$" + t.name}</Var></td>
+      <td>{t.description}</td>
+      <td width="200">
+        <div class="token-value">
+          <div>
+            {t.valueName}
+            <br/>
+            -
+            <br/>
+            <Var>{t.value}</Var>
+          </div>
+          <div style={styles} />
+        </div>
+      </td>
+    </tr>
+  )
+})
+
+<TabsState initial="primaryDesign">
+  <div id="primaryDesign" title="Design">
+    <Figma url="https://www.figma.com/file/xV0XmrrCru3JAPH8w0FWb5/%F0%9F%93%90Netace-UI?node-id=83%3A2" />
+  </div>
+  <div id="primaryTokens" title="Tokens">
+    <table class="table">
+      <thead>
+        <tr>
+          <th width="120">Token</th>
+          <th>Role</th>
+          <th width="120">Value</th>
+        </tr>
+      </thead>
+      <tbody>
+        {toks}
+      </tbody>
+    </table>
+  </div>
+</TabsState>

@@ -1,0 +1,135 @@
+$code-01: (
+  font-size: $font-size-01,
+  font-weight: $font-weight-normal,
+  line-height: $line-height-01
+) !default;
+
+$code-02: (
+  font-size: $font-size-02,
+  font-weight: $font-weight-normal,
+  line-height: $line-height-03
+) !default;
+
+$label-01: (
+  font-size: $font-size-01,
+  font-weight: $font-weight-normal,
+  line-height: $line-height-01
+) !default;
+
+$caption-01: (
+  font-size: $font-size-01,
+  font-weight: $font-weight-normal,
+  line-height: $line-height-01
+) !default;
+
+$body-short-01: (
+  font-size: $font-size-02,
+  font-weight: $font-weight-normal,
+  line-height: $line-height-02
+) !default;
+
+$body-short-01-bold: (
+  font-size: $font-size-02,
+  font-weight: $font-weight-bold,
+  line-height: $line-height-02
+) !default;
+
+$body-short-02: (
+  font-size: $font-size-03,
+  font-weight: $font-weight-normal,
+  line-height: $line-height-04
+) !default;
+
+$body-short-02-bold: (
+  font-size: $font-size-03,
+  font-weight: $font-weight-bold,
+  line-height: $line-height-04
+) !default;
+
+$body-long-01: (
+  font-size: $font-size-02,
+  font-weight: $font-weight-normal,
+  line-height: $line-height-02
+) !default;
+
+$body-long-01-bold: (
+  font-size: $font-size-02,
+  font-weight: $font-weight-bold,
+  line-height: $line-height-02
+) !default;
+
+$body-long-02: (
+  font-size: $font-size-03,
+  font-weight: $font-weight-normal,
+  line-height: $line-height-05
+) !default;
+
+$body-long-02-bold: (
+  font-size: $font-size-03,
+  font-weight: $font-weight-bold,
+  line-height: $line-height-05
+) !default;
+
+$heading-01: (
+  font-size: $font-size-02,
+  font-weight: $font-weight-bold,
+  line-height: $line-height-02
+) !default;
+
+$heading-02: (
+  font-size: $font-size-03,
+  font-weight: $font-weight-bold,
+  line-height: $line-height-04
+) !default;
+
+$heading-03: (
+  font-size: $font-size-04,
+  font-weight: $font-weight-normal,
+  line-height: $line-height-06
+) !default;
+
+$heading-04: (
+  font-size: $font-size-05,
+  font-weight: $font-weight-normal,
+  line-height: $line-height-07
+) !default;
+
+$heading-05: (
+  font-size: $font-size-06,
+  font-weight: $font-weight-normal,
+  line-height: $line-height-08
+) !default;
+
+$heading-06: (
+  font-size: $font-size-07,
+  font-weight: $font-weight-normal,
+  line-height: $line-height-09
+) !default;
+
+$heading-07: (
+  font-size: $font-size-08,
+  font-weight: $font-weight-normal,
+  line-height: $line-height-10
+) !default;
+
+$text-styles-map: (
+  code-01: $code-01,
+  code-02: $code-02,
+  label-01: $label-01,
+  caption-01: $caption-01,
+  body-short-01: $body-short-01,
+  body-short-01-bold: $body-short-01-bold,
+  body-short-02: $body-short-02,
+  body-short-02-bold: $body-short-02-bold,
+  body-long-01: $body-long-01,
+  body-long-01-bold: $body-long-01-bold,
+  body-long-02: $body-long-02,
+  body-long-02-bold: $body-long-02-bold,
+  heading-01: $heading-01,
+  heading-02: $heading-02,
+  heading-03: $heading-03,
+  heading-04: $heading-04,
+  heading-05: $heading-05,
+  heading-06: $heading-06,
+  heading-07: $heading-07
+) !default;

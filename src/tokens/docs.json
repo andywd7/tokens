@@ -1,20 +1,36 @@
 {
-  "border-radius": [
+  "borderRadius": [
     {
-      "value": "3px",
+      "value": "2px",
       "name": "border-radius-01",
       "attributes": {
-        "category": "border-radius",
+        "category": "borderRadius",
         "type": "01"
+      }
+    },
+    {
+      "value": "3px",
+      "name": "border-radius-02",
+      "attributes": {
+        "category": "borderRadius",
+        "type": "02"
+      }
+    },
+    {
+      "value": "6px",
+      "name": "border-radius-03",
+      "attributes": {
+        "category": "borderRadius",
+        "type": "03"
       }
     }
   ],
-  "box-shadow": [
+  "boxShadow": [
     {
       "value": "none",
       "name": "box-shadow-none",
       "attributes": {
-        "category": "box-shadow",
+        "category": "boxShadow",
         "type": "none"
       }
     },
@@ -22,7 +38,7 @@
       "value": "0 1px 1px rgba(0,0,0,.2)",
       "name": "box-shadow-component",
       "attributes": {
-        "category": "box-shadow",
+        "category": "boxShadow",
         "type": "component"
       }
     },
@@ -30,7 +46,7 @@
       "value": "0 1px 3px rgba(0,0,0,.2)",
       "name": "box-shadow-temporary",
       "attributes": {
-        "category": "box-shadow",
+        "category": "boxShadow",
         "type": "temporary"
       }
     },
@@ -38,7 +54,7 @@
       "value": "0 2px 4px rgba(0,0,0,0.2)",
       "name": "box-shadow-navigation",
       "attributes": {
-        "category": "box-shadow",
+        "category": "boxShadow",
         "type": "navigation"
       }
     },
@@ -46,7 +62,7 @@
       "value": "0 4px 8px rgba(0,0,0,0.2)",
       "name": "box-shadow-notification",
       "attributes": {
-        "category": "box-shadow",
+        "category": "boxShadow",
         "type": "notification"
       }
     },
@@ -54,17 +70,83 @@
       "value": "0 6px 12px rgba(0,0,0,0.2)",
       "name": "box-shadow-modal",
       "attributes": {
-        "category": "box-shadow",
+        "category": "boxShadow",
         "type": "modal"
       }
     }
   ],
-  "font-size": [
+  "breakpoint": [
+    {
+      "value": "0",
+      "name": "breakpoint-xs",
+      "attributes": {
+        "category": "breakpoint",
+        "type": "xs"
+      }
+    },
+    {
+      "value": "320px",
+      "name": "breakpoint-sm",
+      "attributes": {
+        "category": "breakpoint",
+        "type": "sm"
+      }
+    },
+    {
+      "value": "672px",
+      "name": "breakpoint-md",
+      "attributes": {
+        "category": "breakpoint",
+        "type": "md"
+      }
+    },
+    {
+      "value": "1040px",
+      "name": "breakpoint-lg",
+      "attributes": {
+        "category": "breakpoint",
+        "type": "lg"
+      }
+    },
+    {
+      "value": "1328px",
+      "name": "breakpoint-xlg",
+      "attributes": {
+        "category": "breakpoint",
+        "type": "xlg"
+      }
+    },
+    {
+      "value": "1568px",
+      "name": "breakpoint-xxlg",
+      "attributes": {
+        "category": "breakpoint",
+        "type": "xxlg"
+      }
+    },
+    {
+      "value": "1904px",
+      "name": "breakpoint-xxxlg",
+      "attributes": {
+        "category": "breakpoint",
+        "type": "xxxlg"
+      }
+    },
+    {
+      "value": "2560px",
+      "name": "breakpoint-max",
+      "attributes": {
+        "category": "breakpoint",
+        "type": "max"
+      }
+    }
+  ],
+  "fontSize": [
     {
       "value": "12px",
       "name": "font-size-01",
       "attributes": {
-        "category": "font-size",
+        "category": "fontSize",
         "type": "01"
       }
     },
@@ -72,7 +154,7 @@
       "value": "14px",
       "name": "font-size-02",
       "attributes": {
-        "category": "font-size",
+        "category": "fontSize",
         "type": "02"
       }
     },
@@ -80,7 +162,7 @@
       "value": "16px",
       "name": "font-size-03",
       "attributes": {
-        "category": "font-size",
+        "category": "fontSize",
         "type": "03"
       }
     },
@@ -88,7 +170,7 @@
       "value": "20px",
       "name": "font-size-04",
       "attributes": {
-        "category": "font-size",
+        "category": "fontSize",
         "type": "04"
       }
     },
@@ -96,7 +178,7 @@
       "value": "28px",
       "name": "font-size-05",
       "attributes": {
-        "category": "font-size",
+        "category": "fontSize",
         "type": "05"
       }
     },
@@ -104,7 +186,7 @@
       "value": "32px",
       "name": "font-size-06",
       "attributes": {
-        "category": "font-size",
+        "category": "fontSize",
         "type": "06"
       }
     },
@@ -112,7 +194,7 @@
       "value": "42px",
       "name": "font-size-07",
       "attributes": {
-        "category": "font-size",
+        "category": "fontSize",
         "type": "07"
       }
     },
@@ -120,35 +202,35 @@
       "value": "54px",
       "name": "font-size-08",
       "attributes": {
-        "category": "font-size",
+        "category": "fontSize",
         "type": "08"
       }
     }
   ],
-  "font-family": [
+  "fontFamily": [
     {
-      "value": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, 'Noto Sans', sans-serif",
-      "name": "font-family-body",
+      "value": "-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, 'Noto Sans', sans-serif",
+      "name": "font-family-sans-serif",
       "attributes": {
-        "category": "font-family",
-        "type": "body"
+        "category": "fontFamily",
+        "type": "sans-serif"
       }
     },
     {
       "value": "SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace",
       "name": "font-family-monospace",
       "attributes": {
-        "category": "font-family",
+        "category": "fontFamily",
         "type": "monospace"
       }
     }
   ],
-  "font-weight": [
+  "fontWeight": [
     {
       "value": "300",
       "name": "font-weight-light",
       "attributes": {
-        "category": "font-weight",
+        "category": "fontWeight",
         "type": "light"
       }
     },
@@ -156,7 +238,7 @@
       "value": "400",
       "name": "font-weight-normal",
       "attributes": {
-        "category": "font-weight",
+        "category": "fontWeight",
         "type": "normal"
       }
     },
@@ -164,17 +246,17 @@
       "value": "700",
       "name": "font-weight-bold",
       "attributes": {
-        "category": "font-weight",
+        "category": "fontWeight",
         "type": "bold"
       }
     }
   ],
-  "line-height": [
+  "lineHeight": [
     {
       "value": "64px",
       "name": "line-height-10",
       "attributes": {
-        "category": "line-height",
+        "category": "lineHeight",
         "type": "10"
       }
     },
@@ -182,7 +264,7 @@
       "value": "16px",
       "name": "line-height-01",
       "attributes": {
-        "category": "line-height",
+        "category": "lineHeight",
         "type": "01"
       }
     },
@@ -190,7 +272,7 @@
       "value": "18px",
       "name": "line-height-02",
       "attributes": {
-        "category": "line-height",
+        "category": "lineHeight",
         "type": "02"
       }
     },
@@ -198,7 +280,7 @@
       "value": "20px",
       "name": "line-height-03",
       "attributes": {
-        "category": "line-height",
+        "category": "lineHeight",
         "type": "03"
       }
     },
@@ -206,7 +288,7 @@
       "value": "22px",
       "name": "line-height-04",
       "attributes": {
-        "category": "line-height",
+        "category": "lineHeight",
         "type": "04"
       }
     },
@@ -214,7 +296,7 @@
       "value": "24px",
       "name": "line-height-05",
       "attributes": {
-        "category": "line-height",
+        "category": "lineHeight",
         "type": "05"
       }
     },
@@ -222,7 +304,7 @@
       "value": "26px",
       "name": "line-height-06",
       "attributes": {
-        "category": "line-height",
+        "category": "lineHeight",
         "type": "06"
       }
     },
@@ -230,7 +312,7 @@
       "value": "36px",
       "name": "line-height-07",
       "attributes": {
-        "category": "line-height",
+        "category": "lineHeight",
         "type": "07"
       }
     },
@@ -238,7 +320,7 @@
       "value": "40px",
       "name": "line-height-08",
       "attributes": {
-        "category": "line-height",
+        "category": "lineHeight",
         "type": "08"
       }
     },
@@ -246,14 +328,88 @@
       "value": "50px",
       "name": "line-height-09",
       "attributes": {
-        "category": "line-height",
+        "category": "lineHeight",
+        "type": "09"
+      }
+    }
+  ],
+  "spacing": [
+    {
+      "value": "2px",
+      "name": "spacing-01",
+      "attributes": {
+        "category": "spacing",
+        "type": "01"
+      }
+    },
+    {
+      "value": "4px",
+      "name": "spacing-02",
+      "attributes": {
+        "category": "spacing",
+        "type": "02"
+      }
+    },
+    {
+      "value": "8px",
+      "name": "spacing-03",
+      "attributes": {
+        "category": "spacing",
+        "type": "03"
+      }
+    },
+    {
+      "value": "12px",
+      "name": "spacing-04",
+      "attributes": {
+        "category": "spacing",
+        "type": "04"
+      }
+    },
+    {
+      "value": "16px",
+      "name": "spacing-05",
+      "attributes": {
+        "category": "spacing",
+        "type": "05"
+      }
+    },
+    {
+      "value": "24px",
+      "name": "spacing-06",
+      "attributes": {
+        "category": "spacing",
+        "type": "06"
+      }
+    },
+    {
+      "value": "32px",
+      "name": "spacing-07",
+      "attributes": {
+        "category": "spacing",
+        "type": "07"
+      }
+    },
+    {
+      "value": "40px",
+      "name": "spacing-08",
+      "attributes": {
+        "category": "spacing",
+        "type": "08"
+      }
+    },
+    {
+      "value": "48px",
+      "name": "spacing-09",
+      "attributes": {
+        "category": "spacing",
         "type": "09"
       }
     }
   ],
   "color": [
     {
-      "value": "#ebf4ff",
+      "value": "#040506",
       "name": "blue-10",
       "attributes": {
         "category": "color",
@@ -613,11 +769,27 @@
       }
     },
     {
+      "value": "#ffffff",
+      "name": "white",
+      "attributes": {
+        "category": "color",
+        "type": "white"
+      }
+    },
+    {
+      "value": "#000000",
+      "name": "black",
+      "attributes": {
+        "category": "color",
+        "type": "black"
+      }
+    },
+    {
       "value": "#e0e4ea",
       "name": "grey-hover-10",
       "attributes": {
         "category": "color",
-        "type": "grey",
+        "type": "grey-hover",
         "item": "grey-hover-10"
       }
     },
@@ -626,7 +798,7 @@
       "name": "grey-hover-20",
       "attributes": {
         "category": "color",
-        "type": "grey",
+        "type": "grey-hover",
         "item": "grey-hover-20"
       }
     },
@@ -635,7 +807,7 @@
       "name": "grey-hover-30",
       "attributes": {
         "category": "color",
-        "type": "grey",
+        "type": "grey-hover",
         "item": "grey-hover-30"
       }
     },
@@ -644,7 +816,7 @@
       "name": "grey-hover-40",
       "attributes": {
         "category": "color",
-        "type": "grey",
+        "type": "grey-hover",
         "item": "grey-hover-40"
       }
     },
@@ -653,7 +825,7 @@
       "name": "grey-hover-50",
       "attributes": {
         "category": "color",
-        "type": "grey",
+        "type": "grey-hover",
         "item": "grey-hover-50"
       }
     },
@@ -662,7 +834,7 @@
       "name": "grey-hover-60",
       "attributes": {
         "category": "color",
-        "type": "grey",
+        "type": "grey-hover",
         "item": "grey-hover-60"
       }
     },
@@ -671,7 +843,7 @@
       "name": "grey-hover-70",
       "attributes": {
         "category": "color",
-        "type": "grey",
+        "type": "grey-hover",
         "item": "grey-hover-70"
       }
     },
@@ -680,7 +852,7 @@
       "name": "grey-hover-80",
       "attributes": {
         "category": "color",
-        "type": "grey",
+        "type": "grey-hover",
         "item": "grey-hover-80"
       }
     },
@@ -689,7 +861,7 @@
       "name": "grey-hover-90",
       "attributes": {
         "category": "color",
-        "type": "grey",
+        "type": "grey-hover",
         "item": "grey-hover-90"
       }
     },
@@ -698,7 +870,7 @@
       "name": "grey-hover-100",
       "attributes": {
         "category": "color",
-        "type": "grey",
+        "type": "grey-hover",
         "item": "grey-hover-100"
       }
     },

@@ -1,0 +1,40 @@
+import {
+  Meta,
+  Title,
+  Subtitle,
+  Story,
+  Canvas,
+  ArgsTable 
+} from '@storybook/addon-docs/blocks'
+import { Var } from "@dan-nz/storybook-documentation-primitives"
+import docTokens from "../../../tokens/generated/docs"
+import * as helpers from "../story-helpers"
+
+export const tokensFontSizes = Object.values(docTokens.fontSizes).map((t, i) => {
+  return (
+    <tr key={i}>
+      <td><Var>{"$" + t.name}</Var></td>
+      <td>{helpers.rems(t.value)}</td>
+      <td>{t.value}</td>
+      <td><span style={{ fontSize: t.value, lineHeight: 1.5 }}>{t.name}</span></td>
+    </tr>
+  )
+})
+
+<Meta title='TOKENS/Font size' parameters={{ previewTabs: { canvas: { hidden: true } } }} />
+
+<Title />
+
+<Subtitle>Tokens subtitle</Subtitle>
+
+<table className="table">
+  <thead className="thead-dark">
+    <tr>
+        <th>Token</th>
+        <th>rem</th>
+        <th>px</th>
+        <th>Example</th>
+    </tr>
+  </thead>
+  <tbody>{tokensFontSizes}</tbody>
+</table>

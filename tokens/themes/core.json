@@ -1,0 +1,168 @@
+{
+  "colors": {
+    "theme": {
+      "core": {
+        "ui-background": {
+          "value": "{colors.white.value}",
+          "valueName": "white",
+          "description": "Default page background"
+        },
+        "interactive-01": {
+          "value": "{colors.blue.blue-60.value}",
+          "valueName": "blue-60",
+          "description": "Primary interactive color; Interactive text; Selected elements; Featured elements"
+        },
+        "interactive-02": {
+          "value": "{colors.grey.grey-80.value}",
+          "valueName": "grey-80",
+          "description": "Secondary button"
+        },
+        "interactive-03": {
+          "value": "{colors.blue.blue-60.value}",
+          "valueName": "blue-60",
+          "description": "Tertiary button"
+        },
+        "interactive-04": {
+          "value": "{colors.blue.blue-60.value}",
+          "valueName": "blue-60",
+          "description": "Selected nav indicator; Active elements"
+        },
+        "danger": {
+          "value": "{colors.red.red-60.value}",
+          "valueName": "red-60",
+          "description": "Danger button background; 3:1 AA contrast"
+        },
+        "ui-01": {
+          "value": "{colors.grey.grey-10.value}",
+          "valueName": "grey-60",
+          "description": "Container background on $ui-background; Secondary page background"
+        },
+        "ui-02": {
+          "value": "{colors.white.value}",
+          "valueName": "white",
+          "description": "Container background on $ui-01; `Light` variant background"
+        },
+        "ui-03": {
+          "value": "{colors.grey.grey-20.value}",
+          "valueName": "grey-20",
+          "description": "Subtle border; Tertiary background"
+        },
+        "ui-04": {
+          "value": "{colors.grey.grey-50.value}",
+          "valueName": "grey-50",
+          "description": "3:1 aa element contrast; Medium contrast border"
+        },
+        "ui-05": {
+          "value": "{colors.grey.grey-100.value}",
+          "valueName": "grey-100",
+          "description": "4.5:1 aa element contrast; High contrast border; Emphasis elements"
+        },
+        "button-separator": {
+          "value": "{colors.grey.grey-20.value}",
+          "valueName": "grey-20",
+          "description": "3:1 aa element contrast; Fluid button separator"
+        },
+        "decorative-01": {
+          "value": "{colors.grey.grey-20.value}",
+          "description": "“Light” variant elements"
+        },
+        "text-01": {
+          "value": "{colors.grey.grey-100.value}",
+          "description": "Primary text; Body copy; Headers; Hover text color for text-02"
+        },
+        "text-02": {
+          "value": "{colors.grey.grey-70.value}",
+          "description": "Secondary text; Input labels"
+        },
+        "text-03": {
+          "value": "{colors.grey.grey-40.value}",
+          "description": "Placeholder text"
+        },
+        "text-04": {
+          "value": "{colors.white.value}",
+          "description": "Text on interactive colors"
+        },
+        "text-05": {
+          "value": "{colors.grey.grey-60.value}",
+          "description": "Tertiary text; Help text"
+        },
+        "text-error": {
+          "value": "{colors.red.red-60.value}",
+          "description": "Error message text"
+        },
+        "link-01": {
+          "value": "{colors.blue.blue-60.value}",
+          "description": "Primary links; Ghost button"
+        },
+        "inverse-link": {
+          "value": "{colors.blue.blue-40.value}",
+          "description": "Links on $inverse-02 backgrounds"
+        },
+        "icon-01": {
+          "value": "{colors.grey.grey-100.value}",
+          "description": "Primary icons"
+        },
+        "icon-02": {
+          "value": "{colors.grey.grey-70.value}",
+          "description": "Secondary icons"
+        },
+        "icon-03": {
+          "value": "{colors.white.value}",
+          "description": "Icons on interactive colors; Icons on non-ui colors"
+        },
+        "field-01": {
+          "value": "{colors.grey.grey-10.value}",
+          "description": "Default input fields; Fields on $ui-backgrounds"
+        },
+        "field-02": {
+          "value": "{colors.white.value}",
+          "description": "“Light” variant input fields; Fields on $ui-01 backgrounds"
+        },
+        "inverse-01": {
+          "value": "{colors.white.value}",
+          "description": "Inverse text color; Inverse icon color"
+        },
+        "inverse-02": {
+          "value": "{colors.grey.grey-80.value}",
+          "description": "High contrast backgrounds; High contrast elements"
+        },
+        "support-01": {
+          "value": "{colors.red.red-60.value}",
+          "description": "Error"
+        },
+        "support-02": {
+          "value": "{colors.green.green-50.value}",
+          "description": "Success"
+        },
+        "support-03": {
+          "value": "{colors.yellow.yellow-50.value}",
+          "description": "Warning"
+        },
+        "support-04": {
+          "value": "{colors.blue.blue-70.value}",
+          "description": "Information"
+        },
+        "inverse-support-01": {
+          "value": "{colors.red.red-50.value}",
+          "description": "Danger in high contrast moments"
+        },
+        "inverse-support-02": {
+          "value": "{colors.green.green-40.value}",
+          "description": "Success in high contrast moments"
+        },
+        "inverse-support-03": {
+          "value": "{colors.yellow.yellow-40.value}",
+          "description": "Warning in high contrast moments"
+        },
+        "inverse-support-04": {
+          "value": "{colors.blue.blue-50.value}",
+          "description": "Information in high contrast moments"
+        },
+        "overlay-01": {
+          "value": "{colors.grey.grey-100.value}",
+          "description": "Background overlay"
+        }
+      }
+    }
+  }
+}

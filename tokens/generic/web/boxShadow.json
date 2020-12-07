@@ -1,0 +1,22 @@
+{
+  "boxShadow": {
+    "none": {
+      "value": "none"
+    },
+    "component": {
+      "value": "0 1px 1px rgba(0,0,0,.2)"
+    },
+    "temporary": {
+      "value": "0 1px 3px rgba(0,0,0,.2)"
+    },
+    "navigation": {
+      "value": "0 2px 4px rgba(0,0,0,0.2)"
+    },
+    "notification": {
+      "value": "0 4px 8px rgba(0,0,0,0.2)"
+    },
+    "modal": {
+      "value": "0 6px 12px rgba(0,0,0,0.2)"
+    }
+  }
+}

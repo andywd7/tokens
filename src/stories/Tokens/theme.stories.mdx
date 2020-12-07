@@ -1,0 +1,69 @@
+import {
+  Meta,
+  Title,
+  Subtitle,
+  Story,
+  Canvas,
+  ArgsTable 
+} from '@storybook/addon-docs/blocks'
+// import { TabsState } from "@storybook/components"
+import { Tile, Var } from "@dan-nz/storybook-documentation-primitives"
+import theme from "../../../tokens/generated/themes/theme.json"
+import themecolors from "../../../tokens/generated/themes/themeflat.json"
+import colorz from "../../../tokens/generated/colors/colors.json"
+import { dsSpacing08, dsGrey30, dsWhite } from "../../../tokens/generated/allTokens/allTokens"
+import * as helpers from "../story-helpers"
+import groupBy from "lodash/groupBy"
+
+export const colors = theme.colors
+export const ccc = () => groupBy(colors, "attributes.item")
+
+export const tokensTheme = Object.entries(ccc()).map((t, i) => {
+  const styles = { border: "1px solid" }
+  return (
+    <div key={i}>
+      <h1>{t[0]}</h1>
+      <table className="table">
+        <thead className="thead-dark">
+          <tr>
+              <th width="250">Token</th>
+              <th>Role</th>
+              <th width="200">Value</th>
+          </tr>
+        </thead>
+        <tbody>
+          {
+            Object.values(t[1]).map((val, index) => {
+              return (
+                <tr key={index}>
+                  <td><Var>{"$" + val.name}</Var></td>
+                  <td>{val.description}</td>
+                  <td>
+                    <div className="token-value">
+                      <div>
+                        {val.valueName}
+                        <br/>
+                        -
+                        <br/>
+                        <Var>{val.value}</Var>
+                      </div>
+                      <Tile value={helpers.removePx(dsSpacing08)} color={val.value} square style={{ ...styles, borderColor: val.value === dsWhite ? dsGrey30 : "transparent" }} />
+                    </div>
+                  </td>
+                </tr>
+              )
+            })
+          }
+        </tbody>
+      </table>
+    </div>
+  )
+})
+
+<Meta title='TOKENS/Theme' parameters={{ previewTabs: { canvas: { hidden: true } } }} />
+
+<Title />
+
+<Subtitle>Tokens subtitle</Subtitle>
+
+<div>{tokensTheme}</div>

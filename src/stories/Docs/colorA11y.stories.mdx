@@ -1,0 +1,51 @@
+import { Meta, Story, Preview, Props } from '@storybook/addon-docs/blocks'
+// import { select, boolean } from '@storybook/addon-knobs'
+import { store } from "../../components/store"
+import ColorA11y from './ColorA11y'
+
+<Meta
+  title="Tokens/Colors"
+  component={ColorA11y}
+  argTypes={{
+    textColor: {
+      name: "Text color",
+      control: {
+        type: "select",
+        options: store.colors
+      }
+    },
+    backgroundColor: {
+      name: "Background color",
+      control: {
+        type: "select",
+        options: store.colors
+      }
+    },
+    contrast: {
+      name: "Contrast",
+      control: {
+        type: "select",
+        options: store.contrast
+      }
+    },
+    format: {
+      name: "Format",
+      control: {
+        type: "select",
+        options: store.formats
+      }
+    }
+  }}
+/>
+
+export const Template = (args, { argTypes }) => ({
+  props: Object.keys(argTypes),
+  components: { ColorA11y },
+  template: `<color-a11y v-bind="$props" />`
+})
+
+<Canvas>
+  <Story name="a11y" parameters={{ docs: { disable: true } }}>
+    {Template.bind()}
+  </Story>
+</Canvas>

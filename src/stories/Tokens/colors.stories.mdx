@@ -1,0 +1,69 @@
+import {
+  Meta,
+  Title,
+  Subtitle,
+  Story,
+  Canvas,
+  ArgsTable 
+} from '@storybook/addon-docs/blocks'
+import { Var } from "@dan-nz/storybook-documentation-primitives"
+import groupBy from "lodash/groupBy"
+import { store } from "../../components/store"
+import { dsSpacing08 } from "../../../tokens/generated/allTokens/allTokens"
+
+export const colors = store.tokens.colors.filter((item) => item.attributes.item)
+export const blackWhite = store.tokens.colors.filter((item) => !item.attributes.item)
+
+export const ccc = () => groupBy(colors, "attributes.type")
+
+export const tokensColors = Object.values(ccc()).map((t, i) => {
+  const styles = {
+    borderRadius: dsSpacing08,
+    height: dsSpacing08,
+    width: dsSpacing08
+  }
+  return (
+    <div key={i}>
+      <h3>{t[0].attributes.type.toString()}</h3>
+      <table className="table">
+        <thead className="thead-dark">
+          <tr>
+              <th width="120">Token</th>
+              <th width="120">Value</th>
+          </tr>
+        </thead>
+        <tbody>
+          {
+            Object.values(t).map((val, index) => {
+              return (
+                <tr key={index}>
+                  <td><Var>{"$" + val.name}</Var></td>
+                  <td>
+                    <div className="token-value">
+                      <div>
+                        {val.name}
+                        <br/>
+                        -
+                        <br/>
+                        <Var>{val.value}</Var>
+                      </div>
+                      <div style={{...styles, backgroundColor: val.value}} />
+                    </div>
+                  </td>
+                </tr>
+              )
+            })
+          }
+        </tbody>
+      </table>
+    </div>
+  )
+})
+
+<Meta title='TOKENS/Colors/Col' parameters={{ previewTabs: { canvas: { hidden: true } } }} />
+
+<Title />
+
+<Subtitle>Tokens subtitle</Subtitle>
+
+<div>{tokensColors}</div>

@@ -1,0 +1,44 @@
+// Do not edit directly
+// Generated on Thu, 26 Nov 2020 16:59:48 GMT
+
+@import "../tokens/tokens.map.scss";
+
+$ds-code-01: (
+  font-family: $ds-font-families-code,
+  font-size: $ds-font-sizes-01,
+  font-weight: $ds-font-weights-normal,
+  line-height: $ds-line-heights-01,
+) !default;
+
+$ds-code-02: (
+  font-family: $ds-font-families-code,
+  font-size: $ds-font-sizes-02,
+  font-weight: $ds-font-weights-normal,
+  line-height: $ds-line-heights-03,
+) !default;
+
+$ds-label-01: (
+  font-size: $ds-font-sizes-01,
+  font-weight: $ds-font-weights-normal,
+  line-height: $ds-line-heights-01,
+) !default;
+
+$ds-caption-01: (
+  font-size: $ds-font-sizes-01,
+  font-weight: $ds-font-weights-normal,
+  line-height: $ds-line-heights-01,
+) !default;
+
+$ds-body-short-01: (
+  font-size: $ds-font-sizes-02,
+  font-weight: $ds-font-weights-normal,
+  line-height: $ds-line-heights-02,
+) !default;
+
+$text-styles-map: (
+  code-01: $ds-code-01,
+  code-02: $ds-code-02,
+  label-01: $ds-label-01,
+  caption-01: $ds-caption-01,
+  body-short-01: $ds-body-short-01
+) !default;

@@ -1,0 +1,63 @@
+/**
+ * Do not edit directly
+ * Generated on Thu, 26 Nov 2020 16:59:47 GMT
+ */
+
+export const dsBorderRadius01 = "2px";
+export const dsBorderRadius02 = "3px";
+export const dsBorderRadius03 = "6px";
+export const dsFontSizes01 = "12px";
+export const dsFontSizes02 = "14px";
+export const dsFontSizes03 = "16px";
+export const dsFontSizes04 = "20px";
+export const dsFontSizes05 = "28px";
+export const dsFontSizes06 = "32px";
+export const dsFontSizes07 = "42px";
+export const dsFontSizes08 = "54px";
+export const dsFontFamiliesSansSerif = "-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, 'Noto Sans', sans-serif";
+export const dsFontFamiliesMonospace = "SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace";
+export const dsFontFamiliesBrand = "Roboto";
+export const dsFontFamiliesCode = "'Roboto Mono'";
+export const dsFontWeightsLight = "300";
+export const dsFontWeightsNormal = "400";
+export const dsFontWeightsBold = "700";
+export const dsLineHeights10 = "64px";
+export const dsLineHeights01 = "16px";
+export const dsLineHeights02 = "18px";
+export const dsLineHeights03 = "20px";
+export const dsLineHeights04 = "22px";
+export const dsLineHeights05 = "24px";
+export const dsLineHeights06 = "26px";
+export const dsLineHeights07 = "36px";
+export const dsLineHeights08 = "40px";
+export const dsLineHeights09 = "50px";
+export const dsSpacingLayout01 = "16px";
+export const dsSpacingLayout02 = "24px";
+export const dsSpacingLayout03 = "32px";
+export const dsSpacingLayout04 = "48px";
+export const dsSpacingLayout05 = "64px";
+export const dsSpacingLayout06 = "96px";
+export const dsSpacingLayout07 = "160px";
+export const dsSpacing01 = "2px";
+export const dsSpacing02 = "4px";
+export const dsSpacing03 = "8px";
+export const dsSpacing04 = "12px";
+export const dsSpacing05 = "16px";
+export const dsSpacing06 = "24px";
+export const dsSpacing07 = "32px";
+export const dsSpacing08 = "40px";
+export const dsSpacing09 = "48px";
+export const dsBoxShadowNone = "none";
+export const dsBoxShadowComponent = "0 1px 1px rgba(0,0,0,.2)";
+export const dsBoxShadowTemporary = "0 1px 3px rgba(0,0,0,.2)";
+export const dsBoxShadowNavigation = "0 2px 4px rgba(0,0,0,0.2)";
+export const dsBoxShadowNotification = "0 4px 8px rgba(0,0,0,0.2)";
+export const dsBoxShadowModal = "0 6px 12px rgba(0,0,0,0.2)";
+export const dsBreakpointXs = "0";
+export const dsBreakpointSm = "320px";
+export const dsBreakpointMd = "672px";
+export const dsBreakpointLg = "1040px";
+export const dsBreakpointXlg = "1328px";
+export const dsBreakpointXxlg = "1568px";
+export const dsBreakpointXxxlg = "1904px";
+export const dsBreakpointMax = "2560px";

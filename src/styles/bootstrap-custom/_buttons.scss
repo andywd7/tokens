@@ -1,0 +1,251 @@
+// // Buttons + Forms
+// //
+// // Shared variables that are reassigned to `$input-` and `$btn-` specific variables.
+
+$control-padding-y: ii-rem(6px) !default;
+$control-btn-padding-x: ii-rem($ds-spacing-04) !default;
+// $control-font-family:       null !default;
+// $control-font-size: $font-size-02 !default;
+// $control-line-height: $line-height-03 !default;
+
+// $control-focus-width:       .2rem !default;
+// $control-focus-color:       rgba($component-active-bg, .25) !default;
+// $control-focus-box-shadow:  0 0 0 $control-focus-width $control-focus-color !default;
+
+$control-padding-y-sm: ii-rem($ds-spacing-01) !default;
+// $control-padding-x-sm:      .5rem !default;
+// $control-font-size-sm: $control-font-size !default;
+// $control-line-height-sm:    $line-height-sm !default;
+
+// $control-padding-y-lg:      .5rem !default;
+// $control-padding-x-lg:      1rem !default;
+// $control-font-size-lg:      $font-size-lg !default;
+// $control-line-height-lg:    $line-height-lg !default;
+
+$control-border-width: ii-rem($ds-spacing-01) !default;
+
+// // Buttons
+// //
+// // For each of Bootstrap's buttons, define text, background, and border color.
+
+$btn-padding-y: $control-padding-y !default;
+// $btn-padding-x:               $control-padding-x !default;
+// $btn-font-family:             $control-font-family !default;
+// $btn-font-size:               $control-font-size !default;
+$btn-line-height: $control-line-height !default;
+
+// $btn-padding-y-sm:            $control-padding-y-sm !default;
+// $btn-padding-x-sm:            $control-padding-x-sm !default;
+// $btn-font-size-sm:            $control-font-size-sm !default;
+// $btn-line-height-sm:          $control-line-height-sm !default;
+
+// $btn-padding-y-lg:            $control-padding-y-lg !default;
+// $btn-padding-x-lg:            $control-padding-x-lg !default;
+// $btn-font-size-lg:            $control-font-size-lg !default;
+// $btn-line-height-lg:          $control-line-height-lg !default;
+
+// $btn-border-width:            $control-border-width !default;
+
+// $btn-font-weight:             $font-weight-normal !default ;
+// $btn-box-shadow:              inset 0 1px 0 rgba($white, .15), 0 1px 1px rgba($black, .075) !default;
+// $btn-focus-width:             $control-focus-width !default;
+// $btn-focus-box-shadow:        $control-focus-box-shadow !default;
+// $btn-disabled-opacity:        .65 !default;
+// $btn-active-box-shadow:       inset 0 3px 5px rgba($black, .125) !default;
+
+// $btn-link-disabled-color:     $gray-600 !default;
+
+// $btn-block-spacing-y:         .5rem !default;
+
+// // Allows for customizing button radius independently from global border radius
+$btn-border-radius: $border-radius-rounded !default;
+// $btn-border-radius-lg:        $border-radius-lg !default;
+// $btn-border-radius-sm:        $border-radius-sm !default;
+
+// $btn-transition:              color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out !default;
+
+// stylelint-disable selector-no-qualifying-type
+
+@mixin button-base($padding-y, $padding-x, $border-radius) {
+  @include border-radius($border-radius, 0);
+  @include text-style("body-short-01");
+  margin: 0;
+  padding: $padding-y $padding-x;
+}
+
+@mixin button-variant(
+  $background,
+  $background-hover,
+  $background-active,
+  $color,
+  $ghost: false
+) {
+  @if $ghost {
+    border-color: $background;
+  } @else {
+    background-color: $background;
+  }
+
+  color: $color;
+
+  &:hover,
+  &.#{$prefix}-btn--pressed {
+    background-color: $background-hover;
+  }
+
+  &:focus {
+    @include focus("outside");
+  }
+
+  &:active {
+    background-color: $background-active;
+  }
+}
+
+//
+// Base styles
+//
+
+.#{$prefix}-btn,
+.btn {
+  @include button-base($btn-padding-y, $btn-padding-x, $btn-border-radius);
+  @include transition($btn-transition);
+  background-color: transparent;
+  border: 1px solid transparent;
+  color: $theme-text-04;
+  cursor: pointer;
+  display: inline-block;
+  font-family: $btn-font-family;
+  text-align: center;
+  user-select: none;
+  vertical-align: middle;
+
+  &:hover {
+    text-decoration: none;
+  }
+
+  &:focus {
+    @include focus(inside);
+  }
+
+  &:disabled,
+  &:disabled:hover,
+  &:disabled:focus,
+  &:disabled:active {
+    background-color: $theme-disabled-02;
+    border-color: $theme-disabled-02;
+    color: $theme-disabled-03;
+    cursor: not-allowed;
+  }
+}
+
+// Future-proof disabling of clicks on `<a>` elements
+a.#{$prefix}-btn.disabled,
+a.btn.disabled,
+fieldset:disabled a.#{$prefix}-btn,
+fieldset:disabled a.btn {
+  pointer-events: none;
+}
+
+//
+// Button variants
+//
+
+.#{$prefix}-btn {
+  @include button-variant(
+    $theme-interactive-02,
+    $theme-hover-secondary,
+    $theme-active-secondary,
+    $theme-text-03,
+    true
+  );
+}
+
+.#{$prefix}-btn--primary,
+.btn-primary {
+  @include button-variant(
+    $theme-interactive-01,
+    $theme-hover-primary,
+    $theme-active-primary,
+    $theme-text-04
+  );
+}
+
+.#{$prefix}-btn--secondary,
+.btn-secondary {
+  @include button-variant(
+    $theme-interactive-02,
+    $theme-hover-secondary,
+    $theme-active-secondary,
+    $theme-text-04
+  );
+}
+
+.#{$prefix}-btn--standard {
+  @include button-variant(
+    transparent,
+    $theme-hover-tertiary,
+    $theme-active-tertiary,
+    $theme-interactive-03
+  );
+  border-color: $theme-interactive-03;
+
+  &:hover,
+  &:focus,
+  &:active,
+  &.#{$prefix}-btn--pressed {
+    color: $theme-inverse-01;
+  }
+
+  &:hover,
+  &.#{$prefix}-btn--pressed {
+    border-color: $theme-hover-tertiary;
+  }
+
+  &:focus {
+    background-color: $theme-interactive-03;
+    border-color: $theme-inverse-01;
+  }
+
+  &:active {
+    border-color: $theme-active-tertiary;
+  }
+}
+
+.#{$prefix}-btn--danger,
+.btn-danger {
+  @include button-variant(
+    $theme-danger,
+    $theme-hover-danger,
+    $theme-active-danger,
+    $theme-text-04
+  );
+}
+
+.#{$prefix}-btn--ghost {
+  @include button-variant(
+    transparent,
+    $theme-hover-ui,
+    $theme-active-ui,
+    $theme-link-01
+  );
+
+  &:hover,
+  &:active,
+  &.#{$prefix}-btn--pressed {
+    color: $theme-hover-primary-text;
+  }
+}
+
+//
+// Button Sizes
+//
+
+.#{$prefix}-btn--sm,
+.btn-sm {
+  @include button-base(
+    $btn-padding-y-sm,
+    $btn-padding-x-sm,
+    $btn-border-radius-sm
+  );
+}

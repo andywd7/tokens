@@ -1,0 +1,122 @@
+// Do not edit directly
+// Generated on Thu, 26 Nov 2020 16:59:47 GMT
+
+$ds-border-radius-01: 2px !default;
+$ds-border-radius-02: 3px !default;
+$ds-border-radius-03: 6px !default;
+$ds-font-sizes-01: 12px !default;
+$ds-font-sizes-02: 14px !default;
+$ds-font-sizes-03: 16px !default;
+$ds-font-sizes-04: 20px !default;
+$ds-font-sizes-05: 28px !default;
+$ds-font-sizes-06: 32px !default;
+$ds-font-sizes-07: 42px !default;
+$ds-font-sizes-08: 54px !default;
+$ds-font-families-sans-serif: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, 'Noto Sans', sans-serif !default;
+$ds-font-families-monospace: SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace !default;
+$ds-font-families-brand: Roboto !default;
+$ds-font-families-code: 'Roboto Mono' !default;
+$ds-font-weights-light: 300 !default;
+$ds-font-weights-normal: 400 !default;
+$ds-font-weights-bold: 700 !default;
+$ds-line-heights-10: 64px !default;
+$ds-line-heights-01: 16px !default;
+$ds-line-heights-02: 18px !default;
+$ds-line-heights-03: 20px !default;
+$ds-line-heights-04: 22px !default;
+$ds-line-heights-05: 24px !default;
+$ds-line-heights-06: 26px !default;
+$ds-line-heights-07: 36px !default;
+$ds-line-heights-08: 40px !default;
+$ds-line-heights-09: 50px !default;
+$ds-spacing-layout-01: 16px !default;
+$ds-spacing-layout-02: 24px !default;
+$ds-spacing-layout-03: 32px !default;
+$ds-spacing-layout-04: 48px !default;
+$ds-spacing-layout-05: 64px !default;
+$ds-spacing-layout-06: 96px !default;
+$ds-spacing-layout-07: 160px !default;
+$ds-spacing-01: 2px !default;
+$ds-spacing-02: 4px !default;
+$ds-spacing-03: 8px !default;
+$ds-spacing-04: 12px !default;
+$ds-spacing-05: 16px !default;
+$ds-spacing-06: 24px !default;
+$ds-spacing-07: 32px !default;
+$ds-spacing-08: 40px !default;
+$ds-spacing-09: 48px !default;
+$ds-box-shadow-none: none !default;
+$ds-box-shadow-component: 0 1px 1px rgba(0,0,0,.2) !default;
+$ds-box-shadow-temporary: 0 1px 3px rgba(0,0,0,.2) !default;
+$ds-box-shadow-navigation: 0 2px 4px rgba(0,0,0,0.2) !default;
+$ds-box-shadow-notification: 0 4px 8px rgba(0,0,0,0.2) !default;
+$ds-box-shadow-modal: 0 6px 12px rgba(0,0,0,0.2) !default;
+$ds-breakpoint-xs: 0 !default;
+$ds-breakpoint-sm: 320px !default;
+$ds-breakpoint-md: 672px !default;
+$ds-breakpoint-lg: 1040px !default;
+$ds-breakpoint-xlg: 1328px !default;
+$ds-breakpoint-xxlg: 1568px !default;
+$ds-breakpoint-xxxlg: 1904px !default;
+$ds-breakpoint-max: 2560px !default;
+
+$ds-tokens: (
+  border-radius-01: $ds-border-radius-01,
+  border-radius-02: $ds-border-radius-02,
+  border-radius-03: $ds-border-radius-03,
+  font-sizes-01: $ds-font-sizes-01,
+  font-sizes-02: $ds-font-sizes-02,
+  font-sizes-03: $ds-font-sizes-03,
+  font-sizes-04: $ds-font-sizes-04,
+  font-sizes-05: $ds-font-sizes-05,
+  font-sizes-06: $ds-font-sizes-06,
+  font-sizes-07: $ds-font-sizes-07,
+  font-sizes-08: $ds-font-sizes-08,
+  font-families-sans-serif: $ds-font-families-sans-serif,
+  font-families-monospace: $ds-font-families-monospace,
+  font-families-brand: $ds-font-families-brand,
+  font-families-code: $ds-font-families-code,
+  font-weights-light: $ds-font-weights-light,
+  font-weights-normal: $ds-font-weights-normal,
+  font-weights-bold: $ds-font-weights-bold,
+  line-heights-10: $ds-line-heights-10,
+  line-heights-01: $ds-line-heights-01,
+  line-heights-02: $ds-line-heights-02,
+  line-heights-03: $ds-line-heights-03,
+  line-heights-04: $ds-line-heights-04,
+  line-heights-05: $ds-line-heights-05,
+  line-heights-06: $ds-line-heights-06,
+  line-heights-07: $ds-line-heights-07,
+  line-heights-08: $ds-line-heights-08,
+  line-heights-09: $ds-line-heights-09,
+  spacing-layout-01: $ds-spacing-layout-01,
+  spacing-layout-02: $ds-spacing-layout-02,
+  spacing-layout-03: $ds-spacing-layout-03,
+  spacing-layout-04: $ds-spacing-layout-04,
+  spacing-layout-05: $ds-spacing-layout-05,
+  spacing-layout-06: $ds-spacing-layout-06,
+  spacing-layout-07: $ds-spacing-layout-07,
+  spacing-01: $ds-spacing-01,
+  spacing-02: $ds-spacing-02,
+  spacing-03: $ds-spacing-03,
+  spacing-04: $ds-spacing-04,
+  spacing-05: $ds-spacing-05,
+  spacing-06: $ds-spacing-06,
+  spacing-07: $ds-spacing-07,
+  spacing-08: $ds-spacing-08,
+  spacing-09: $ds-spacing-09,
+  box-shadow-none: $ds-box-shadow-none,
+  box-shadow-component: $ds-box-shadow-component,
+  box-shadow-temporary: $ds-box-shadow-temporary,
+  box-shadow-navigation: $ds-box-shadow-navigation,
+  box-shadow-notification: $ds-box-shadow-notification,
+  box-shadow-modal: $ds-box-shadow-modal,
+  breakpoint-xs: $ds-breakpoint-xs,
+  breakpoint-sm: $ds-breakpoint-sm,
+  breakpoint-md: $ds-breakpoint-md,
+  breakpoint-lg: $ds-breakpoint-lg,
+  breakpoint-xlg: $ds-breakpoint-xlg,
+  breakpoint-xxlg: $ds-breakpoint-xxlg,
+  breakpoint-xxxlg: $ds-breakpoint-xxxlg,
+  breakpoint-max: $ds-breakpoint-max
+) !default;

@@ -1,0 +1,115 @@
+{
+  "colors": {
+    "theme": {
+      "interactive": {
+        "focus": {
+          "value": "{colors.blue.blue-60.value}",
+          "valueName": "blue-60",
+          "description": "Focus border; Focus underline"
+        },
+        "inverse-focus-ui": {
+          "value": "{colors.white.value}",
+          "valueName": "white",
+          "description": "Focus on high contrast moments"
+        },
+        "hover-primary": {
+          "value": "{colors.blue.blue-80.value}",
+          "valueName": "blue-80",
+          "description": "$interactive-01 hover"
+        },
+        "hover-primary-text": {
+          "value": "{colors.blue.blue-70.value}",
+          "valueName": "blue-70",
+          "description": "$interactive-01 text hover"
+        },
+        "hover-secondary": {
+          "value": "{colors.grey-hover.grey-hover-80.value}",
+          "valueName": "grey-hover-80",
+          "description": "$interactive-02 hover"
+        },
+        "hover-tertiary": {
+          "value": "{colors.blue.blue-60.value}",
+          "valueName": "blue-60",
+          "description": "$interactive-03 hover; $inverse-01 hover"
+        },
+        "hover-ui": {
+          "value": "{colors.grey-hover.grey-hover-10.value}",
+          "valueName": "grey-hover-10",
+          "description": "$ui-01 hover; $ui-02 hover; Transparent background hover"
+        },
+        "hover-ui-light": {
+          "value": "{colors.grey-hover.grey-hover-10.value}",
+          "description": "“Light” variant hover"
+        },
+        "hover-selected-ui": {
+          "value": "{colors.grey-hover.grey-hover-20.value}",
+          "description": "Selected row hover"
+        },
+        "hover-danger": {
+          "value": "{colors.red.red-60.value}",
+          "description": "Danger hover; $support-01 hover"
+        },
+        "hover-row": {
+          "value": "{colors.grey-hover.grey-hover-10.value}",
+          "description": "Row hover"
+        },
+        "inverse-hover-ui": {
+          "value": "{colors.grey-hover.grey-hover-80.value}",
+          "description": "Hover for $inverse-02"
+        },
+        "active-primary": {
+          "value": "{colors.blue.blue-80.value}",
+          "description": "$interactive-01 active"
+        },
+        "active-secondary": {
+          "value": "{colors.grey-hover.grey-hover-60.value}",
+          "description": "$interactive-02 active; $inverse-01 active"
+        },
+        "active-tertiary": {
+          "value": "{colors.blue.blue-80.value}",
+          "description": "$interactive-03 active"
+        },
+        "active-ui": {
+          "value": "{colors.grey-hover.grey-hover-30.value}",
+          "description": "$ui-01 active; $ui-02 active"
+        },
+        "active-danger": {
+          "value": "{colors.red.red-80.value}",
+          "description": "Danger active; $support-01 active"
+        },
+        "selected-ui": {
+          "value": "{colors.grey-hover.grey-hover-20.value}",
+          "description": "Selected UI elements"
+        },
+        "highlight": {
+          "value": "{colors.blue.blue-20.value}",
+          "description": "$interactive-01 highlight"
+        },
+        "skeleton-01": {
+          "value": "{colors.grey-hover.grey-hover-20.value}",
+          "description": "Skeleton state of graphics"
+        },
+        "skeleton-02": {
+          "value": "{colors.grey-hover.grey-hover-30.value}",
+          "description": "Skeleton state of texts"
+        },
+        "visited-link": {
+          "value": "{colors.purple.purple-60.value}",
+          "description": "Visited links"
+        },
+        "disabled-01": {
+          "value": "{colors.grey-hover.grey-hover-10.value}",
+          "description": "Disabled fields; Disabled backgrounds; Disabled border"
+        },
+        "disabled-02": {
+          "value": "{colors.grey-hover.grey-hover-30.value}",
+          "description": "Disabled elements on $disabled-01; Disabled label; Disabled text on $disabled-01; Disabled icons; Disabled border"
+        },
+        "disabled-03": {
+          "value": "{colors.grey-hover.grey-hover-50.value}",
+          "description": "Disabled text on $disabled-02; Disabled icons on $disabled-02"
+        }
+      }
+    }
+  }
+}

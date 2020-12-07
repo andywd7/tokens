@@ -1,0 +1,67 @@
+import {
+  Meta,
+  Title,
+  Subtitle,
+  Story,
+  Canvas,
+  ArgsTable 
+} from '@storybook/addon-docs/blocks'
+import iconOptions from '../font-icons-helper'
+import IiIcon from '../../components/Icon/Icon'
+
+<Meta
+  title='Components/Icon'
+  component={IiIcon}
+  argTypes={{
+    hideText: {
+      control: {
+        type: "select",
+        options: {
+          // xs: 0,
+          'sm - 576px': 'sm',
+          'md - 768px': 'md',
+          'lg - 992px': 'lg',
+          'xl - 1200px': 'xl',
+          'Invalid prop': 'Invalid prop'
+        }
+      }
+    },
+    icon: {
+      control: {
+        type: "select",
+        options: iconOptions
+      },
+      defaultValue: "search",
+    },
+    iconPosition: {
+      control: {
+        type: "select",
+        options: {
+          Left: "left",
+          Right: "right"
+        }
+      }
+    },
+    default: {
+      control: { type: "text" },
+      defaultValue: "Label"
+    }
+  }}
+/>
+
+export const Template = (args, { argTypes }) => ({
+  props: Object.keys(argTypes),
+  components: { IiIcon },
+  template: `<ii-icon v-bind="$props">{{ this.default }}</ii-icon>`
+})
+
+<Story
+  name="Playground"
+  parameters={{
+    controls: {
+      disable: false
+    }
+  }}
+>
+  {Template.bind()}
+</Story>

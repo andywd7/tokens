@@ -1,47 +1,71 @@
 {
-  "font-size": {
+  "fontSizes": {
     "01": {
-      "value": "12px"
+      "value": "12px",
+      "alias": "fontSizes.01"
     },
     "02": {
-      "value": "14px"
+      "value": "14px",
+      "alias": "fontSizes.02"
     },
     "03": {
-      "value": "16px"
+      "value": "16px",
+      "alias": "fontSizes.03"
     },
     "04": {
-      "value": "20px"
+      "value": "20px",
+      "alias": "fontSizes.04"
     },
     "05": {
-      "value": "28px"
+      "value": "28px",
+      "alias": "fontSizes.05"
     },
     "06": {
-      "value": "32px"
+      "value": "32px",
+      "alias": "fontSizes.06"
     },
     "07": {
-      "value": "42px"
+      "value": "42px",
+      "alias": "fontSizes.07"
     },
     "08": {
-      "value": "54px"
+      "value": "54px",
+      "alias": "fontSizes.08"
     }
   },
-  "font-family": {
-    "body": {
-      "value": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, 'Noto Sans', sans-serif"
+  "fontFamilies": {
+    "sans-serif": {
+      "value": "-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, 'Noto Sans', sans-serif",
+      "figma": "exclude"
     },
     "monospace": {
-      "value": "SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace"
+      "value": "SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace",
+      "figma": "exclude"
+    },
+    "brand": {
+      "value": "Roboto",
+      "alias": "fontFamilies.brand"
+    },
+    "code": {
+      "value": "'Roboto Mono'",
+      "alias": "fontFamilies.code"
     }
   },
-  "font-weight": {
+  "fontWeights": {
     "light": {
-      "value": "300"
+      "value": "300",
+      "figma": "Light",
+      "alias": "fontWeights.light"
     },
     "normal": {
-      "value": "400"
+      "value": "400",
+      "figma": "Normal",
+      "alias": "fontWeights.normal"
     },
     "bold": {
-      "value": "700"
+      "value": "700",
+      "figma": "Bold",
+      "alias": "fontWeights.bold"
     }
   }
 }

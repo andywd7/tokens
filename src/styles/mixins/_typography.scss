@@ -1,0 +1,12 @@
+@mixin text-style($name) {
+  @if not map-has-key($text-styles-map, $name) {
+    @error "Unable to find a token with the name: `#{$name}`";
+  }
+
+  $token: map-get($text-styles-map, $name);
+
+  // @include properties($token);
+  @each $name, $value in $token {
+    #{$name}: $value;
+  }
+}

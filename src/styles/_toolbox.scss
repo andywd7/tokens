@@ -1,3 +1,8 @@
+// @import "../tokens/web/scss/allTokens.scss";
+@import "../../tokens/generated/allTokens/all-tokens.map.scss";
+@import "../../tokens/generated/typography/text-styles.map.scss";
+@import "../tokens/themes/theme.scss";
+
 // =============================================================================
 // TOOLBOX
 // =============================================================================
@@ -12,5 +17,13 @@
 @import "~bootstrap/scss/variables";
 @import "~bootstrap/scss/mixins";
 
-@import "../../public/tokens/themes/web_dark/dark.scss";
-@import "bootstrap-custom";
+// Customised Bootstrap variables used for creating our version of Bootstrap and
+// so they are available for all our own styles as well.
+@import "functions/convert";
+@import "bootstrap-custom/variables";
+
+@import "global/global";
+
+@import "functions/utilities";
+@import "mixins/helper-mixins";
+@import "mixins/typography";

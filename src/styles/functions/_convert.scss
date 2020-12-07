@@ -1,0 +1,18 @@
+/// Default font size
+/// @type Number
+/// @access public
+/// @group @carbon/layout
+$ii-base-font-size: 16px !default; // $font-size-03 !default;
+
+/// Convert a given px unit to a rem unit
+/// @param {Number} $px - Number with px unit
+/// @return {Number} Number with rem unit
+/// @access public
+/// @group @carbon/layout
+@function ii-rem($px) {
+  @if unit($px) != "px" and $px != 0 {
+    @error "Expected argument $px to be of type `px`, instead received: `#{unit($px)}`";
+  }
+
+  @return ($px / $ii-base-font-size) * 1rem;
+}

@@ -1,9 +1,8 @@
 {
-  "color": {
+  "colors": {
     "blue": {
       "blue-10": {
-        "value": "#ebf4ff",
-        "name": "blue_10"
+        "value": "#ebf4ff"
       },
       "blue-20": {
         "value": "#cadefe"

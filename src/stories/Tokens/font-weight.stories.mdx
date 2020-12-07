@@ -1,0 +1,38 @@
+import {
+  Meta,
+  Title,
+  Subtitle,
+  Story,
+  Canvas,
+  ArgsTable 
+} from '@storybook/addon-docs/blocks'
+import { Var } from "@dan-nz/storybook-documentation-primitives"
+import docTokens from "../../../tokens/generated/docs"
+import * as helpers from "../story-helpers"
+
+export const tokensFontWeights = Object.values(docTokens.fontWeights).map((t, i) => {
+  return (
+    <tr key={i}>
+      <td><Var>{"$" + t.name}</Var></td>
+      <td>{t.value}</td>
+      <td><span style={{ fontWeight: t.value }}>{t.name}</span></td>
+    </tr>
+  )
+})
+
+<Meta title='TOKENS/Font weight' parameters={{ previewTabs: { canvas: { hidden: true } } }} />
+
+<Title />
+
+<Subtitle>Tokens subtitle</Subtitle>
+
+<table className="table">
+  <thead className="thead-dark">
+    <tr>
+        <th>Token</th>
+        <th>Value</th>
+        <th>Example</th>
+    </tr>
+  </thead>
+  <tbody>{tokensFontWeights}</tbody>
+</table>

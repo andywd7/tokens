@@ -1,0 +1,57 @@
+import {
+  Meta,
+  Title,
+  Subtitle,
+  Story,
+  Canvas,
+  ArgsTable 
+} from '@storybook/addon-docs/blocks'
+import { Tile, Var } from "@dan-nz/storybook-documentation-primitives"
+import docTokens from "../../../tokens/generated/docs"
+import { dsTeal30, dsPurple50 } from "../../../tokens/generated/allTokens/allTokens"
+import * as helpers from "../story-helpers"
+import groupBy from "lodash/groupBy"
+
+export const spacing = docTokens.spacing
+export const ccc = () => groupBy(spacing, "group")
+
+export const tokensSpacing = Object.values(ccc()).map((t, i) => {
+  const color = t[0].group === "layout" ? dsTeal30 : dsPurple50
+  return (
+    <div key={i}>
+      <h3>{t[0].group}</h3>
+      <table className="table">
+        <thead className="thead-dark">
+          <tr>
+              <th>Token</th>
+              <th>px</th>
+              <th>rem</th>
+              <th>Example</th>
+          </tr>
+        </thead>
+        <tbody>
+          {
+            Object.values(t).map((val, index) => {
+              return (
+                <tr key={index}>
+                  <td><Var>{"$" + val.name}</Var></td>
+                  <td>{val.value}</td>
+                  <td>{helpers.rems(val.value)}</td>
+                  <td><Tile value={helpers.removePx(val.value)} color={color} square /></td>
+                </tr>
+              )
+            })
+          }
+        </tbody>
+      </table>
+    </div>
+  )
+})
+
+<Meta title='TOKENS/Spacing' parameters={{ previewTabs: { canvas: { hidden: true } } }} />
+
+<Title />
+
+<Subtitle>Tokens subtitle</Subtitle>
+
+<div>{tokensSpacing}</div>

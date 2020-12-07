@@ -1,0 +1,9 @@
+$prefix: "ds";
+$custom-property-prefix: "ds";
+$feature-flags: () !default;
+
+$default-feature-flags: (
+  enable-css-custom-properties: true
+);
+
+$feature-flags: map-merge($default-feature-flags, $feature-flags);

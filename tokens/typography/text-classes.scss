@@ -1,0 +1,39 @@
+// Do not edit directly
+// Generated on Tue, 24 Nov 2020 15:11:34 GMT
+
+@import "../generated/tokens/tokens.map.scss";
+@import "../options";
+
+@mixin properties($map) {
+  @each $name, $value in $map {
+    #{$name}: $value !important;
+  }
+}
+
+@mixin custom-properties($name, $value) {
+  @each $property, $value in $value {
+    #{$property}: var(--#{$prefix}-#{$name}-#{$property}, #{$value}) !important;
+  }
+}
+
+@mixin ds-type-style($name) {
+  @if not map-has-key($text-styles-map, $name) {
+    @error "Unable to find a token with the name: `#{$name}`";
+  }
+
+  $token: map-get($text-styles-map, $name);
+
+  @if global-variable-exists("feature-flags") and
+    map-get($feature-flags, "enable-css-custom-properties")
+  {
+    @include custom-properties($name, $token);
+  } @else {
+    @include properties($token);
+  }
+}
+
+@each $name, $value in $text-styles-map {
+  .#{$prefix}-#{$name} {
+    @include ds-type-style($name);
+  }
+}

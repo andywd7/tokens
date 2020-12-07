@@ -1,0 +1,78 @@
+import {
+  Meta,
+  Title,
+  Subtitle,
+  Story,
+  Canvas,
+  ArgsTable 
+} from '@storybook/addon-docs/blocks'
+import { Var } from "@dan-nz/storybook-documentation-primitives"
+import _ from "lodash"
+import { store } from "../../components/store"
+
+export const nest = function (seq, keys) {
+  if (!keys.length)
+    return seq;
+  var first = keys[0];
+  var rest = keys.slice(1);
+  return _.mapValues(_.groupBy(seq, first), function (value) { 
+    return nest(value, rest)
+  })
+}
+
+export const textStyles = store.tokens.typography
+export const tt = nest(textStyles, ["group", "attributes.type"])
+
+export const tokensTypography = Object.entries(tt).map((item, index) => {
+  return (
+    <div key={index}>
+      <h1>{item[0]}</h1>
+      <table className="table">
+        <thead className="thead-dark">
+          <tr>
+            <th>Token</th>
+            <th width="300">Value</th>
+          </tr>
+        </thead>
+        <tbody>
+          {
+            Object.values(item[1]).map((item2, index2) => {
+              const docs = item2.pop().value
+              const className = item2[0].attributes.type
+              return (
+                <tr key={index2}>
+                  <td>
+                    <span className={"ds-" + className}>{docs}</span>
+                  </td>
+                  <td>
+                    <ul>
+                      <li><b>{item2[0].attributes.type}</b></li>
+                      {
+                        Object.values(item2).map((item3, index3) => {
+                          return (
+                            <React.Fragment key={index3}>
+                              <li>{item3.attributes.item}: {item3.alias}</li>
+                            </React.Fragment>
+                          )
+                        })
+                      }
+                      <li><Var>{"$" + item2[0].attributes.type}</Var></li>
+                    </ul>
+                  </td>
+                </tr>
+              )
+            })
+          }
+      </tbody>
+            </table>
+    </div>
+  )
+})
+
+<Meta title='TOKENS/Text styles' parameters={{ previewTabs: { canvas: { hidden: true } } }} />
+
+<Title />
+
+<Subtitle>Tokens subtitle</Subtitle>
+
+<div>{tokensTypography}</div>

@@ -1,0 +1,52 @@
+[
+  {
+    "token": "$ds-red-10",
+    "name": "Red 10",
+    "value": "#fff1f1"
+  },
+  {
+    "token": "$ds-red-20",
+    "name": "Red 20",
+    "value": "#fed7d9"
+  },
+  {
+    "token": "$ds-red-30",
+    "name": "Red 30",
+    "value": "#fdb3b9"
+  },
+  {
+    "token": "$ds-red-40",
+    "name": "Red 40",
+    "value": "#fd848b"
+  },
+  {
+    "token": "$ds-red-50",
+    "name": "Red 50",
+    "value": "#f74f5a"
+  },
+  {
+    "token": "$ds-red-60",
+    "name": "Red 60",
+    "value": "#d8222f"
+  },
+  {
+    "token": "$ds-red-70",
+    "name": "Red 70",
+    "value": "#a01b24"
+  },
+  {
+    "token": "$ds-red-80",
+    "name": "Red 80",
+    "value": "#741017"
+  },
+  {
+    "token": "$ds-red-90",
+    "name": "Red 90",
+    "value": "#51050b"
+  },
+  {
+    "token": "$ds-red-100",
+    "name": "Red 100",
+    "value": "#2c070a"
+  }
+]

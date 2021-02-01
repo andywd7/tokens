@@ -2,34 +2,34 @@
   "colors": {
     "blue": {
       "blue-10": {
-        "value": "#ebf4ff"
+        "value": "#edf5ff"
       },
       "blue-20": {
-        "value": "#cadefe"
+        "value": "#d0e2ff"
       },
       "blue-30": {
-        "value": "#9dc2fd"
+        "value": "#a6c8ff"
       },
       "blue-40": {
         "value": "#78a9ff"
       },
       "blue-50": {
-        "value": "#4080fb"
+        "value": "#4589ff"
       },
       "blue-60": {
-        "value": "#165cfa"
+        "value": "#0f62fe"
       },
       "blue-70": {
-        "value": "#053fc4"
+        "value": "#0043ce"
       },
       "blue-80": {
-        "value": "#022b8f"
+        "value": "#002d9c"
       },
       "blue-90": {
-        "value": "#011d5f"
+        "value": "#001d6c"
       },
       "blue-100": {
-        "value": "#011338"
+        "value": "#001141"
       }
     }
   }

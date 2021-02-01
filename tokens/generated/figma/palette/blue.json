@@ -1,0 +1,52 @@
+[
+  {
+    "token": "$ds-blue-10",
+    "name": "Blue 10",
+    "value": "#edf5ff"
+  },
+  {
+    "token": "$ds-blue-20",
+    "name": "Blue 20",
+    "value": "#d0e2ff"
+  },
+  {
+    "token": "$ds-blue-30",
+    "name": "Blue 30",
+    "value": "#a6c8ff"
+  },
+  {
+    "token": "$ds-blue-40",
+    "name": "Blue 40",
+    "value": "#78a9ff"
+  },
+  {
+    "token": "$ds-blue-50",
+    "name": "Blue 50",
+    "value": "#4589ff"
+  },
+  {
+    "token": "$ds-blue-60",
+    "name": "Blue 60",
+    "value": "#0f62fe"
+  },
+  {
+    "token": "$ds-blue-70",
+    "name": "Blue 70",
+    "value": "#0043ce"
+  },
+  {
+    "token": "$ds-blue-80",
+    "name": "Blue 80",
+    "value": "#002d9c"
+  },
+  {
+    "token": "$ds-blue-90",
+    "name": "Blue 90",
+    "value": "#001d6c"
+  },
+  {
+    "token": "$ds-blue-100",
+    "name": "Blue 100",
+    "value": "#001141"
+  }
+]

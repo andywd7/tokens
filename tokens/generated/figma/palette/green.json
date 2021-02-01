@@ -1,0 +1,52 @@
+[
+  {
+    "token": "$ds-green-10",
+    "name": "Green 10",
+    "value": "#defbe6"
+  },
+  {
+    "token": "$ds-green-20",
+    "name": "Green 20",
+    "value": "#a7f0ba"
+  },
+  {
+    "token": "$ds-green-30",
+    "name": "Green 30",
+    "value": "#6fdc8c"
+  },
+  {
+    "token": "$ds-green-40",
+    "name": "Green 40",
+    "value": "#42be65"
+  },
+  {
+    "token": "$ds-green-50",
+    "name": "Green 50",
+    "value": "#24a148"
+  },
+  {
+    "token": "$ds-green-60",
+    "name": "Green 60",
+    "value": "#198038"
+  },
+  {
+    "token": "$ds-green-70",
+    "name": "Green 70",
+    "value": "#0e6027"
+  },
+  {
+    "token": "$ds-green-80",
+    "name": "Green 80",
+    "value": "#044317"
+  },
+  {
+    "token": "$ds-green-90",
+    "name": "Green 90",
+    "value": "#022d0d"
+  },
+  {
+    "token": "$ds-green-100",
+    "name": "Green 100",
+    "value": "#071908"
+  }
+]

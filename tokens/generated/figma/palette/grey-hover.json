@@ -1,0 +1,52 @@
+[
+  {
+    "token": "$ds-grey-hover-10",
+    "name": "Grey Hover 10",
+    "value": "#e0e4ea"
+  },
+  {
+    "token": "$ds-grey-hover-20",
+    "name": "Grey Hover 20",
+    "value": "#c4c9d1"
+  },
+  {
+    "token": "$ds-grey-hover-30",
+    "name": "Grey Hover 30",
+    "value": "#aaafb7"
+  },
+  {
+    "token": "$ds-grey-hover-40",
+    "name": "Grey Hover 40",
+    "value": "#90979f"
+  },
+  {
+    "token": "$ds-grey-hover-50",
+    "name": "Grey Hover 50",
+    "value": "#747c83"
+  },
+  {
+    "token": "$ds-grey-hover-60",
+    "name": "Grey Hover 60",
+    "value": "#5f656b"
+  },
+  {
+    "token": "$ds-grey-hover-70",
+    "name": "Grey Hover 70",
+    "value": "#5a6066"
+  },
+  {
+    "token": "$ds-grey-hover-80",
+    "name": "Grey Hover 80",
+    "value": "#464c51"
+  },
+  {
+    "token": "$ds-grey-hover-90",
+    "name": "Grey Hover 90",
+    "value": "#2f353a"
+  },
+  {
+    "token": "$ds-grey-hover-100",
+    "name": "Grey Hover 100",
+    "value": "#272c30"
+  }
+]

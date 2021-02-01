@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 26 Nov 2020 16:59:48 GMT
+ * Generated on Mon, 25 Jan 2021 11:27:21 GMT
  */
 
 export const dsBorderRadius01 = "2px";
@@ -61,16 +61,18 @@ export const dsBreakpointXlg = "1328px";
 export const dsBreakpointXxlg = "1568px";
 export const dsBreakpointXxxlg = "1904px";
 export const dsBreakpointMax = "2560px";
-export const dsBlue10 = "#ebf4ff";
-export const dsBlue20 = "#cadefe";
-export const dsBlue30 = "#9dc2fd";
+export const dsWhite = "#ffffff";
+export const dsBlack = "#000000";
+export const dsBlue10 = "#edf5ff";
+export const dsBlue20 = "#d0e2ff";
+export const dsBlue30 = "#a6c8ff";
 export const dsBlue40 = "#78a9ff";
-export const dsBlue50 = "#4080fb";
-export const dsBlue60 = "#165cfa";
-export const dsBlue70 = "#053fc4";
-export const dsBlue80 = "#022b8f";
-export const dsBlue90 = "#011d5f";
-export const dsBlue100 = "#011338";
+export const dsBlue50 = "#4589ff";
+export const dsBlue60 = "#0f62fe";
+export const dsBlue70 = "#0043ce";
+export const dsBlue80 = "#002d9c";
+export const dsBlue90 = "#001d6c";
+export const dsBlue100 = "#001141";
 export const dsCyan10 = "#e2f5ff";
 export const dsCyan20 = "#b4e2fe";
 export const dsCyan30 = "#7bc9fd";
@@ -111,8 +113,6 @@ export const dsGrey70 = "#4d5358";
 export const dsGrey80 = "#343a3f";
 export const dsGrey90 = "#21272a";
 export const dsGrey100 = "#121619";
-export const dsWhite = "#ffffff";
-export const dsBlack = "#000000";
 export const dsMagenta10 = "#fff0f7";
 export const dsMagenta20 = "#fed7e8";
 export const dsMagenta30 = "#fdb0d2";

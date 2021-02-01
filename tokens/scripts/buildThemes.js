@@ -9,36 +9,41 @@ require("../custom/transformGroups")(StyleDictionary)
 // ==== Include custom formats ====
 require("../custom/formats/formats")(StyleDictionary)
 require("../custom/formats/theme")(StyleDictionary)
+require("../custom/formats/site")(StyleDictionary)
 
 // ==== Include custom filters ====
 require("../custom/filters")(StyleDictionary)
 
-require("./site")(StyleDictionary)
-
 const myPrefix = "ds"
 
-// StyleDictionary.registerTransform({
-//   name: "name/jsTheme",
-//   type: "name",
-//   matcher: function(prop) {
-//     return prop.path[0] === "theme"
-//   },
-//   transformer: function(prop) {
-//     return camelCase(
-//       prop.name.replace(new RegExp(prop.attributes.type + "(_|-)", "gi"), "")
-//     )
-//   }
-// })
-
-console.log("Build started...")
-
-console.log("\n==============================================")
+;["core", "interactive"].map(function(type) {
+  StyleDictionary.extend({
+    source: [
+      `tokens/source/themes/${type}.json`,
+      "tokens/source/palette/**/*.json"
+    ],
+    platforms: {
+      web: {
+        transformGroup: "tokens-json",
+        buildPath: "tokens/generated/figma/",
+        prefix: myPrefix,
+        files: [
+          {
+            destination: `${type}.json`,
+            format: "figma/theme-map",
+            filter: "isThemeMap"
+          }
+        ]
+      }
+    }
+  }).buildAllPlatforms()
+})
 
 StyleDictionary.extend({
   source: [
-    "tokens/themes/**/*.json",
-    "tokens/palette/**/*.json",
-    "tokens/generic/**/*.json"
+    "tokens/source/themes/**/*.json",
+    "tokens/source/palette/**/*.json",
+    "tokens/source/generic/**/*.json"
   ],
   platforms: {
     "web/theme-scss": {
@@ -46,20 +51,15 @@ StyleDictionary.extend({
       buildPath: "tokens/generated/themes/",
       prefix: myPrefix,
       files: [
-        // {
-        //   destination: "theme.css",
-        //   format: "css/variables",
-        //   filter: "isTheme"
-        // },
-        // {
-        //   destination: "theme.scss",
-        //   format: "scss/variables",
-        //   filter: "isTheme"
-        // },
+        {
+          destination: "theme.scss",
+          format: "scss/variables",
+          filter: "isTheme"
+        },
         {
           destination: "theme.map.scss",
           format: "scss/theme-map",
-          filter: "isTheme"
+          filter: "isThemeMap"
         }
       ]
     },
@@ -75,19 +75,6 @@ StyleDictionary.extend({
         }
       ]
     },
-    // "web/theme-js": {
-    //   transformGroup: "tokens-js",
-    //   // buildPath: `public/tokens/themes/${platform}_${brand}/`,
-    //   buildPath: `tokens/generated/themes/`,
-    //   files: [
-    //     {
-    //       // destination: `${brand}.js`,
-    //       destination: `theme.js`,
-    //       format: "javascript/es6",
-    //       filter: "isTheme"
-    //     }
-    //   ]
-    // },
     "docs/theme-json": {
       transformGroup: "tokens-json",
       buildPath: `tokens/generated/themes/`,

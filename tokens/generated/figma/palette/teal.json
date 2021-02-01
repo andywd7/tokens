@@ -1,0 +1,52 @@
+[
+  {
+    "token": "$ds-teal-10",
+    "name": "Teal 10",
+    "value": "#d9fbfb"
+  },
+  {
+    "token": "$ds-teal-20",
+    "name": "Teal 20",
+    "value": "#9ef0f0"
+  },
+  {
+    "token": "$ds-teal-30",
+    "name": "Teal 30",
+    "value": "#3ddbd9"
+  },
+  {
+    "token": "$ds-teal-40",
+    "name": "Teal 40",
+    "value": "#08bdba"
+  },
+  {
+    "token": "$ds-teal-50",
+    "name": "Teal 50",
+    "value": "#009d9a"
+  },
+  {
+    "token": "$ds-teal-60",
+    "name": "Teal 60",
+    "value": "#007d79"
+  },
+  {
+    "token": "$ds-teal-70",
+    "name": "Teal 70",
+    "value": "#005d5d"
+  },
+  {
+    "token": "$ds-teal-80",
+    "name": "Teal 80",
+    "value": "#004144"
+  },
+  {
+    "token": "$ds-teal-90",
+    "name": "Teal 90",
+    "value": "#022b30"
+  },
+  {
+    "token": "$ds-teal-100",
+    "name": "Teal 100",
+    "value": "#081a1c"
+  }
+]

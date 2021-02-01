@@ -1,0 +1,52 @@
+[
+  {
+    "token": "$ds-yellow-10",
+    "name": "Yellow 10",
+    "value": "#fffff1"
+  },
+  {
+    "token": "$ds-yellow-20",
+    "name": "Yellow 20",
+    "value": "#fcfbd1"
+  },
+  {
+    "token": "$ds-yellow-30",
+    "name": "Yellow 30",
+    "value": "#fffea8"
+  },
+  {
+    "token": "$ds-yellow-40",
+    "name": "Yellow 40",
+    "value": "#fffd7e"
+  },
+  {
+    "token": "$ds-yellow-50",
+    "name": "Yellow 50",
+    "value": "#fbf95b"
+  },
+  {
+    "token": "$ds-yellow-60",
+    "name": "Yellow 60",
+    "value": "#f5f336"
+  },
+  {
+    "token": "$ds-yellow-70",
+    "name": "Yellow 70",
+    "value": "#a2a32b"
+  },
+  {
+    "token": "$ds-yellow-80",
+    "name": "Yellow 80",
+    "value": "#77761c"
+  },
+  {
+    "token": "$ds-yellow-90",
+    "name": "Yellow 90",
+    "value": "#4e4d0d"
+  },
+  {
+    "token": "$ds-yellow-100",
+    "name": "Yellow 100",
+    "value": "#2b2b0b"
+  }
+]

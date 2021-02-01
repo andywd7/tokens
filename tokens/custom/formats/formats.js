@@ -1,4 +1,5 @@
 const kebabCase = require("lodash/kebabCase")
+const startCase = require("lodash/startCase")
 
 // https://github.com/amzn/style-dictionary/blob/main/lib/common/formats.js
 function fileHeader() {
@@ -66,6 +67,30 @@ module.exports = StyleDictionary => {
         "\n) !default;\n"
 
       return fileHeader() + vars + map
+    }
+  })
+
+  StyleDictionary.registerFormat({
+    name: "json/figma",
+    formatter: function(dictionary) {
+      // const prefix = config.prefix ? `${config.prefix}-` : ""
+      const styleMaps = Object.keys(dictionary.properties.colors).map(function(
+        key
+      ) {
+        return Object.keys(dictionary.properties.colors[key]).map(function(
+          key2
+        ) {
+          let prop = dictionary.properties.colors[key][key2]
+          let test = prop.attributes ? prop.attributes.item : ""
+          return {
+            token: `$${prop.name}`,
+            name: `${startCase(test)}`,
+            value: `${prop.value}`
+          }
+        })
+      })
+
+      return JSON.stringify(styleMaps.flat(), null, 2)
     }
   })
 }

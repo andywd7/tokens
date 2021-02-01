@@ -1,6 +1,6 @@
 // import Vue from "vue"
 import tokens from "../../tokens/generated/docs"
-import theme from "../tokens/themes/theme.json"
+import theme from "../../tokens/generated/themes/theme.json"
 
 const colors = [...new Set(tokens.colors.map(col => col.attributes.type))]
 

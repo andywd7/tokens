@@ -1,12 +1,12 @@
 import { TabsState } from "@storybook/components"
 import { Figma } from "storybook-addon-designs/blocks"
 import { Var } from "@dan-nz/storybook-documentation-primitives"
-import themeDark from "../../../tokens/themes/theme.json"
+import theme from "../../../../tokens/generated/themes/theme.json"
 import { SPACING_08 } from "../../../tokens/web/js/tokensAndPalette"
 
 ## Style
 
-export const toks = Object.values(themeDark.theme).map((t, i) => {
+export const toks = Object.values(theme.colors).map((t, i) => {
   const styles = {
     backgroundColor: t.value,
     borderRadius: SPACING_08,

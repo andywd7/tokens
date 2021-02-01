@@ -1,0 +1,36 @@
+{
+  "colors": {
+    "grey": {
+      "grey-10": {
+        "value": "#f2f4f8"
+      },
+      "grey-20": {
+        "value": "#dde1e6"
+      },
+      "grey-30": {
+        "value": "#c1c7cd"
+      },
+      "grey-40": {
+        "value": "#a2a9b0"
+      },
+      "grey-50": {
+        "value": "#878d96"
+      },
+      "grey-60": {
+        "value": "#697077"
+      },
+      "grey-70": {
+        "value": "#4d5358"
+      },
+      "grey-80": {
+        "value": "#343a3f"
+      },
+      "grey-90": {
+        "value": "#21272a"
+      },
+      "grey-100": {
+        "value": "#121619"
+      }
+    }
+  }
+}

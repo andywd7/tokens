@@ -1,14 +1,14 @@
 /**
  * Do not edit directly
- * Generated on Thu, 26 Nov 2020 17:04:00 GMT
+ * Generated on Mon, 25 Jan 2021 11:22:25 GMT
  */
 
 :root {
   --theme-ui-background: #ffffff;
-  --theme-interactive-01: #165cfa;
+  --theme-interactive-01: #0f62fe;
   --theme-interactive-02: #343a3f;
-  --theme-interactive-03: #165cfa;
-  --theme-interactive-04: #165cfa;
+  --theme-interactive-03: #0f62fe;
+  --theme-interactive-04: #0f62fe;
   --theme-danger: #d8222f;
   --theme-ui-01: #f2f4f8;
   --theme-ui-02: #ffffff;
@@ -23,7 +23,7 @@
   --theme-text-04: #ffffff;
   --theme-text-05: #697077;
   --theme-text-error: #d8222f;
-  --theme-link-01: #165cfa;
+  --theme-link-01: #0f62fe;
   --theme-inverse-link: #78a9ff;
   --theme-icon-01: #121619;
   --theme-icon-02: #4d5358;
@@ -35,31 +35,31 @@
   --theme-support-01: #d8222f;
   --theme-support-02: #24a148;
   --theme-support-03: #fbf95b;
-  --theme-support-04: #053fc4;
+  --theme-support-04: #0043ce;
   --theme-inverse-support-01: #f74f5a;
   --theme-inverse-support-02: #42be65;
   --theme-inverse-support-03: #fffd7e;
-  --theme-inverse-support-04: #4080fb;
+  --theme-inverse-support-04: #4589ff;
   --theme-overlay-01: #121619;
-  --theme-focus: #165cfa;
+  --theme-focus: #0f62fe;
   --theme-inverse-focus-ui: #ffffff;
-  --theme-hover-primary: #022b8f;
-  --theme-hover-primary-text: #053fc4;
+  --theme-hover-primary: #002d9c;
+  --theme-hover-primary-text: #0043ce;
   --theme-hover-secondary: #464c51;
-  --theme-hover-tertiary: #165cfa;
+  --theme-hover-tertiary: #0f62fe;
   --theme-hover-ui: #e0e4ea;
   --theme-hover-ui-light: #e0e4ea;
   --theme-hover-selected-ui: #c4c9d1;
   --theme-hover-danger: #d8222f;
   --theme-hover-row: #e0e4ea;
   --theme-inverse-hover-ui: #464c51;
-  --theme-active-primary: #022b8f;
+  --theme-active-primary: #002d9c;
   --theme-active-secondary: #5f656b;
-  --theme-active-tertiary: #022b8f;
+  --theme-active-tertiary: #002d9c;
   --theme-active-ui: #aaafb7;
   --theme-active-danger: #741017;
   --theme-selected-ui: #c4c9d1;
-  --theme-highlight: #cadefe;
+  --theme-highlight: #d0e2ff;
   --theme-skeleton-01: #c4c9d1;
   --theme-skeleton-02: #aaafb7;
   --theme-visited-link: #8949f8;
@@ -68,21 +68,4 @@
   --theme-disabled-03: #747c83;
   --theme-font-family-code: 'Roboto Mono', SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
   --theme-font-family-body: Roboto, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, 'Noto Sans', sans-serif;
-  --code-01-font-family: $fontFamilies.code;
-  --code-01-font-size: $fontSizes.01;
-  --code-01-font-weight: $fontWeights.normal;
-  --code-01-line-height: $lineHeights.01;
-  --code-02-font-family: $fontFamilies.code;
-  --code-02-font-size: $fontSizes.02;
-  --code-02-font-weight: $fontWeights.normal;
-  --code-02-line-height: $lineHeights.03;
-  --label-01-font-size: $fontSizes.01;
-  --label-01-font-weight: $fontWeights.normal;
-  --label-01-line-height: $lineHeights.01;
-  --caption-01-font-size: $fontSizes.01;
-  --caption-01-font-weight: $fontWeights.normal;
-  --caption-01-line-height: $lineHeights.01;
-  --body-short-01-font-size: $fontSizes.02;
-  --body-short-01-font-weight: $fontWeights.normal;
-  --body-short-01-line-height: $lineHeights.02;
 }

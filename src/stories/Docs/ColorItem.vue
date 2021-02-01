@@ -11,8 +11,9 @@
 </template>
 
 <script>
-import theme from "../../tokens/themes/theme.json"
+import theme from "../../../tokens/generated/themes/theme.json"
 const contrast = require("get-contrast")
+
 export default {
   name: "ColorItem",
   props: {

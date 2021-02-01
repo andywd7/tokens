@@ -1,0 +1,224 @@
+[
+  {
+    "token": "ui-background",
+    "description": "Default page background",
+    "name": "White",
+    "value": "#ffffff"
+  },
+  {
+    "token": "interactive-01",
+    "description": "Primary interactive color; \\nInteractive text; \\nSelected elements; \\nFeatured elements",
+    "name": "Blue 60",
+    "value": "#0f62fe"
+  },
+  {
+    "token": "interactive-02",
+    "description": "Secondary button",
+    "name": "Grey 80",
+    "value": "#343a3f"
+  },
+  {
+    "token": "interactive-03",
+    "description": "Tertiary button",
+    "name": "Blue 60",
+    "value": "#0f62fe"
+  },
+  {
+    "token": "interactive-04",
+    "description": "Selected nav indicator; \\nActive elements",
+    "name": "Blue 60",
+    "value": "#0f62fe"
+  },
+  {
+    "token": "danger",
+    "description": "Danger button background; \\n3:1 AA contrast",
+    "name": "Red 60",
+    "value": "#d8222f"
+  },
+  {
+    "token": "ui-01",
+    "description": "Container background on $ui-background; \\nSecondary page background",
+    "name": "Grey 60",
+    "value": "#f2f4f8"
+  },
+  {
+    "token": "ui-02",
+    "description": "Container background on $ui-01; \\n`Light` variant background",
+    "name": "White",
+    "value": "#ffffff"
+  },
+  {
+    "token": "ui-03",
+    "description": "Subtle border; \\nTertiary background",
+    "name": "Grey 20",
+    "value": "#dde1e6"
+  },
+  {
+    "token": "ui-04",
+    "description": "3:1 aa element contrast; \\nMedium contrast border",
+    "name": "Grey 50",
+    "value": "#878d96"
+  },
+  {
+    "token": "ui-05",
+    "description": "4.5:1 aa element contrast; \\nHigh contrast border; \\nEmphasis elements",
+    "name": "Grey 100",
+    "value": "#121619"
+  },
+  {
+    "token": "button-separator",
+    "description": "3:1 aa element contrast; \\nFluid button separator",
+    "name": "Grey 20",
+    "value": "#dde1e6"
+  },
+  {
+    "token": "decorative-01",
+    "description": "“Light” variant elements",
+    "name": "Grey 20",
+    "value": "#dde1e6"
+  },
+  {
+    "token": "text-01",
+    "description": "Primary text; \\nBody copy; \\nHeaders; \\nHover text color for text-02",
+    "name": "Grey 100",
+    "value": "#121619"
+  },
+  {
+    "token": "text-02",
+    "description": "Secondary text; \\nInput labels",
+    "name": "Grey 70",
+    "value": "#4d5358"
+  },
+  {
+    "token": "text-03",
+    "description": "Placeholder text",
+    "name": "Grey 40",
+    "value": "#a2a9b0"
+  },
+  {
+    "token": "text-04",
+    "description": "Text on interactive colors",
+    "name": "White",
+    "value": "#ffffff"
+  },
+  {
+    "token": "text-05",
+    "description": "Tertiary text; \\nHelp text",
+    "name": "Grey 60",
+    "value": "#697077"
+  },
+  {
+    "token": "text-error",
+    "description": "Error message text",
+    "name": "Red 60",
+    "value": "#d8222f"
+  },
+  {
+    "token": "link-01",
+    "description": "Primary links; \\nGhost button",
+    "name": "Blue 60",
+    "value": "#0f62fe"
+  },
+  {
+    "token": "inverse-link",
+    "description": "Links on $inverse-02 backgrounds",
+    "name": "Blue 40",
+    "value": "#78a9ff"
+  },
+  {
+    "token": "icon-01",
+    "description": "Primary icons",
+    "name": "Grey 100",
+    "value": "#121619"
+  },
+  {
+    "token": "icon-02",
+    "description": "Secondary icons",
+    "name": "Grey 70",
+    "value": "#4d5358"
+  },
+  {
+    "token": "icon-03",
+    "description": "Icons on interactive colors; \\nIcons on non-ui colors",
+    "name": "White",
+    "value": "#ffffff"
+  },
+  {
+    "token": "field-01",
+    "description": "Default input fields; \\nFields on $ui-backgrounds",
+    "name": "Grey 10",
+    "value": "#f2f4f8"
+  },
+  {
+    "token": "field-02",
+    "description": "“Light” variant input fields; \\nFields on $ui-01 backgrounds",
+    "name": "White",
+    "value": "#ffffff"
+  },
+  {
+    "token": "inverse-01",
+    "description": "Inverse text color; \\nInverse icon color",
+    "name": "White",
+    "value": "#ffffff"
+  },
+  {
+    "token": "inverse-02",
+    "description": "High contrast backgrounds; \\nHigh contrast elements",
+    "name": "Grey 80",
+    "value": "#343a3f"
+  },
+  {
+    "token": "support-01",
+    "description": "Error",
+    "name": "Red 60",
+    "value": "#d8222f"
+  },
+  {
+    "token": "support-02",
+    "description": "Success",
+    "name": "Green 50",
+    "value": "#24a148"
+  },
+  {
+    "token": "support-03",
+    "description": "Warning",
+    "name": "Yellow 50",
+    "value": "#fbf95b"
+  },
+  {
+    "token": "support-04",
+    "description": "Information",
+    "name": "Blue 70",
+    "value": "#0043ce"
+  },
+  {
+    "token": "inverse-support-01",
+    "description": "Danger in high contrast moments",
+    "name": "Red 50",
+    "value": "#f74f5a"
+  },
+  {
+    "token": "inverse-support-02",
+    "description": "Success in high contrast moments",
+    "name": "Green 40",
+    "value": "#42be65"
+  },
+  {
+    "token": "inverse-support-03",
+    "description": "Warning in high contrast moments",
+    "name": "Yellow 40",
+    "value": "#fffd7e"
+  },
+  {
+    "token": "inverse-support-04",
+    "description": "Information in high contrast moments",
+    "name": "Blue 50",
+    "value": "#4589ff"
+  },
+  {
+    "token": "overlay-01",
+    "description": "Background overlay",
+    "name": "Grey 100",
+    "value": "#121619"
+  }
+]

@@ -5,11 +5,11 @@
 /// @group global-helpers
 @mixin focus($type: "border") {
   @if ($type == "outside") {
-    box-shadow: 0 0 0 2px $theme-focus;
+    box-shadow: 0 0 0 2px $ds-theme-focus;
   }
 
   @if ($type == "inside") {
-    box-shadow: inset 0 0 0 2px $theme-focus;
+    box-shadow: inset 0 0 0 2px $ds-theme-focus;
   }
 
   outline: 0;

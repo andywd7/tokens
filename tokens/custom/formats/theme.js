@@ -1,4 +1,5 @@
 const kebabCase = require("lodash/kebabCase")
+const startCase = require("lodash/startCase")
 
 // https://github.com/amzn/style-dictionary/blob/main/lib/common/formats.js
 function fileHeader() {
@@ -28,7 +29,9 @@ module.exports = StyleDictionary => {
 
       const values = remove.map(function(prop) {
         let name = prop.name.replace(prefix, "")
-        return `\n  ${name}: ${prop.value}`
+        return prop.path[1].includes("font-family")
+          ? `\n  ${name}: (${prop.value})`
+          : `\n  ${name}: ${prop.value}`
       })
 
       const type = Object.keys(dictionary.properties.typography).map(function(
@@ -39,7 +42,9 @@ module.exports = StyleDictionary => {
           Object.keys(dictionary.properties.typography[key])
             .map(function(key2) {
               let prop = dictionary.properties.typography[key][key2]
-              return `    ${key2}: ${prop.alias},`
+              return prop.path[2].includes("font-family")
+                ? `    ${key2}: (${prop.alias}),`
+                : `    ${key2}: ${prop.alias},`
             })
             .join("\n") +
           "\n  )"
@@ -47,14 +52,14 @@ module.exports = StyleDictionary => {
       })
 
       const styleMap =
-        themeDefaultMap + ": (" + values + type + "\n) !default;\n\n"
+        themeDefaultMap + ": (" + values.concat(type) + "\n) !default;\n\n"
 
       const values2 = remove.map(function(prop) {
         let name = prop.name.replace(prefix, "")
         return (
-          `\n  ${name}: if (\n    global-variable-exists("${name}"),` +
+          `\n  ${name}: if (\n    global-variable-exists("${prop.name}"),` +
           `\n    $${kebabCase(prop.name)},` +
-          `\n    map-get(${themeDefaultMap}, "${kebabCase(name)}")` +
+          `\n    map-get(${themeDefaultMap}, "${kebabCase(prop.name)}")` +
           `\n  )`
         )
       })
@@ -71,9 +76,31 @@ module.exports = StyleDictionary => {
         )
       })
 
-      const styleMapMap = themeMap + ": (" + values2 + type2 + "\n) !default;\n"
+      const styleMapMap =
+        themeMap + ": (" + values2.concat(type2) + "\n) !default;\n"
 
       return fileHeader() + styleMap + styleMapMap
+    }
+  })
+
+  StyleDictionary.registerFormat({
+    name: "figma/theme-map",
+    formatter: function(dictionary) {
+      const remove = dictionary.allProperties.filter(
+        item => item.path[0] !== "typography"
+      )
+
+      const values2 = remove.map(function(prop) {
+        const description = prop.description.replace(/; /g, "; \\n")
+        return {
+          token: `${prop.attributes.subitem}`,
+          description: `${description}`,
+          name: `${startCase(prop.valueName)}`,
+          value: `${prop.value}`
+        }
+      })
+
+      return JSON.stringify(values2, null, 2)
     }
   })
 }

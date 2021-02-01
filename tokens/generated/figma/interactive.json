@@ -1,0 +1,152 @@
+[
+  {
+    "token": "focus",
+    "description": "Focus border; \\nFocus underline",
+    "name": "Blue 60",
+    "value": "#0f62fe"
+  },
+  {
+    "token": "inverse-focus-ui",
+    "description": "Focus on high contrast moments",
+    "name": "White",
+    "value": "#ffffff"
+  },
+  {
+    "token": "hover-primary",
+    "description": "$interactive-01 hover",
+    "name": "Blue 80",
+    "value": "#002d9c"
+  },
+  {
+    "token": "hover-primary-text",
+    "description": "$interactive-01 text hover",
+    "name": "Blue 70",
+    "value": "#0043ce"
+  },
+  {
+    "token": "hover-secondary",
+    "description": "$interactive-02 hover",
+    "name": "Grey Hover 80",
+    "value": "#464c51"
+  },
+  {
+    "token": "hover-tertiary",
+    "description": "$interactive-03 hover; \\n$inverse-01 hover",
+    "name": "Blue 60",
+    "value": "#0f62fe"
+  },
+  {
+    "token": "hover-ui",
+    "description": "$ui-01 hover; \\n$ui-02 hover; \\nTransparent background hover",
+    "name": "Grey Hover 10",
+    "value": "#e0e4ea"
+  },
+  {
+    "token": "hover-ui-light",
+    "description": "“Light” variant hover",
+    "name": "Grey Hover 10",
+    "value": "#e0e4ea"
+  },
+  {
+    "token": "hover-selected-ui",
+    "description": "Selected row hover",
+    "name": "Grey Hover 20",
+    "value": "#c4c9d1"
+  },
+  {
+    "token": "hover-danger",
+    "description": "Danger hover; \\n$support-01 hover",
+    "name": "Red 60",
+    "value": "#d8222f"
+  },
+  {
+    "token": "hover-row",
+    "description": "Row hover",
+    "name": "Grey Hover 10",
+    "value": "#e0e4ea"
+  },
+  {
+    "token": "inverse-hover-ui",
+    "description": "Hover for $inverse-02",
+    "name": "Grey Hover 80",
+    "value": "#464c51"
+  },
+  {
+    "token": "active-primary",
+    "description": "$interactive-01 active",
+    "name": "Blue 80",
+    "value": "#002d9c"
+  },
+  {
+    "token": "active-secondary",
+    "description": "$interactive-02 active; \\n$inverse-01 active",
+    "name": "Grey Hover 60",
+    "value": "#5f656b"
+  },
+  {
+    "token": "active-tertiary",
+    "description": "$interactive-03 active",
+    "name": "Blue 80",
+    "value": "#002d9c"
+  },
+  {
+    "token": "active-ui",
+    "description": "$ui-01 active; \\n$ui-02 active",
+    "name": "Grey Hover 30",
+    "value": "#aaafb7"
+  },
+  {
+    "token": "active-danger",
+    "description": "Danger active; \\n$support-01 active",
+    "name": "Red 80",
+    "value": "#741017"
+  },
+  {
+    "token": "selected-ui",
+    "description": "Selected UI elements",
+    "name": "Grey Hover 20",
+    "value": "#c4c9d1"
+  },
+  {
+    "token": "highlight",
+    "description": "$interactive-01 highlight",
+    "name": "Blue 20",
+    "value": "#d0e2ff"
+  },
+  {
+    "token": "skeleton-01",
+    "description": "Skeleton state of graphics",
+    "name": "Grey Hover 20",
+    "value": "#c4c9d1"
+  },
+  {
+    "token": "skeleton-02",
+    "description": "Skeleton state of texts",
+    "name": "Grey Hover 30",
+    "value": "#aaafb7"
+  },
+  {
+    "token": "visited-link",
+    "description": "Visited links",
+    "name": "Purple 60",
+    "value": "#8949f8"
+  },
+  {
+    "token": "disabled-01",
+    "description": "Disabled fields; \\nDisabled backgrounds; \\nDisabled border",
+    "name": "Grey Hover 10",
+    "value": "#e0e4ea"
+  },
+  {
+    "token": "disabled-02",
+    "description": "Disabled elements on $disabled-01; \\nDisabled label; \\nDisabled text on $disabled-01; \\nDisabled icons; \\nDisabled border",
+    "name": "Grey Hover 30",
+    "value": "#aaafb7"
+  },
+  {
+    "token": "disabled-03",
+    "description": "Disabled text on $disabled-02; \\nDisabled icons on $disabled-02",
+    "name": "Grey Hover 50",
+    "value": "#747c83"
+  }
+]

@@ -1,3 +1,13 @@
+const fs = require("fs")
+
+const directoryName = "tokens/source/palette"
+const filenames = fs.readdirSync(directoryName)
+let paletteArray = []
+
+filenames.forEach(file => {
+  paletteArray.push(file.replace(".json", ""))
+})
+
 const StyleDictionary = require("style-dictionary")
 
 // ==== Include custom transforms ====
@@ -8,34 +18,54 @@ require("../custom/transformGroups")(StyleDictionary)
 
 // ==== Include custom formats ====
 require("../custom/formats/formats")(StyleDictionary)
+require("../custom/formats/site")(StyleDictionary)
 
 // ==== Include custom filters ====
 require("../custom/filters")(StyleDictionary)
 
-require("./site")(StyleDictionary)
-
 const myPrefix = "ds"
-// const myScssPrefix = "#{$custom-property-prefix}"
 
-console.log("Build started...")
-
-console.log("\n==============================================")
+console.log(paletteArray)
+paletteArray.map(function(color) {
+  StyleDictionary.extend({
+    source: [`tokens/source/palette/${color}.json`],
+    platforms: {
+      web: {
+        transformGroup: "tokens-json",
+        buildPath: "tokens/generated/figma/palette/",
+        prefix: myPrefix,
+        files: [
+          {
+            destination: `${color}.json`,
+            format: "json/figma",
+            filter: "isColor"
+          }
+        ]
+      }
+    }
+  }).buildAllPlatforms()
+})
 
 StyleDictionary.extend({
-  source: ["tokens/generic/**/*.json", "tokens/palette/*.json"],
+  source: ["tokens/source/**/*.json"],
   platforms: {
-    "web/palette-css": {
-      transformGroup: "tokens-scss",
-      buildPath: "tokens/generated/colors/",
+    docs: {
+      transformGroup: "tokens-json",
+      buildPath: "tokens/generated/",
       prefix: myPrefix,
       files: [
         {
-          destination: "colors.css",
-          format: "css/variables",
-          filter: "isColor"
+          destination: "docs.json",
+          format: "site"
         }
       ]
-    },
+    }
+  }
+}).buildAllPlatforms()
+
+StyleDictionary.extend({
+  source: ["tokens/source/generic/**/*.json", "tokens/source/palette/*.json"],
+  platforms: {
     "web/tokens-css": {
       transformGroup: "tokens-scss",
       buildPath: "tokens/generated/tokens/",
@@ -57,18 +87,6 @@ StyleDictionary.extend({
           destination: `all-tokens.css`,
           format: "css/variables",
           filter: "isNotType"
-        }
-      ]
-    },
-    "web/palette-scss": {
-      transformGroup: "tokens-scss",
-      buildPath: "tokens/generated/colors/",
-      prefix: myPrefix,
-      files: [
-        {
-          destination: "_colors.map.scss",
-          format: "scss/custom-map-deep",
-          filter: "isColor"
         }
       ]
     },
@@ -99,11 +117,11 @@ StyleDictionary.extend({
     },
     "web/palette-js": {
       transformGroup: "tokens-js",
-      buildPath: "tokens/generated/colors/",
+      buildPath: "tokens/generated/palette/",
       prefix: myPrefix,
       files: [
         {
-          destination: "colors.js",
+          destination: "palette.js",
           format: "javascript/es6",
           filter: "isColor"
         }
@@ -111,11 +129,11 @@ StyleDictionary.extend({
     },
     "web/palette-json": {
       transformGroup: "tokens-json",
-      buildPath: "tokens/generated/colors/",
+      buildPath: "tokens/generated/palette/",
       prefix: myPrefix,
       files: [
         {
-          destination: "colors.json",
+          destination: "palette.json",
           format: "json/flat",
           filter: "isColor"
         }
@@ -149,35 +167,16 @@ StyleDictionary.extend({
 }).buildAllPlatforms()
 
 StyleDictionary.extend({
-  source: ["tokens/**/*.json"],
-  platforms: {
-    docs: {
-      transformGroup: "tokens-json",
-      buildPath: "tokens/generated/",
-      prefix: myPrefix,
-      files: [
-        {
-          destination: "docs.json",
-          format: "site"
-          // filter: "isFigma"
-        }
-      ]
-    }
-  }
-}).buildAllPlatforms()
-
-StyleDictionary.extend({
   source: [
-    "tokens/generic/*.json",
-    "tokens/palette/*.json",
-    "tokens/themes/core.json",
-    "tokens/themes/interactive.json",
-    "tokens/generic/typography.json"
+    "tokens/source/generic/*.json",
+    "tokens/source/palette/*.json",
+    "tokens/source/themes/core.json",
+    "tokens/source/themes/interactive.json"
   ],
   platforms: {
-    figma: {
+    "figma/plugin": {
       transformGroup: "tokens",
-      buildPath: "tokens/generated/",
+      buildPath: "tokens/generated/figma/",
       files: [
         {
           destination: "figma.json",
@@ -191,9 +190,9 @@ StyleDictionary.extend({
 
 StyleDictionary.extend({
   source: [
-    "tokens/generic/font.json",
-    "tokens/generic/lineHeight.json",
-    "tokens/generic/typography.json"
+    "tokens/source/generic/font.json",
+    "tokens/source/generic/lineHeight.json",
+    "tokens/source/generic/typography.json"
   ],
   platforms: {
     "web/text-styles-scss": {

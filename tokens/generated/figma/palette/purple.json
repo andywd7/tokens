@@ -1,0 +1,52 @@
+[
+  {
+    "token": "$ds-purple-10",
+    "name": "Purple 10",
+    "value": "#f6f2ff"
+  },
+  {
+    "token": "$ds-purple-20",
+    "name": "Purple 20",
+    "value": "#e8dbfe"
+  },
+  {
+    "token": "$ds-purple-30",
+    "name": "Purple 30",
+    "value": "#d4bdfd"
+  },
+  {
+    "token": "$ds-purple-40",
+    "name": "Purple 40",
+    "value": "#bd98fc"
+  },
+  {
+    "token": "$ds-purple-50",
+    "name": "Purple 50",
+    "value": "#a473fc"
+  },
+  {
+    "token": "$ds-purple-60",
+    "name": "Purple 60",
+    "value": "#8949f8"
+  },
+  {
+    "token": "$ds-purple-70",
+    "name": "Purple 70",
+    "value": "#6932c1"
+  },
+  {
+    "token": "$ds-purple-80",
+    "name": "Purple 80",
+    "value": "#492389"
+  },
+  {
+    "token": "$ds-purple-90",
+    "name": "Purple 90",
+    "value": "#31175c"
+  },
+  {
+    "token": "$ds-purple-100",
+    "name": "Purple 100",
+    "value": "#1c102f"
+  }
+]

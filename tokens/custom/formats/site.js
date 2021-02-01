@@ -18,7 +18,7 @@ module.exports = StyleDictionary => {
         for (let i = 0, len = catArr.length; i < len; i++) {
           const current = catArr[i]
           
-          delete current.category
+          // delete current.category
           delete current.original
           delete current.path
           toRet[newKey].push(current)

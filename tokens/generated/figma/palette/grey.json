@@ -1,0 +1,52 @@
+[
+  {
+    "token": "$ds-grey-10",
+    "name": "Grey 10",
+    "value": "#f2f4f8"
+  },
+  {
+    "token": "$ds-grey-20",
+    "name": "Grey 20",
+    "value": "#dde1e6"
+  },
+  {
+    "token": "$ds-grey-30",
+    "name": "Grey 30",
+    "value": "#c1c7cd"
+  },
+  {
+    "token": "$ds-grey-40",
+    "name": "Grey 40",
+    "value": "#a2a9b0"
+  },
+  {
+    "token": "$ds-grey-50",
+    "name": "Grey 50",
+    "value": "#878d96"
+  },
+  {
+    "token": "$ds-grey-60",
+    "name": "Grey 60",
+    "value": "#697077"
+  },
+  {
+    "token": "$ds-grey-70",
+    "name": "Grey 70",
+    "value": "#4d5358"
+  },
+  {
+    "token": "$ds-grey-80",
+    "name": "Grey 80",
+    "value": "#343a3f"
+  },
+  {
+    "token": "$ds-grey-90",
+    "name": "Grey 90",
+    "value": "#21272a"
+  },
+  {
+    "token": "$ds-grey-100",
+    "name": "Grey 100",
+    "value": "#121619"
+  }
+]

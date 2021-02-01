@@ -1,0 +1,12 @@
+[
+  {
+    "token": "$ds-white",
+    "name": "White",
+    "value": "#ffffff"
+  },
+  {
+    "token": "$ds-black",
+    "name": "Black",
+    "value": "#000000"
+  }
+]

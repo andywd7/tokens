@@ -112,7 +112,7 @@ $btn-border-radius: $border-radius-rounded !default;
   @include transition($btn-transition);
   background-color: transparent;
   border: 1px solid transparent;
-  color: $theme-text-04;
+  color: $ds-theme-text-04;
   cursor: pointer;
   display: inline-block;
   font-family: $btn-font-family;
@@ -132,9 +132,9 @@ $btn-border-radius: $border-radius-rounded !default;
   &:disabled:hover,
   &:disabled:focus,
   &:disabled:active {
-    background-color: $theme-disabled-02;
-    border-color: $theme-disabled-02;
-    color: $theme-disabled-03;
+    background-color: $ds-theme-disabled-02;
+    border-color: $ds-theme-disabled-02;
+    color: $ds-theme-disabled-03;
     cursor: not-allowed;
   }
 }
@@ -153,10 +153,10 @@ fieldset:disabled a.btn {
 
 .#{$prefix}-btn {
   @include button-variant(
-    $theme-interactive-02,
-    $theme-hover-secondary,
-    $theme-active-secondary,
-    $theme-text-03,
+    $ds-theme-interactive-02,
+    $ds-theme-hover-secondary,
+    $ds-theme-active-secondary,
+    $ds-theme-text-03,
     true
   );
 }
@@ -164,76 +164,76 @@ fieldset:disabled a.btn {
 .#{$prefix}-btn--primary,
 .btn-primary {
   @include button-variant(
-    $theme-interactive-01,
-    $theme-hover-primary,
-    $theme-active-primary,
-    $theme-text-04
+    $ds-theme-interactive-01,
+    $ds-theme-hover-primary,
+    $ds-theme-active-primary,
+    $ds-theme-text-04
   );
 }
 
 .#{$prefix}-btn--secondary,
 .btn-secondary {
   @include button-variant(
-    $theme-interactive-02,
-    $theme-hover-secondary,
-    $theme-active-secondary,
-    $theme-text-04
+    $ds-theme-interactive-02,
+    $ds-theme-hover-secondary,
+    $ds-theme-active-secondary,
+    $ds-theme-text-04
   );
 }
 
 .#{$prefix}-btn--standard {
   @include button-variant(
     transparent,
-    $theme-hover-tertiary,
-    $theme-active-tertiary,
-    $theme-interactive-03
+    $ds-theme-hover-tertiary,
+    $ds-theme-active-tertiary,
+    $ds-theme-interactive-03
   );
-  border-color: $theme-interactive-03;
+  border-color: $ds-theme-interactive-03;
 
   &:hover,
   &:focus,
   &:active,
   &.#{$prefix}-btn--pressed {
-    color: $theme-inverse-01;
+    color: $ds-theme-inverse-01;
   }
 
   &:hover,
   &.#{$prefix}-btn--pressed {
-    border-color: $theme-hover-tertiary;
+    border-color: $ds-theme-hover-tertiary;
   }
 
   &:focus {
-    background-color: $theme-interactive-03;
-    border-color: $theme-inverse-01;
+    background-color: $ds-theme-interactive-03;
+    border-color: $ds-theme-inverse-01;
   }
 
   &:active {
-    border-color: $theme-active-tertiary;
+    border-color: $ds-theme-active-tertiary;
   }
 }
 
 .#{$prefix}-btn--danger,
 .btn-danger {
   @include button-variant(
-    $theme-danger,
-    $theme-hover-danger,
-    $theme-active-danger,
-    $theme-text-04
+    $ds-theme-danger,
+    $ds-theme-hover-danger,
+    $ds-theme-active-danger,
+    $ds-theme-text-04
   );
 }
 
 .#{$prefix}-btn--ghost {
   @include button-variant(
     transparent,
-    $theme-hover-ui,
-    $theme-active-ui,
-    $theme-link-01
+    $ds-theme-hover-ui,
+    $ds-theme-active-ui,
+    $ds-theme-link-01
   );
 
   &:hover,
   &:active,
   &.#{$prefix}-btn--pressed {
-    color: $theme-hover-primary-text;
+    color: $ds-theme-hover-primary-text;
   }
 }
 

@@ -1,5 +1,5 @@
 // Do not edit directly
-// Generated on Thu, 26 Nov 2020 16:59:47 GMT
+// Generated on Mon, 25 Jan 2021 11:27:21 GMT
 
 $ds-border-radius-01: 2px !default;
 $ds-border-radius-02: 3px !default;
@@ -59,16 +59,18 @@ $ds-breakpoint-xlg: 1328px !default;
 $ds-breakpoint-xxlg: 1568px !default;
 $ds-breakpoint-xxxlg: 1904px !default;
 $ds-breakpoint-max: 2560px !default;
-$ds-blue-10: #ebf4ff !default;
-$ds-blue-20: #cadefe !default;
-$ds-blue-30: #9dc2fd !default;
+$ds-white: #ffffff !default;
+$ds-black: #000000 !default;
+$ds-blue-10: #edf5ff !default;
+$ds-blue-20: #d0e2ff !default;
+$ds-blue-30: #a6c8ff !default;
 $ds-blue-40: #78a9ff !default;
-$ds-blue-50: #4080fb !default;
-$ds-blue-60: #165cfa !default;
-$ds-blue-70: #053fc4 !default;
-$ds-blue-80: #022b8f !default;
-$ds-blue-90: #011d5f !default;
-$ds-blue-100: #011338 !default;
+$ds-blue-50: #4589ff !default;
+$ds-blue-60: #0f62fe !default;
+$ds-blue-70: #0043ce !default;
+$ds-blue-80: #002d9c !default;
+$ds-blue-90: #001d6c !default;
+$ds-blue-100: #001141 !default;
 $ds-cyan-10: #e2f5ff !default;
 $ds-cyan-20: #b4e2fe !default;
 $ds-cyan-30: #7bc9fd !default;
@@ -109,8 +111,6 @@ $ds-grey-70: #4d5358 !default;
 $ds-grey-80: #343a3f !default;
 $ds-grey-90: #21272a !default;
 $ds-grey-100: #121619 !default;
-$ds-white: #ffffff !default;
-$ds-black: #000000 !default;
 $ds-magenta-10: #fff0f7 !default;
 $ds-magenta-20: #fed7e8 !default;
 $ds-magenta-30: #fdb0d2 !default;
@@ -231,6 +231,8 @@ $ds-all-tokens: (
   breakpoint-xxlg: $ds-breakpoint-xxlg,
   breakpoint-xxxlg: $ds-breakpoint-xxxlg,
   breakpoint-max: $ds-breakpoint-max,
+  white: $ds-white,
+  black: $ds-black,
   blue-10: $ds-blue-10,
   blue-20: $ds-blue-20,
   blue-30: $ds-blue-30,
@@ -281,8 +283,6 @@ $ds-all-tokens: (
   grey-80: $ds-grey-80,
   grey-90: $ds-grey-90,
   grey-100: $ds-grey-100,
-  white: $ds-white,
-  black: $ds-black,
   magenta-10: $ds-magenta-10,
   magenta-20: $ds-magenta-20,
   magenta-30: $ds-magenta-30,

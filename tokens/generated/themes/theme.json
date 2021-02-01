@@ -13,7 +13,7 @@
       }
     },
     {
-      "value": "#165cfa",
+      "value": "#0f62fe",
       "valueName": "blue-60",
       "description": "Primary interactive color; Interactive text; Selected elements; Featured elements",
       "name": "theme-interactive-01",
@@ -37,7 +37,7 @@
       }
     },
     {
-      "value": "#165cfa",
+      "value": "#0f62fe",
       "valueName": "blue-60",
       "description": "Tertiary button",
       "name": "theme-interactive-03",
@@ -49,7 +49,7 @@
       }
     },
     {
-      "value": "#165cfa",
+      "value": "#0f62fe",
       "valueName": "blue-60",
       "description": "Selected nav indicator; Active elements",
       "name": "theme-interactive-04",
@@ -146,6 +146,7 @@
     },
     {
       "value": "#dde1e6",
+      "valueName": "grey-20",
       "description": "“Light” variant elements",
       "name": "theme-decorative-01",
       "attributes": {
@@ -157,6 +158,7 @@
     },
     {
       "value": "#121619",
+      "valueName": "grey-100",
       "description": "Primary text; Body copy; Headers; Hover text color for text-02",
       "name": "theme-text-01",
       "attributes": {
@@ -168,6 +170,7 @@
     },
     {
       "value": "#4d5358",
+      "valueName": "grey-70",
       "description": "Secondary text; Input labels",
       "name": "theme-text-02",
       "attributes": {
@@ -179,6 +182,7 @@
     },
     {
       "value": "#a2a9b0",
+      "valueName": "grey-40",
       "description": "Placeholder text",
       "name": "theme-text-03",
       "attributes": {
@@ -190,6 +194,7 @@
     },
     {
       "value": "#ffffff",
+      "valueName": "white",
       "description": "Text on interactive colors",
       "name": "theme-text-04",
       "attributes": {
@@ -201,6 +206,7 @@
     },
     {
       "value": "#697077",
+      "valueName": "grey-60",
       "description": "Tertiary text; Help text",
       "name": "theme-text-05",
       "attributes": {
@@ -212,6 +218,7 @@
     },
     {
       "value": "#d8222f",
+      "valueName": "red-60",
       "description": "Error message text",
       "name": "theme-text-error",
       "attributes": {
@@ -222,7 +229,8 @@
       }
     },
     {
-      "value": "#165cfa",
+      "value": "#0f62fe",
+      "valueName": "blue-60",
       "description": "Primary links; Ghost button",
       "name": "theme-link-01",
       "attributes": {
@@ -234,6 +242,7 @@
     },
     {
       "value": "#78a9ff",
+      "valueName": "blue-40",
       "description": "Links on $inverse-02 backgrounds",
       "name": "theme-inverse-link",
       "attributes": {
@@ -245,6 +254,7 @@
     },
     {
       "value": "#121619",
+      "valueName": "grey-100",
       "description": "Primary icons",
       "name": "theme-icon-01",
       "attributes": {
@@ -256,6 +266,7 @@
     },
     {
       "value": "#4d5358",
+      "valueName": "grey-70",
       "description": "Secondary icons",
       "name": "theme-icon-02",
       "attributes": {
@@ -267,6 +278,7 @@
     },
     {
       "value": "#ffffff",
+      "valueName": "white",
       "description": "Icons on interactive colors; Icons on non-ui colors",
       "name": "theme-icon-03",
       "attributes": {
@@ -278,6 +290,7 @@
     },
     {
       "value": "#f2f4f8",
+      "valueName": "grey-10",
       "description": "Default input fields; Fields on $ui-backgrounds",
       "name": "theme-field-01",
       "attributes": {
@@ -289,6 +302,7 @@
     },
     {
       "value": "#ffffff",
+      "valueName": "white",
       "description": "“Light” variant input fields; Fields on $ui-01 backgrounds",
       "name": "theme-field-02",
       "attributes": {
@@ -300,6 +314,7 @@
     },
     {
       "value": "#ffffff",
+      "valueName": "white",
       "description": "Inverse text color; Inverse icon color",
       "name": "theme-inverse-01",
       "attributes": {
@@ -311,6 +326,7 @@
     },
     {
       "value": "#343a3f",
+      "valueName": "grey-80",
       "description": "High contrast backgrounds; High contrast elements",
       "name": "theme-inverse-02",
       "attributes": {
@@ -322,6 +338,7 @@
     },
     {
       "value": "#d8222f",
+      "valueName": "red-60",
       "description": "Error",
       "name": "theme-support-01",
       "attributes": {
@@ -333,6 +350,7 @@
     },
     {
       "value": "#24a148",
+      "valueName": "green-50",
       "description": "Success",
       "name": "theme-support-02",
       "attributes": {
@@ -344,6 +362,7 @@
     },
     {
       "value": "#fbf95b",
+      "valueName": "yellow-50",
       "description": "Warning",
       "name": "theme-support-03",
       "attributes": {
@@ -354,7 +373,8 @@
       }
     },
     {
-      "value": "#053fc4",
+      "value": "#0043ce",
+      "valueName": "blue-70",
       "description": "Information",
       "name": "theme-support-04",
       "attributes": {
@@ -366,6 +386,7 @@
     },
     {
       "value": "#f74f5a",
+      "valueName": "red-50",
       "description": "Danger in high contrast moments",
       "name": "theme-inverse-support-01",
       "attributes": {
@@ -377,6 +398,7 @@
     },
     {
       "value": "#42be65",
+      "valueName": "green-40",
       "description": "Success in high contrast moments",
       "name": "theme-inverse-support-02",
       "attributes": {
@@ -388,6 +410,7 @@
     },
     {
       "value": "#fffd7e",
+      "valueName": "yellow-40",
       "description": "Warning in high contrast moments",
       "name": "theme-inverse-support-03",
       "attributes": {
@@ -398,7 +421,8 @@
       }
     },
     {
-      "value": "#4080fb",
+      "value": "#4589ff",
+      "valueName": "blue-50",
       "description": "Information in high contrast moments",
       "name": "theme-inverse-support-04",
       "attributes": {
@@ -410,6 +434,7 @@
     },
     {
       "value": "#121619",
+      "valueName": "grey-100",
       "description": "Background overlay",
       "name": "theme-overlay-01",
       "attributes": {
@@ -420,7 +445,7 @@
       }
     },
     {
-      "value": "#165cfa",
+      "value": "#0f62fe",
       "valueName": "blue-60",
       "description": "Focus border; Focus underline",
       "name": "theme-focus",
@@ -444,7 +469,7 @@
       }
     },
     {
-      "value": "#022b8f",
+      "value": "#002d9c",
       "valueName": "blue-80",
       "description": "$interactive-01 hover",
       "name": "theme-hover-primary",
@@ -456,7 +481,7 @@
       }
     },
     {
-      "value": "#053fc4",
+      "value": "#0043ce",
       "valueName": "blue-70",
       "description": "$interactive-01 text hover",
       "name": "theme-hover-primary-text",
@@ -480,7 +505,7 @@
       }
     },
     {
-      "value": "#165cfa",
+      "value": "#0f62fe",
       "valueName": "blue-60",
       "description": "$interactive-03 hover; $inverse-01 hover",
       "name": "theme-hover-tertiary",
@@ -505,6 +530,7 @@
     },
     {
       "value": "#e0e4ea",
+      "valueName": "grey-hover-10",
       "description": "“Light” variant hover",
       "name": "theme-hover-ui-light",
       "attributes": {
@@ -516,6 +542,7 @@
     },
     {
       "value": "#c4c9d1",
+      "valueName": "grey-hover-20",
       "description": "Selected row hover",
       "name": "theme-hover-selected-ui",
       "attributes": {
@@ -527,6 +554,7 @@
     },
     {
       "value": "#d8222f",
+      "valueName": "red-60",
       "description": "Danger hover; $support-01 hover",
       "name": "theme-hover-danger",
       "attributes": {
@@ -538,6 +566,7 @@
     },
     {
       "value": "#e0e4ea",
+      "valueName": "grey-hover-10",
       "description": "Row hover",
       "name": "theme-hover-row",
       "attributes": {
@@ -549,6 +578,7 @@
     },
     {
       "value": "#464c51",
+      "valueName": "grey-hover-80",
       "description": "Hover for $inverse-02",
       "name": "theme-inverse-hover-ui",
       "attributes": {
@@ -559,7 +589,8 @@
       }
     },
     {
-      "value": "#022b8f",
+      "value": "#002d9c",
+      "valueName": "blue-80",
       "description": "$interactive-01 active",
       "name": "theme-active-primary",
       "attributes": {
@@ -571,6 +602,7 @@
     },
     {
       "value": "#5f656b",
+      "valueName": "grey-hover-60",
       "description": "$interactive-02 active; $inverse-01 active",
       "name": "theme-active-secondary",
       "attributes": {
@@ -581,7 +613,8 @@
       }
     },
     {
-      "value": "#022b8f",
+      "value": "#002d9c",
+      "valueName": "blue-80",
       "description": "$interactive-03 active",
       "name": "theme-active-tertiary",
       "attributes": {
@@ -593,6 +626,7 @@
     },
     {
       "value": "#aaafb7",
+      "valueName": "grey-hover-30",
       "description": "$ui-01 active; $ui-02 active",
       "name": "theme-active-ui",
       "attributes": {
@@ -604,6 +638,7 @@
     },
     {
       "value": "#741017",
+      "valueName": "red-80",
       "description": "Danger active; $support-01 active",
       "name": "theme-active-danger",
       "attributes": {
@@ -615,6 +650,7 @@
     },
     {
       "value": "#c4c9d1",
+      "valueName": "grey-hover-20",
       "description": "Selected UI elements",
       "name": "theme-selected-ui",
       "attributes": {
@@ -625,7 +661,8 @@
       }
     },
     {
-      "value": "#cadefe",
+      "value": "#d0e2ff",
+      "valueName": "blue-20",
       "description": "$interactive-01 highlight",
       "name": "theme-highlight",
       "attributes": {
@@ -637,6 +674,7 @@
     },
     {
       "value": "#c4c9d1",
+      "valueName": "grey-hover-20",
       "description": "Skeleton state of graphics",
       "name": "theme-skeleton-01",
       "attributes": {
@@ -648,6 +686,7 @@
     },
     {
       "value": "#aaafb7",
+      "valueName": "grey-hover-30",
       "description": "Skeleton state of texts",
       "name": "theme-skeleton-02",
       "attributes": {
@@ -659,6 +698,7 @@
     },
     {
       "value": "#8949f8",
+      "valueName": "purple-60",
       "description": "Visited links",
       "name": "theme-visited-link",
       "attributes": {
@@ -670,6 +710,7 @@
     },
     {
       "value": "#e0e4ea",
+      "valueName": "grey-hover-10",
       "description": "Disabled fields; Disabled backgrounds; Disabled border",
       "name": "theme-disabled-01",
       "attributes": {
@@ -681,6 +722,7 @@
     },
     {
       "value": "#aaafb7",
+      "valueName": "grey-hover-30",
       "description": "Disabled elements on $disabled-01; Disabled label; Disabled text on $disabled-01; Disabled icons; Disabled border",
       "name": "theme-disabled-02",
       "attributes": {
@@ -692,6 +734,7 @@
     },
     {
       "value": "#747c83",
+      "valueName": "grey-hover-50",
       "description": "Disabled text on $disabled-02; Disabled icons on $disabled-02",
       "name": "theme-disabled-03",
       "attributes": {
@@ -719,195 +762,6 @@
       "attributes": {
         "category": "theme",
         "type": "font-family-body"
-      }
-    }
-  ],
-  "typography": [
-    {
-      "value": "$fontFamilies.code",
-      "alias": "'Roboto Mono', SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace",
-      "group": "styles",
-      "name": "typography-code-01-font-family",
-      "attributes": {
-        "category": "typography",
-        "type": "code-01",
-        "item": "font-family"
-      }
-    },
-    {
-      "value": "$fontSizes.01",
-      "alias": "12px",
-      "group": "styles",
-      "name": "typography-code-01-font-size",
-      "attributes": {
-        "category": "typography",
-        "type": "code-01",
-        "item": "font-size"
-      }
-    },
-    {
-      "value": "$fontWeights.normal",
-      "alias": "400",
-      "group": "styles",
-      "name": "typography-code-01-font-weight",
-      "attributes": {
-        "category": "typography",
-        "type": "code-01",
-        "item": "font-weight"
-      }
-    },
-    {
-      "value": "$lineHeights.01",
-      "alias": "16px",
-      "group": "styles",
-      "name": "typography-code-01-line-height",
-      "attributes": {
-        "category": "typography",
-        "type": "code-01",
-        "item": "line-height"
-      }
-    },
-    {
-      "value": "$fontFamilies.code",
-      "alias": "'Roboto Mono', SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace",
-      "group": "styles",
-      "name": "typography-code-02-font-family",
-      "attributes": {
-        "category": "typography",
-        "type": "code-02",
-        "item": "font-family"
-      }
-    },
-    {
-      "value": "$fontSizes.02",
-      "alias": "14px",
-      "group": "styles",
-      "name": "typography-code-02-font-size",
-      "attributes": {
-        "category": "typography",
-        "type": "code-02",
-        "item": "font-size"
-      }
-    },
-    {
-      "value": "$fontWeights.normal",
-      "alias": "400",
-      "group": "styles",
-      "name": "typography-code-02-font-weight",
-      "attributes": {
-        "category": "typography",
-        "type": "code-02",
-        "item": "font-weight"
-      }
-    },
-    {
-      "value": "$lineHeights.03",
-      "alias": "20px",
-      "group": "styles",
-      "name": "typography-code-02-line-height",
-      "attributes": {
-        "category": "typography",
-        "type": "code-02",
-        "item": "line-height"
-      }
-    },
-    {
-      "value": "$fontSizes.01",
-      "alias": "12px",
-      "group": "styles",
-      "name": "typography-label-01-font-size",
-      "attributes": {
-        "category": "typography",
-        "type": "label-01",
-        "item": "font-size"
-      }
-    },
-    {
-      "value": "$fontWeights.normal",
-      "alias": "400",
-      "group": "styles",
-      "name": "typography-label-01-font-weight",
-      "attributes": {
-        "category": "typography",
-        "type": "label-01",
-        "item": "font-weight"
-      }
-    },
-    {
-      "value": "$lineHeights.01",
-      "alias": "16px",
-      "group": "styles",
-      "name": "typography-label-01-line-height",
-      "attributes": {
-        "category": "typography",
-        "type": "label-01",
-        "item": "line-height"
-      }
-    },
-    {
-      "value": "$fontSizes.01",
-      "alias": "12px",
-      "group": "styles",
-      "name": "typography-caption-01-font-size",
-      "attributes": {
-        "category": "typography",
-        "type": "caption-01",
-        "item": "font-size"
-      }
-    },
-    {
-      "value": "$fontWeights.normal",
-      "alias": "400",
-      "group": "styles",
-      "name": "typography-caption-01-font-weight",
-      "attributes": {
-        "category": "typography",
-        "type": "caption-01",
-        "item": "font-weight"
-      }
-    },
-    {
-      "value": "$lineHeights.01",
-      "alias": "16px",
-      "group": "styles",
-      "name": "typography-caption-01-line-height",
-      "attributes": {
-        "category": "typography",
-        "type": "caption-01",
-        "item": "line-height"
-      }
-    },
-    {
-      "value": "$fontSizes.02",
-      "alias": "14px",
-      "group": "body",
-      "name": "typography-body-short-01-font-size",
-      "attributes": {
-        "category": "typography",
-        "type": "body-short-01",
-        "item": "font-size"
-      }
-    },
-    {
-      "value": "$fontWeights.normal",
-      "alias": "400",
-      "group": "body",
-      "name": "typography-body-short-01-font-weight",
-      "attributes": {
-        "category": "typography",
-        "type": "body-short-01",
-        "item": "font-weight"
-      }
-    },
-    {
-      "value": "$lineHeights.02",
-      "alias": "18px",
-      "group": "body",
-      "name": "typography-body-short-01-line-height",
-      "attributes": {
-        "category": "typography",
-        "type": "body-short-01",
-        "item": "line-height"
       }
     }
   ]

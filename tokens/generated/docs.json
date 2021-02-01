@@ -1,1713 +1,4 @@
 {
-  "colors": [
-    {
-      "value": "#ebf4ff",
-      "name": "ds-blue-10",
-      "attributes": {
-        "category": "colors",
-        "type": "blue",
-        "item": "blue-10"
-      }
-    },
-    {
-      "value": "#cadefe",
-      "name": "ds-blue-20",
-      "attributes": {
-        "category": "colors",
-        "type": "blue",
-        "item": "blue-20"
-      }
-    },
-    {
-      "value": "#9dc2fd",
-      "name": "ds-blue-30",
-      "attributes": {
-        "category": "colors",
-        "type": "blue",
-        "item": "blue-30"
-      }
-    },
-    {
-      "value": "#78a9ff",
-      "name": "ds-blue-40",
-      "attributes": {
-        "category": "colors",
-        "type": "blue",
-        "item": "blue-40"
-      }
-    },
-    {
-      "value": "#4080fb",
-      "name": "ds-blue-50",
-      "attributes": {
-        "category": "colors",
-        "type": "blue",
-        "item": "blue-50"
-      }
-    },
-    {
-      "value": "#165cfa",
-      "name": "ds-blue-60",
-      "attributes": {
-        "category": "colors",
-        "type": "blue",
-        "item": "blue-60"
-      }
-    },
-    {
-      "value": "#053fc4",
-      "name": "ds-blue-70",
-      "attributes": {
-        "category": "colors",
-        "type": "blue",
-        "item": "blue-70"
-      }
-    },
-    {
-      "value": "#022b8f",
-      "name": "ds-blue-80",
-      "attributes": {
-        "category": "colors",
-        "type": "blue",
-        "item": "blue-80"
-      }
-    },
-    {
-      "value": "#011d5f",
-      "name": "ds-blue-90",
-      "attributes": {
-        "category": "colors",
-        "type": "blue",
-        "item": "blue-90"
-      }
-    },
-    {
-      "value": "#011338",
-      "name": "ds-blue-100",
-      "attributes": {
-        "category": "colors",
-        "type": "blue",
-        "item": "blue-100"
-      }
-    },
-    {
-      "value": "#e2f5ff",
-      "name": "ds-cyan-10",
-      "attributes": {
-        "category": "colors",
-        "type": "cyan",
-        "item": "cyan-10"
-      }
-    },
-    {
-      "value": "#b4e2fe",
-      "name": "ds-cyan-20",
-      "attributes": {
-        "category": "colors",
-        "type": "cyan",
-        "item": "cyan-20"
-      }
-    },
-    {
-      "value": "#7bc9fd",
-      "name": "ds-cyan-30",
-      "attributes": {
-        "category": "colors",
-        "type": "cyan",
-        "item": "cyan-30"
-      }
-    },
-    {
-      "value": "#37a9fc",
-      "name": "ds-cyan-40",
-      "attributes": {
-        "category": "colors",
-        "type": "cyan",
-        "item": "cyan-40"
-      }
-    },
-    {
-      "value": "#2088e2",
-      "name": "ds-cyan-50",
-      "attributes": {
-        "category": "colors",
-        "type": "cyan",
-        "item": "cyan-50"
-      }
-    },
-    {
-      "value": "#1368b9",
-      "name": "ds-cyan-60",
-      "attributes": {
-        "category": "colors",
-        "type": "cyan",
-        "item": "cyan-60"
-      }
-    },
-    {
-      "value": "#0d4b8d",
-      "name": "ds-cyan-70",
-      "attributes": {
-        "category": "colors",
-        "type": "cyan",
-        "item": "cyan-70"
-      }
-    },
-    {
-      "value": "#063461",
-      "name": "ds-cyan-80",
-      "attributes": {
-        "category": "colors",
-        "type": "cyan",
-        "item": "cyan-80"
-      }
-    },
-    {
-      "value": "#04233f",
-      "name": "ds-cyan-90",
-      "attributes": {
-        "category": "colors",
-        "type": "cyan",
-        "item": "cyan-90"
-      }
-    },
-    {
-      "value": "#061727",
-      "name": "ds-cyan-100",
-      "attributes": {
-        "category": "colors",
-        "type": "cyan",
-        "item": "cyan-100"
-      }
-    },
-    {
-      "value": "#defbe6",
-      "name": "ds-green-10",
-      "attributes": {
-        "category": "colors",
-        "type": "green",
-        "item": "green-10"
-      }
-    },
-    {
-      "value": "#a7f0ba",
-      "name": "ds-green-20",
-      "attributes": {
-        "category": "colors",
-        "type": "green",
-        "item": "green-20"
-      }
-    },
-    {
-      "value": "#6fdc8c",
-      "name": "ds-green-30",
-      "attributes": {
-        "category": "colors",
-        "type": "green",
-        "item": "green-30"
-      }
-    },
-    {
-      "value": "#42be65",
-      "name": "ds-green-40",
-      "attributes": {
-        "category": "colors",
-        "type": "green",
-        "item": "green-40"
-      }
-    },
-    {
-      "value": "#24a148",
-      "name": "ds-green-50",
-      "attributes": {
-        "category": "colors",
-        "type": "green",
-        "item": "green-50"
-      }
-    },
-    {
-      "value": "#198038",
-      "name": "ds-green-60",
-      "attributes": {
-        "category": "colors",
-        "type": "green",
-        "item": "green-60"
-      }
-    },
-    {
-      "value": "#0e6027",
-      "name": "ds-green-70",
-      "attributes": {
-        "category": "colors",
-        "type": "green",
-        "item": "green-70"
-      }
-    },
-    {
-      "value": "#044317",
-      "name": "ds-green-80",
-      "attributes": {
-        "category": "colors",
-        "type": "green",
-        "item": "green-80"
-      }
-    },
-    {
-      "value": "#022d0d",
-      "name": "ds-green-90",
-      "attributes": {
-        "category": "colors",
-        "type": "green",
-        "item": "green-90"
-      }
-    },
-    {
-      "value": "#071908",
-      "name": "ds-green-100",
-      "attributes": {
-        "category": "colors",
-        "type": "green",
-        "item": "green-100"
-      }
-    },
-    {
-      "value": "#e0e4ea",
-      "name": "ds-grey-hover-10",
-      "attributes": {
-        "category": "colors",
-        "type": "grey-hover",
-        "item": "grey-hover-10"
-      }
-    },
-    {
-      "value": "#c4c9d1",
-      "name": "ds-grey-hover-20",
-      "attributes": {
-        "category": "colors",
-        "type": "grey-hover",
-        "item": "grey-hover-20"
-      }
-    },
-    {
-      "value": "#aaafb7",
-      "name": "ds-grey-hover-30",
-      "attributes": {
-        "category": "colors",
-        "type": "grey-hover",
-        "item": "grey-hover-30"
-      }
-    },
-    {
-      "value": "#90979f",
-      "name": "ds-grey-hover-40",
-      "attributes": {
-        "category": "colors",
-        "type": "grey-hover",
-        "item": "grey-hover-40"
-      }
-    },
-    {
-      "value": "#747c83",
-      "name": "ds-grey-hover-50",
-      "attributes": {
-        "category": "colors",
-        "type": "grey-hover",
-        "item": "grey-hover-50"
-      }
-    },
-    {
-      "value": "#5f656b",
-      "name": "ds-grey-hover-60",
-      "attributes": {
-        "category": "colors",
-        "type": "grey-hover",
-        "item": "grey-hover-60"
-      }
-    },
-    {
-      "value": "#5a6066",
-      "name": "ds-grey-hover-70",
-      "attributes": {
-        "category": "colors",
-        "type": "grey-hover",
-        "item": "grey-hover-70"
-      }
-    },
-    {
-      "value": "#464c51",
-      "name": "ds-grey-hover-80",
-      "attributes": {
-        "category": "colors",
-        "type": "grey-hover",
-        "item": "grey-hover-80"
-      }
-    },
-    {
-      "value": "#2f353a",
-      "name": "ds-grey-hover-90",
-      "attributes": {
-        "category": "colors",
-        "type": "grey-hover",
-        "item": "grey-hover-90"
-      }
-    },
-    {
-      "value": "#272c30",
-      "name": "ds-grey-hover-100",
-      "attributes": {
-        "category": "colors",
-        "type": "grey-hover",
-        "item": "grey-hover-100"
-      }
-    },
-    {
-      "value": "#f2f4f8",
-      "name": "ds-grey-10",
-      "attributes": {
-        "category": "colors",
-        "type": "grey",
-        "item": "grey-10"
-      }
-    },
-    {
-      "value": "#dde1e6",
-      "name": "ds-grey-20",
-      "attributes": {
-        "category": "colors",
-        "type": "grey",
-        "item": "grey-20"
-      }
-    },
-    {
-      "value": "#c1c7cd",
-      "name": "ds-grey-30",
-      "attributes": {
-        "category": "colors",
-        "type": "grey",
-        "item": "grey-30"
-      }
-    },
-    {
-      "value": "#a2a9b0",
-      "name": "ds-grey-40",
-      "attributes": {
-        "category": "colors",
-        "type": "grey",
-        "item": "grey-40"
-      }
-    },
-    {
-      "value": "#878d96",
-      "name": "ds-grey-50",
-      "attributes": {
-        "category": "colors",
-        "type": "grey",
-        "item": "grey-50"
-      }
-    },
-    {
-      "value": "#697077",
-      "name": "ds-grey-60",
-      "attributes": {
-        "category": "colors",
-        "type": "grey",
-        "item": "grey-60"
-      }
-    },
-    {
-      "value": "#4d5358",
-      "name": "ds-grey-70",
-      "attributes": {
-        "category": "colors",
-        "type": "grey",
-        "item": "grey-70"
-      }
-    },
-    {
-      "value": "#343a3f",
-      "name": "ds-grey-80",
-      "attributes": {
-        "category": "colors",
-        "type": "grey",
-        "item": "grey-80"
-      }
-    },
-    {
-      "value": "#21272a",
-      "name": "ds-grey-90",
-      "attributes": {
-        "category": "colors",
-        "type": "grey",
-        "item": "grey-90"
-      }
-    },
-    {
-      "value": "#121619",
-      "name": "ds-grey-100",
-      "attributes": {
-        "category": "colors",
-        "type": "grey",
-        "item": "grey-100"
-      }
-    },
-    {
-      "value": "#ffffff",
-      "name": "ds-white",
-      "attributes": {
-        "category": "colors",
-        "type": "white"
-      }
-    },
-    {
-      "value": "#000000",
-      "name": "ds-black",
-      "attributes": {
-        "category": "colors",
-        "type": "black"
-      }
-    },
-    {
-      "value": "#fff0f7",
-      "name": "ds-magenta-10",
-      "attributes": {
-        "category": "colors",
-        "type": "magenta",
-        "item": "magenta-10"
-      }
-    },
-    {
-      "value": "#fed7e8",
-      "name": "ds-magenta-20",
-      "attributes": {
-        "category": "colors",
-        "type": "magenta",
-        "item": "magenta-20"
-      }
-    },
-    {
-      "value": "#fdb0d2",
-      "name": "ds-magenta-30",
-      "attributes": {
-        "category": "colors",
-        "type": "magenta",
-        "item": "magenta-30"
-      }
-    },
-    {
-      "value": "#fd80b6",
-      "name": "ds-magenta-40",
-      "attributes": {
-        "category": "colors",
-        "type": "magenta",
-        "item": "magenta-40"
-      }
-    },
-    {
-      "value": "#ec5696",
-      "name": "ds-magenta-50",
-      "attributes": {
-        "category": "colors",
-        "type": "magenta",
-        "item": "magenta-50"
-      }
-    },
-    {
-      "value": "#cf2c71",
-      "name": "ds-magenta-60",
-      "attributes": {
-        "category": "colors",
-        "type": "magenta",
-        "item": "magenta-60"
-      }
-    },
-    {
-      "value": "#9d1c53",
-      "name": "ds-magenta-70",
-      "attributes": {
-        "category": "colors",
-        "type": "magenta",
-        "item": "magenta-70"
-      }
-    },
-    {
-      "value": "#730d37",
-      "name": "ds-magenta-80",
-      "attributes": {
-        "category": "colors",
-        "type": "magenta",
-        "item": "magenta-80"
-      }
-    },
-    {
-      "value": "#500424",
-      "name": "ds-magenta-90",
-      "attributes": {
-        "category": "colors",
-        "type": "magenta",
-        "item": "magenta-90"
-      }
-    },
-    {
-      "value": "#290b18",
-      "name": "ds-magenta-100",
-      "attributes": {
-        "category": "colors",
-        "type": "magenta",
-        "item": "magenta-100"
-      }
-    },
-    {
-      "value": "#fff6e6",
-      "name": "ds-orange-10",
-      "attributes": {
-        "category": "colors",
-        "type": "orange",
-        "item": "orange-10"
-      }
-    },
-    {
-      "value": "#fbebd0",
-      "name": "ds-orange-20",
-      "attributes": {
-        "category": "colors",
-        "type": "orange",
-        "item": "orange-20"
-      }
-    },
-    {
-      "value": "#fedca6",
-      "name": "ds-orange-30",
-      "attributes": {
-        "category": "colors",
-        "type": "orange",
-        "item": "orange-30"
-      }
-    },
-    {
-      "value": "#fecc7b",
-      "name": "ds-orange-40",
-      "attributes": {
-        "category": "colors",
-        "type": "orange",
-        "item": "orange-40"
-      }
-    },
-    {
-      "value": "#f9ba56",
-      "name": "ds-orange-50",
-      "attributes": {
-        "category": "colors",
-        "type": "orange",
-        "item": "orange-50"
-      }
-    },
-    {
-      "value": "#f39c28",
-      "name": "ds-orange-60",
-      "attributes": {
-        "category": "colors",
-        "type": "orange",
-        "item": "orange-60"
-      }
-    },
-    {
-      "value": "#a47125",
-      "name": "ds-orange-70",
-      "attributes": {
-        "category": "colors",
-        "type": "orange",
-        "item": "orange-70"
-      }
-    },
-    {
-      "value": "#744f17",
-      "name": "ds-orange-80",
-      "attributes": {
-        "category": "colors",
-        "type": "orange",
-        "item": "orange-80"
-      }
-    },
-    {
-      "value": "#4e330a",
-      "name": "ds-orange-90",
-      "attributes": {
-        "category": "colors",
-        "type": "orange",
-        "item": "orange-90"
-      }
-    },
-    {
-      "value": "#2c1f0a",
-      "name": "ds-orange-100",
-      "attributes": {
-        "category": "colors",
-        "type": "orange",
-        "item": "orange-100"
-      }
-    },
-    {
-      "value": "#f6f2ff",
-      "name": "ds-purple-10",
-      "attributes": {
-        "category": "colors",
-        "type": "purple",
-        "item": "purple-10"
-      }
-    },
-    {
-      "value": "#e8dbfe",
-      "name": "ds-purple-20",
-      "attributes": {
-        "category": "colors",
-        "type": "purple",
-        "item": "purple-20"
-      }
-    },
-    {
-      "value": "#d4bdfd",
-      "name": "ds-purple-30",
-      "attributes": {
-        "category": "colors",
-        "type": "purple",
-        "item": "purple-30"
-      }
-    },
-    {
-      "value": "#bd98fc",
-      "name": "ds-purple-40",
-      "attributes": {
-        "category": "colors",
-        "type": "purple",
-        "item": "purple-40"
-      }
-    },
-    {
-      "value": "#a473fc",
-      "name": "ds-purple-50",
-      "attributes": {
-        "category": "colors",
-        "type": "purple",
-        "item": "purple-50"
-      }
-    },
-    {
-      "value": "#8949f8",
-      "name": "ds-purple-60",
-      "attributes": {
-        "category": "colors",
-        "type": "purple",
-        "item": "purple-60"
-      }
-    },
-    {
-      "value": "#6932c1",
-      "name": "ds-purple-70",
-      "attributes": {
-        "category": "colors",
-        "type": "purple",
-        "item": "purple-70"
-      }
-    },
-    {
-      "value": "#492389",
-      "name": "ds-purple-80",
-      "attributes": {
-        "category": "colors",
-        "type": "purple",
-        "item": "purple-80"
-      }
-    },
-    {
-      "value": "#31175c",
-      "name": "ds-purple-90",
-      "attributes": {
-        "category": "colors",
-        "type": "purple",
-        "item": "purple-90"
-      }
-    },
-    {
-      "value": "#1c102f",
-      "name": "ds-purple-100",
-      "attributes": {
-        "category": "colors",
-        "type": "purple",
-        "item": "purple-100"
-      }
-    },
-    {
-      "value": "#fff1f1",
-      "name": "ds-red-10",
-      "attributes": {
-        "category": "colors",
-        "type": "red",
-        "item": "red-10"
-      }
-    },
-    {
-      "value": "#fed7d9",
-      "name": "ds-red-20",
-      "attributes": {
-        "category": "colors",
-        "type": "red",
-        "item": "red-20"
-      }
-    },
-    {
-      "value": "#fdb3b9",
-      "name": "ds-red-30",
-      "attributes": {
-        "category": "colors",
-        "type": "red",
-        "item": "red-30"
-      }
-    },
-    {
-      "value": "#fd848b",
-      "name": "ds-red-40",
-      "attributes": {
-        "category": "colors",
-        "type": "red",
-        "item": "red-40"
-      }
-    },
-    {
-      "value": "#f74f5a",
-      "name": "ds-red-50",
-      "attributes": {
-        "category": "colors",
-        "type": "red",
-        "item": "red-50"
-      }
-    },
-    {
-      "value": "#d8222f",
-      "name": "ds-red-60",
-      "attributes": {
-        "category": "colors",
-        "type": "red",
-        "item": "red-60"
-      }
-    },
-    {
-      "value": "#a01b24",
-      "name": "ds-red-70",
-      "attributes": {
-        "category": "colors",
-        "type": "red",
-        "item": "red-70"
-      }
-    },
-    {
-      "value": "#741017",
-      "name": "ds-red-80",
-      "attributes": {
-        "category": "colors",
-        "type": "red",
-        "item": "red-80"
-      }
-    },
-    {
-      "value": "#51050b",
-      "name": "ds-red-90",
-      "attributes": {
-        "category": "colors",
-        "type": "red",
-        "item": "red-90"
-      }
-    },
-    {
-      "value": "#2c070a",
-      "name": "ds-red-100",
-      "attributes": {
-        "category": "colors",
-        "type": "red",
-        "item": "red-100"
-      }
-    },
-    {
-      "value": "#d9fbfb",
-      "name": "ds-teal-10",
-      "attributes": {
-        "category": "colors",
-        "type": "teal",
-        "item": "teal-10"
-      }
-    },
-    {
-      "value": "#9ef0f0",
-      "name": "ds-teal-20",
-      "attributes": {
-        "category": "colors",
-        "type": "teal",
-        "item": "teal-20"
-      }
-    },
-    {
-      "value": "#3ddbd9",
-      "name": "ds-teal-30",
-      "attributes": {
-        "category": "colors",
-        "type": "teal",
-        "item": "teal-30"
-      }
-    },
-    {
-      "value": "#08bdba",
-      "name": "ds-teal-40",
-      "attributes": {
-        "category": "colors",
-        "type": "teal",
-        "item": "teal-40"
-      }
-    },
-    {
-      "value": "#009d9a",
-      "name": "ds-teal-50",
-      "attributes": {
-        "category": "colors",
-        "type": "teal",
-        "item": "teal-50"
-      }
-    },
-    {
-      "value": "#007d79",
-      "name": "ds-teal-60",
-      "attributes": {
-        "category": "colors",
-        "type": "teal",
-        "item": "teal-60"
-      }
-    },
-    {
-      "value": "#005d5d",
-      "name": "ds-teal-70",
-      "attributes": {
-        "category": "colors",
-        "type": "teal",
-        "item": "teal-70"
-      }
-    },
-    {
-      "value": "#004144",
-      "name": "ds-teal-80",
-      "attributes": {
-        "category": "colors",
-        "type": "teal",
-        "item": "teal-80"
-      }
-    },
-    {
-      "value": "#022b30",
-      "name": "ds-teal-90",
-      "attributes": {
-        "category": "colors",
-        "type": "teal",
-        "item": "teal-90"
-      }
-    },
-    {
-      "value": "#081a1c",
-      "name": "ds-teal-100",
-      "attributes": {
-        "category": "colors",
-        "type": "teal",
-        "item": "teal-100"
-      }
-    },
-    {
-      "value": "#fffff1",
-      "name": "ds-yellow-10",
-      "attributes": {
-        "category": "colors",
-        "type": "yellow",
-        "item": "yellow-10"
-      }
-    },
-    {
-      "value": "#fcfbd1",
-      "name": "ds-yellow-20",
-      "attributes": {
-        "category": "colors",
-        "type": "yellow",
-        "item": "yellow-20"
-      }
-    },
-    {
-      "value": "#fffea8",
-      "name": "ds-yellow-30",
-      "attributes": {
-        "category": "colors",
-        "type": "yellow",
-        "item": "yellow-30"
-      }
-    },
-    {
-      "value": "#fffd7e",
-      "name": "ds-yellow-40",
-      "attributes": {
-        "category": "colors",
-        "type": "yellow",
-        "item": "yellow-40"
-      }
-    },
-    {
-      "value": "#fbf95b",
-      "name": "ds-yellow-50",
-      "attributes": {
-        "category": "colors",
-        "type": "yellow",
-        "item": "yellow-50"
-      }
-    },
-    {
-      "value": "#f5f336",
-      "name": "ds-yellow-60",
-      "attributes": {
-        "category": "colors",
-        "type": "yellow",
-        "item": "yellow-60"
-      }
-    },
-    {
-      "value": "#a2a32b",
-      "name": "ds-yellow-70",
-      "attributes": {
-        "category": "colors",
-        "type": "yellow",
-        "item": "yellow-70"
-      }
-    },
-    {
-      "value": "#77761c",
-      "name": "ds-yellow-80",
-      "attributes": {
-        "category": "colors",
-        "type": "yellow",
-        "item": "yellow-80"
-      }
-    },
-    {
-      "value": "#4e4d0d",
-      "name": "ds-yellow-90",
-      "attributes": {
-        "category": "colors",
-        "type": "yellow",
-        "item": "yellow-90"
-      }
-    },
-    {
-      "value": "#2b2b0b",
-      "name": "ds-yellow-100",
-      "attributes": {
-        "category": "colors",
-        "type": "yellow",
-        "item": "yellow-100"
-      }
-    },
-    {
-      "value": "#ffffff",
-      "valueName": "white",
-      "description": "Default page background",
-      "name": "ds-theme-ui-background",
-      "attributes": {
-        "category": "colors",
-        "type": "theme",
-        "item": "core",
-        "subitem": "ui-background"
-      }
-    },
-    {
-      "value": "#165cfa",
-      "valueName": "blue-60",
-      "description": "Primary interactive color; Interactive text; Selected elements; Featured elements",
-      "name": "ds-theme-interactive-01",
-      "attributes": {
-        "category": "colors",
-        "type": "theme",
-        "item": "core",
-        "subitem": "interactive-01"
-      }
-    },
-    {
-      "value": "#343a3f",
-      "valueName": "grey-80",
-      "description": "Secondary button",
-      "name": "ds-theme-interactive-02",
-      "attributes": {
-        "category": "colors",
-        "type": "theme",
-        "item": "core",
-        "subitem": "interactive-02"
-      }
-    },
-    {
-      "value": "#165cfa",
-      "valueName": "blue-60",
-      "description": "Tertiary button",
-      "name": "ds-theme-interactive-03",
-      "attributes": {
-        "category": "colors",
-        "type": "theme",
-        "item": "core",
-        "subitem": "interactive-03"
-      }
-    },
-    {
-      "value": "#165cfa",
-      "valueName": "blue-60",
-      "description": "Selected nav indicator; Active elements",
-      "name": "ds-theme-interactive-04",
-      "attributes": {
-        "category": "colors",
-        "type": "theme",
-        "item": "core",
-        "subitem": "interactive-04"
-      }
-    },
-    {
-      "value": "#d8222f",
-      "valueName": "red-60",
-      "description": "Danger button background; 3:1 AA contrast",
-      "name": "ds-theme-danger",
-      "attributes": {
-        "category": "colors",
-        "type": "theme",
-        "item": "core",
-        "subitem": "danger"
-      }
-    },
-    {
-      "value": "#f2f4f8",
-      "valueName": "grey-60",
-      "description": "Container background on $ui-background; Secondary page background",
-      "name": "ds-theme-ui-01",
-      "attributes": {
-        "category": "colors",
-        "type": "theme",
-        "item": "core",
-        "subitem": "ui-01"
-      }
-    },
-    {
-      "value": "#ffffff",
-      "valueName": "white",
-      "description": "Container background on $ui-01; `Light` variant background",
-      "name": "ds-theme-ui-02",
-      "attributes": {
-        "category": "colors",
-        "type": "theme",
-        "item": "core",
-        "subitem": "ui-02"
-      }
-    },
-    {
-      "value": "#dde1e6",
-      "valueName": "grey-20",
-      "description": "Subtle border; Tertiary background",
-      "name": "ds-theme-ui-03",
-      "attributes": {
-        "category": "colors",
-        "type": "theme",
-        "item": "core",
-        "subitem": "ui-03"
-      }
-    },
-    {
-      "value": "#878d96",
-      "valueName": "grey-50",
-      "description": "3:1 aa element contrast; Medium contrast border",
-      "name": "ds-theme-ui-04",
-      "attributes": {
-        "category": "colors",
-        "type": "theme",
-        "item": "core",
-        "subitem": "ui-04"
-      }
-    },
-    {
-      "value": "#121619",
-      "valueName": "grey-100",
-      "description": "4.5:1 aa element contrast; High contrast border; Emphasis elements",
-      "name": "ds-theme-ui-05",
-      "attributes": {
-        "category": "colors",
-        "type": "theme",
-        "item": "core",
-        "subitem": "ui-05"
-      }
-    },
-    {
-      "value": "#dde1e6",
-      "valueName": "grey-20",
-      "description": "3:1 aa element contrast; Fluid button separator",
-      "name": "ds-theme-button-separator",
-      "attributes": {
-        "category": "colors",
-        "type": "theme",
-        "item": "core",
-        "subitem": "button-separator"
-      }
-    },
-    {
-      "value": "#dde1e6",
-      "description": "“Light” variant elements",
-      "name": "ds-theme-decorative-01",
-      "attributes": {
-        "category": "colors",
-        "type": "theme",
-        "item": "core",
-        "subitem": "decorative-01"
-      }
-    },
-    {
-      "value": "#121619",
-      "description": "Primary text; Body copy; Headers; Hover text color for text-02",
-      "name": "ds-theme-text-01",
-      "attributes": {
-        "category": "colors",
-        "type": "theme",
-        "item": "core",
-        "subitem": "text-01"
-      }
-    },
-    {
-      "value": "#4d5358",
-      "description": "Secondary text; Input labels",
-      "name": "ds-theme-text-02",
-      "attributes": {
-        "category": "colors",
-        "type": "theme",
-        "item": "core",
-        "subitem": "text-02"
-      }
-    },
-    {
-      "value": "#a2a9b0",
-      "description": "Placeholder text",
-      "name": "ds-theme-text-03",
-      "attributes": {
-        "category": "colors",
-        "type": "theme",
-        "item": "core",
-        "subitem": "text-03"
-      }
-    },
-    {
-      "value": "#ffffff",
-      "description": "Text on interactive colors",
-      "name": "ds-theme-text-04",
-      "attributes": {
-        "category": "colors",
-        "type": "theme",
-        "item": "core",
-        "subitem": "text-04"
-      }
-    },
-    {
-      "value": "#697077",
-      "description": "Tertiary text; Help text",
-      "name": "ds-theme-text-05",
-      "attributes": {
-        "category": "colors",
-        "type": "theme",
-        "item": "core",
-        "subitem": "text-05"
-      }
-    },
-    {
-      "value": "#d8222f",
-      "description": "Error message text",
-      "name": "ds-theme-text-error",
-      "attributes": {
-        "category": "colors",
-        "type": "theme",
-        "item": "core",
-        "subitem": "text-error"
-      }
-    },
-    {
-      "value": "#165cfa",
-      "description": "Primary links; Ghost button",
-      "name": "ds-theme-link-01",
-      "attributes": {
-        "category": "colors",
-        "type": "theme",
-        "item": "core",
-        "subitem": "link-01"
-      }
-    },
-    {
-      "value": "#78a9ff",
-      "description": "Links on $inverse-02 backgrounds",
-      "name": "ds-theme-inverse-link",
-      "attributes": {
-        "category": "colors",
-        "type": "theme",
-        "item": "core",
-        "subitem": "inverse-link"
-      }
-    },
-    {
-      "value": "#121619",
-      "description": "Primary icons",
-      "name": "ds-theme-icon-01",
-      "attributes": {
-        "category": "colors",
-        "type": "theme",
-        "item": "core",
-        "subitem": "icon-01"
-      }
-    },
-    {
-      "value": "#4d5358",
-      "description": "Secondary icons",
-      "name": "ds-theme-icon-02",
-      "attributes": {
-        "category": "colors",
-        "type": "theme",
-        "item": "core",
-        "subitem": "icon-02"
-      }
-    },
-    {
-      "value": "#ffffff",
-      "description": "Icons on interactive colors; Icons on non-ui colors",
-      "name": "ds-theme-icon-03",
-      "attributes": {
-        "category": "colors",
-        "type": "theme",
-        "item": "core",
-        "subitem": "icon-03"
-      }
-    },
-    {
-      "value": "#f2f4f8",
-      "description": "Default input fields; Fields on $ui-backgrounds",
-      "name": "ds-theme-field-01",
-      "attributes": {
-        "category": "colors",
-        "type": "theme",
-        "item": "core",
-        "subitem": "field-01"
-      }
-    },
-    {
-      "value": "#ffffff",
-      "description": "“Light” variant input fields; Fields on $ui-01 backgrounds",
-      "name": "ds-theme-field-02",
-      "attributes": {
-        "category": "colors",
-        "type": "theme",
-        "item": "core",
-        "subitem": "field-02"
-      }
-    },
-    {
-      "value": "#ffffff",
-      "description": "Inverse text color; Inverse icon color",
-      "name": "ds-theme-inverse-01",
-      "attributes": {
-        "category": "colors",
-        "type": "theme",
-        "item": "core",
-        "subitem": "inverse-01"
-      }
-    },
-    {
-      "value": "#343a3f",
-      "description": "High contrast backgrounds; High contrast elements",
-      "name": "ds-theme-inverse-02",
-      "attributes": {
-        "category": "colors",
-        "type": "theme",
-        "item": "core",
-        "subitem": "inverse-02"
-      }
-    },
-    {
-      "value": "#d8222f",
-      "description": "Error",
-      "name": "ds-theme-support-01",
-      "attributes": {
-        "category": "colors",
-        "type": "theme",
-        "item": "core",
-        "subitem": "support-01"
-      }
-    },
-    {
-      "value": "#24a148",
-      "description": "Success",
-      "name": "ds-theme-support-02",
-      "attributes": {
-        "category": "colors",
-        "type": "theme",
-        "item": "core",
-        "subitem": "support-02"
-      }
-    },
-    {
-      "value": "#fbf95b",
-      "description": "Warning",
-      "name": "ds-theme-support-03",
-      "attributes": {
-        "category": "colors",
-        "type": "theme",
-        "item": "core",
-        "subitem": "support-03"
-      }
-    },
-    {
-      "value": "#053fc4",
-      "description": "Information",
-      "name": "ds-theme-support-04",
-      "attributes": {
-        "category": "colors",
-        "type": "theme",
-        "item": "core",
-        "subitem": "support-04"
-      }
-    },
-    {
-      "value": "#f74f5a",
-      "description": "Danger in high contrast moments",
-      "name": "ds-theme-inverse-support-01",
-      "attributes": {
-        "category": "colors",
-        "type": "theme",
-        "item": "core",
-        "subitem": "inverse-support-01"
-      }
-    },
-    {
-      "value": "#42be65",
-      "description": "Success in high contrast moments",
-      "name": "ds-theme-inverse-support-02",
-      "attributes": {
-        "category": "colors",
-        "type": "theme",
-        "item": "core",
-        "subitem": "inverse-support-02"
-      }
-    },
-    {
-      "value": "#fffd7e",
-      "description": "Warning in high contrast moments",
-      "name": "ds-theme-inverse-support-03",
-      "attributes": {
-        "category": "colors",
-        "type": "theme",
-        "item": "core",
-        "subitem": "inverse-support-03"
-      }
-    },
-    {
-      "value": "#4080fb",
-      "description": "Information in high contrast moments",
-      "name": "ds-theme-inverse-support-04",
-      "attributes": {
-        "category": "colors",
-        "type": "theme",
-        "item": "core",
-        "subitem": "inverse-support-04"
-      }
-    },
-    {
-      "value": "#121619",
-      "description": "Background overlay",
-      "name": "ds-theme-overlay-01",
-      "attributes": {
-        "category": "colors",
-        "type": "theme",
-        "item": "core",
-        "subitem": "overlay-01"
-      }
-    },
-    {
-      "value": "#165cfa",
-      "valueName": "blue-60",
-      "description": "Focus border; Focus underline",
-      "name": "ds-theme-focus",
-      "attributes": {
-        "category": "colors",
-        "type": "theme",
-        "item": "interactive",
-        "subitem": "focus"
-      }
-    },
-    {
-      "value": "#ffffff",
-      "valueName": "white",
-      "description": "Focus on high contrast moments",
-      "name": "ds-theme-inverse-focus-ui",
-      "attributes": {
-        "category": "colors",
-        "type": "theme",
-        "item": "interactive",
-        "subitem": "inverse-focus-ui"
-      }
-    },
-    {
-      "value": "#022b8f",
-      "valueName": "blue-80",
-      "description": "$interactive-01 hover",
-      "name": "ds-theme-hover-primary",
-      "attributes": {
-        "category": "colors",
-        "type": "theme",
-        "item": "interactive",
-        "subitem": "hover-primary"
-      }
-    },
-    {
-      "value": "#053fc4",
-      "valueName": "blue-70",
-      "description": "$interactive-01 text hover",
-      "name": "ds-theme-hover-primary-text",
-      "attributes": {
-        "category": "colors",
-        "type": "theme",
-        "item": "interactive",
-        "subitem": "hover-primary-text"
-      }
-    },
-    {
-      "value": "#464c51",
-      "valueName": "grey-hover-80",
-      "description": "$interactive-02 hover",
-      "name": "ds-theme-hover-secondary",
-      "attributes": {
-        "category": "colors",
-        "type": "theme",
-        "item": "interactive",
-        "subitem": "hover-secondary"
-      }
-    },
-    {
-      "value": "#165cfa",
-      "valueName": "blue-60",
-      "description": "$interactive-03 hover; $inverse-01 hover",
-      "name": "ds-theme-hover-tertiary",
-      "attributes": {
-        "category": "colors",
-        "type": "theme",
-        "item": "interactive",
-        "subitem": "hover-tertiary"
-      }
-    },
-    {
-      "value": "#e0e4ea",
-      "valueName": "grey-hover-10",
-      "description": "$ui-01 hover; $ui-02 hover; Transparent background hover",
-      "name": "ds-theme-hover-ui",
-      "attributes": {
-        "category": "colors",
-        "type": "theme",
-        "item": "interactive",
-        "subitem": "hover-ui"
-      }
-    },
-    {
-      "value": "#e0e4ea",
-      "description": "“Light” variant hover",
-      "name": "ds-theme-hover-ui-light",
-      "attributes": {
-        "category": "colors",
-        "type": "theme",
-        "item": "interactive",
-        "subitem": "hover-ui-light"
-      }
-    },
-    {
-      "value": "#c4c9d1",
-      "description": "Selected row hover",
-      "name": "ds-theme-hover-selected-ui",
-      "attributes": {
-        "category": "colors",
-        "type": "theme",
-        "item": "interactive",
-        "subitem": "hover-selected-ui"
-      }
-    },
-    {
-      "value": "#d8222f",
-      "description": "Danger hover; $support-01 hover",
-      "name": "ds-theme-hover-danger",
-      "attributes": {
-        "category": "colors",
-        "type": "theme",
-        "item": "interactive",
-        "subitem": "hover-danger"
-      }
-    },
-    {
-      "value": "#e0e4ea",
-      "description": "Row hover",
-      "name": "ds-theme-hover-row",
-      "attributes": {
-        "category": "colors",
-        "type": "theme",
-        "item": "interactive",
-        "subitem": "hover-row"
-      }
-    },
-    {
-      "value": "#464c51",
-      "description": "Hover for $inverse-02",
-      "name": "ds-theme-inverse-hover-ui",
-      "attributes": {
-        "category": "colors",
-        "type": "theme",
-        "item": "interactive",
-        "subitem": "inverse-hover-ui"
-      }
-    },
-    {
-      "value": "#022b8f",
-      "description": "$interactive-01 active",
-      "name": "ds-theme-active-primary",
-      "attributes": {
-        "category": "colors",
-        "type": "theme",
-        "item": "interactive",
-        "subitem": "active-primary"
-      }
-    },
-    {
-      "value": "#5f656b",
-      "description": "$interactive-02 active; $inverse-01 active",
-      "name": "ds-theme-active-secondary",
-      "attributes": {
-        "category": "colors",
-        "type": "theme",
-        "item": "interactive",
-        "subitem": "active-secondary"
-      }
-    },
-    {
-      "value": "#022b8f",
-      "description": "$interactive-03 active",
-      "name": "ds-theme-active-tertiary",
-      "attributes": {
-        "category": "colors",
-        "type": "theme",
-        "item": "interactive",
-        "subitem": "active-tertiary"
-      }
-    },
-    {
-      "value": "#aaafb7",
-      "description": "$ui-01 active; $ui-02 active",
-      "name": "ds-theme-active-ui",
-      "attributes": {
-        "category": "colors",
-        "type": "theme",
-        "item": "interactive",
-        "subitem": "active-ui"
-      }
-    },
-    {
-      "value": "#741017",
-      "description": "Danger active; $support-01 active",
-      "name": "ds-theme-active-danger",
-      "attributes": {
-        "category": "colors",
-        "type": "theme",
-        "item": "interactive",
-        "subitem": "active-danger"
-      }
-    },
-    {
-      "value": "#c4c9d1",
-      "description": "Selected UI elements",
-      "name": "ds-theme-selected-ui",
-      "attributes": {
-        "category": "colors",
-        "type": "theme",
-        "item": "interactive",
-        "subitem": "selected-ui"
-      }
-    },
-    {
-      "value": "#cadefe",
-      "description": "$interactive-01 highlight",
-      "name": "ds-theme-highlight",
-      "attributes": {
-        "category": "colors",
-        "type": "theme",
-        "item": "interactive",
-        "subitem": "highlight"
-      }
-    },
-    {
-      "value": "#c4c9d1",
-      "description": "Skeleton state of graphics",
-      "name": "ds-theme-skeleton-01",
-      "attributes": {
-        "category": "colors",
-        "type": "theme",
-        "item": "interactive",
-        "subitem": "skeleton-01"
-      }
-    },
-    {
-      "value": "#aaafb7",
-      "description": "Skeleton state of texts",
-      "name": "ds-theme-skeleton-02",
-      "attributes": {
-        "category": "colors",
-        "type": "theme",
-        "item": "interactive",
-        "subitem": "skeleton-02"
-      }
-    },
-    {
-      "value": "#8949f8",
-      "description": "Visited links",
-      "name": "ds-theme-visited-link",
-      "attributes": {
-        "category": "colors",
-        "type": "theme",
-        "item": "interactive",
-        "subitem": "visited-link"
-      }
-    },
-    {
-      "value": "#e0e4ea",
-      "description": "Disabled fields; Disabled backgrounds; Disabled border",
-      "name": "ds-theme-disabled-01",
-      "attributes": {
-        "category": "colors",
-        "type": "theme",
-        "item": "interactive",
-        "subitem": "disabled-01"
-      }
-    },
-    {
-      "value": "#aaafb7",
-      "description": "Disabled elements on $disabled-01; Disabled label; Disabled text on $disabled-01; Disabled icons; Disabled border",
-      "name": "ds-theme-disabled-02",
-      "attributes": {
-        "category": "colors",
-        "type": "theme",
-        "item": "interactive",
-        "subitem": "disabled-02"
-      }
-    },
-    {
-      "value": "#747c83",
-      "description": "Disabled text on $disabled-02; Disabled icons on $disabled-02",
-      "name": "ds-theme-disabled-03",
-      "attributes": {
-        "category": "colors",
-        "type": "theme",
-        "item": "interactive",
-        "subitem": "disabled-03"
-      }
-    }
-  ],
   "borderRadius": [
     {
       "value": "2px",
@@ -1810,24 +101,6 @@
   ],
   "fontFamilies": [
     {
-      "value": "Roboto",
-      "alias": "fontFamilies.brand",
-      "name": "ds-font-families-brand",
-      "attributes": {
-        "category": "fontFamilies",
-        "type": "brand"
-      }
-    },
-    {
-      "value": "'Roboto Mono'",
-      "alias": "fontFamilies.code",
-      "name": "ds-font-families-code",
-      "attributes": {
-        "category": "fontFamilies",
-        "type": "code"
-      }
-    },
-    {
       "value": "-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, 'Noto Sans', sans-serif",
       "figma": "exclude",
       "name": "ds-font-families-sans-serif",
@@ -1843,6 +116,24 @@
       "attributes": {
         "category": "fontFamilies",
         "type": "monospace"
+      }
+    },
+    {
+      "value": "Roboto",
+      "alias": "fontFamilies.brand",
+      "name": "ds-font-families-brand",
+      "attributes": {
+        "category": "fontFamilies",
+        "type": "brand"
+      }
+    },
+    {
+      "value": "'Roboto Mono'",
+      "alias": "fontFamilies.code",
+      "name": "ds-font-families-code",
+      "attributes": {
+        "category": "fontFamilies",
+        "type": "code"
       }
     }
   ],
@@ -2475,6 +766,1760 @@
       "attributes": {
         "category": "breakpoint",
         "type": "max"
+      }
+    }
+  ],
+  "colors": [
+    {
+      "value": "#ffffff",
+      "name": "ds-white",
+      "attributes": {
+        "category": "colors",
+        "type": "base",
+        "item": "white"
+      }
+    },
+    {
+      "value": "#000000",
+      "name": "ds-black",
+      "attributes": {
+        "category": "colors",
+        "type": "base",
+        "item": "black"
+      }
+    },
+    {
+      "value": "#edf5ff",
+      "name": "ds-blue-10",
+      "attributes": {
+        "category": "colors",
+        "type": "blue",
+        "item": "blue-10"
+      }
+    },
+    {
+      "value": "#d0e2ff",
+      "name": "ds-blue-20",
+      "attributes": {
+        "category": "colors",
+        "type": "blue",
+        "item": "blue-20"
+      }
+    },
+    {
+      "value": "#a6c8ff",
+      "name": "ds-blue-30",
+      "attributes": {
+        "category": "colors",
+        "type": "blue",
+        "item": "blue-30"
+      }
+    },
+    {
+      "value": "#78a9ff",
+      "name": "ds-blue-40",
+      "attributes": {
+        "category": "colors",
+        "type": "blue",
+        "item": "blue-40"
+      }
+    },
+    {
+      "value": "#4589ff",
+      "name": "ds-blue-50",
+      "attributes": {
+        "category": "colors",
+        "type": "blue",
+        "item": "blue-50"
+      }
+    },
+    {
+      "value": "#0f62fe",
+      "name": "ds-blue-60",
+      "attributes": {
+        "category": "colors",
+        "type": "blue",
+        "item": "blue-60"
+      }
+    },
+    {
+      "value": "#0043ce",
+      "name": "ds-blue-70",
+      "attributes": {
+        "category": "colors",
+        "type": "blue",
+        "item": "blue-70"
+      }
+    },
+    {
+      "value": "#002d9c",
+      "name": "ds-blue-80",
+      "attributes": {
+        "category": "colors",
+        "type": "blue",
+        "item": "blue-80"
+      }
+    },
+    {
+      "value": "#001d6c",
+      "name": "ds-blue-90",
+      "attributes": {
+        "category": "colors",
+        "type": "blue",
+        "item": "blue-90"
+      }
+    },
+    {
+      "value": "#001141",
+      "name": "ds-blue-100",
+      "attributes": {
+        "category": "colors",
+        "type": "blue",
+        "item": "blue-100"
+      }
+    },
+    {
+      "value": "#e2f5ff",
+      "name": "ds-cyan-10",
+      "attributes": {
+        "category": "colors",
+        "type": "cyan",
+        "item": "cyan-10"
+      }
+    },
+    {
+      "value": "#b4e2fe",
+      "name": "ds-cyan-20",
+      "attributes": {
+        "category": "colors",
+        "type": "cyan",
+        "item": "cyan-20"
+      }
+    },
+    {
+      "value": "#7bc9fd",
+      "name": "ds-cyan-30",
+      "attributes": {
+        "category": "colors",
+        "type": "cyan",
+        "item": "cyan-30"
+      }
+    },
+    {
+      "value": "#37a9fc",
+      "name": "ds-cyan-40",
+      "attributes": {
+        "category": "colors",
+        "type": "cyan",
+        "item": "cyan-40"
+      }
+    },
+    {
+      "value": "#2088e2",
+      "name": "ds-cyan-50",
+      "attributes": {
+        "category": "colors",
+        "type": "cyan",
+        "item": "cyan-50"
+      }
+    },
+    {
+      "value": "#1368b9",
+      "name": "ds-cyan-60",
+      "attributes": {
+        "category": "colors",
+        "type": "cyan",
+        "item": "cyan-60"
+      }
+    },
+    {
+      "value": "#0d4b8d",
+      "name": "ds-cyan-70",
+      "attributes": {
+        "category": "colors",
+        "type": "cyan",
+        "item": "cyan-70"
+      }
+    },
+    {
+      "value": "#063461",
+      "name": "ds-cyan-80",
+      "attributes": {
+        "category": "colors",
+        "type": "cyan",
+        "item": "cyan-80"
+      }
+    },
+    {
+      "value": "#04233f",
+      "name": "ds-cyan-90",
+      "attributes": {
+        "category": "colors",
+        "type": "cyan",
+        "item": "cyan-90"
+      }
+    },
+    {
+      "value": "#061727",
+      "name": "ds-cyan-100",
+      "attributes": {
+        "category": "colors",
+        "type": "cyan",
+        "item": "cyan-100"
+      }
+    },
+    {
+      "value": "#defbe6",
+      "name": "ds-green-10",
+      "attributes": {
+        "category": "colors",
+        "type": "green",
+        "item": "green-10"
+      }
+    },
+    {
+      "value": "#a7f0ba",
+      "name": "ds-green-20",
+      "attributes": {
+        "category": "colors",
+        "type": "green",
+        "item": "green-20"
+      }
+    },
+    {
+      "value": "#6fdc8c",
+      "name": "ds-green-30",
+      "attributes": {
+        "category": "colors",
+        "type": "green",
+        "item": "green-30"
+      }
+    },
+    {
+      "value": "#42be65",
+      "name": "ds-green-40",
+      "attributes": {
+        "category": "colors",
+        "type": "green",
+        "item": "green-40"
+      }
+    },
+    {
+      "value": "#24a148",
+      "name": "ds-green-50",
+      "attributes": {
+        "category": "colors",
+        "type": "green",
+        "item": "green-50"
+      }
+    },
+    {
+      "value": "#198038",
+      "name": "ds-green-60",
+      "attributes": {
+        "category": "colors",
+        "type": "green",
+        "item": "green-60"
+      }
+    },
+    {
+      "value": "#0e6027",
+      "name": "ds-green-70",
+      "attributes": {
+        "category": "colors",
+        "type": "green",
+        "item": "green-70"
+      }
+    },
+    {
+      "value": "#044317",
+      "name": "ds-green-80",
+      "attributes": {
+        "category": "colors",
+        "type": "green",
+        "item": "green-80"
+      }
+    },
+    {
+      "value": "#022d0d",
+      "name": "ds-green-90",
+      "attributes": {
+        "category": "colors",
+        "type": "green",
+        "item": "green-90"
+      }
+    },
+    {
+      "value": "#071908",
+      "name": "ds-green-100",
+      "attributes": {
+        "category": "colors",
+        "type": "green",
+        "item": "green-100"
+      }
+    },
+    {
+      "value": "#e0e4ea",
+      "name": "ds-grey-hover-10",
+      "attributes": {
+        "category": "colors",
+        "type": "grey-hover",
+        "item": "grey-hover-10"
+      }
+    },
+    {
+      "value": "#c4c9d1",
+      "name": "ds-grey-hover-20",
+      "attributes": {
+        "category": "colors",
+        "type": "grey-hover",
+        "item": "grey-hover-20"
+      }
+    },
+    {
+      "value": "#aaafb7",
+      "name": "ds-grey-hover-30",
+      "attributes": {
+        "category": "colors",
+        "type": "grey-hover",
+        "item": "grey-hover-30"
+      }
+    },
+    {
+      "value": "#90979f",
+      "name": "ds-grey-hover-40",
+      "attributes": {
+        "category": "colors",
+        "type": "grey-hover",
+        "item": "grey-hover-40"
+      }
+    },
+    {
+      "value": "#747c83",
+      "name": "ds-grey-hover-50",
+      "attributes": {
+        "category": "colors",
+        "type": "grey-hover",
+        "item": "grey-hover-50"
+      }
+    },
+    {
+      "value": "#5f656b",
+      "name": "ds-grey-hover-60",
+      "attributes": {
+        "category": "colors",
+        "type": "grey-hover",
+        "item": "grey-hover-60"
+      }
+    },
+    {
+      "value": "#5a6066",
+      "name": "ds-grey-hover-70",
+      "attributes": {
+        "category": "colors",
+        "type": "grey-hover",
+        "item": "grey-hover-70"
+      }
+    },
+    {
+      "value": "#464c51",
+      "name": "ds-grey-hover-80",
+      "attributes": {
+        "category": "colors",
+        "type": "grey-hover",
+        "item": "grey-hover-80"
+      }
+    },
+    {
+      "value": "#2f353a",
+      "name": "ds-grey-hover-90",
+      "attributes": {
+        "category": "colors",
+        "type": "grey-hover",
+        "item": "grey-hover-90"
+      }
+    },
+    {
+      "value": "#272c30",
+      "name": "ds-grey-hover-100",
+      "attributes": {
+        "category": "colors",
+        "type": "grey-hover",
+        "item": "grey-hover-100"
+      }
+    },
+    {
+      "value": "#f2f4f8",
+      "name": "ds-grey-10",
+      "attributes": {
+        "category": "colors",
+        "type": "grey",
+        "item": "grey-10"
+      }
+    },
+    {
+      "value": "#dde1e6",
+      "name": "ds-grey-20",
+      "attributes": {
+        "category": "colors",
+        "type": "grey",
+        "item": "grey-20"
+      }
+    },
+    {
+      "value": "#c1c7cd",
+      "name": "ds-grey-30",
+      "attributes": {
+        "category": "colors",
+        "type": "grey",
+        "item": "grey-30"
+      }
+    },
+    {
+      "value": "#a2a9b0",
+      "name": "ds-grey-40",
+      "attributes": {
+        "category": "colors",
+        "type": "grey",
+        "item": "grey-40"
+      }
+    },
+    {
+      "value": "#878d96",
+      "name": "ds-grey-50",
+      "attributes": {
+        "category": "colors",
+        "type": "grey",
+        "item": "grey-50"
+      }
+    },
+    {
+      "value": "#697077",
+      "name": "ds-grey-60",
+      "attributes": {
+        "category": "colors",
+        "type": "grey",
+        "item": "grey-60"
+      }
+    },
+    {
+      "value": "#4d5358",
+      "name": "ds-grey-70",
+      "attributes": {
+        "category": "colors",
+        "type": "grey",
+        "item": "grey-70"
+      }
+    },
+    {
+      "value": "#343a3f",
+      "name": "ds-grey-80",
+      "attributes": {
+        "category": "colors",
+        "type": "grey",
+        "item": "grey-80"
+      }
+    },
+    {
+      "value": "#21272a",
+      "name": "ds-grey-90",
+      "attributes": {
+        "category": "colors",
+        "type": "grey",
+        "item": "grey-90"
+      }
+    },
+    {
+      "value": "#121619",
+      "name": "ds-grey-100",
+      "attributes": {
+        "category": "colors",
+        "type": "grey",
+        "item": "grey-100"
+      }
+    },
+    {
+      "value": "#fff0f7",
+      "name": "ds-magenta-10",
+      "attributes": {
+        "category": "colors",
+        "type": "magenta",
+        "item": "magenta-10"
+      }
+    },
+    {
+      "value": "#fed7e8",
+      "name": "ds-magenta-20",
+      "attributes": {
+        "category": "colors",
+        "type": "magenta",
+        "item": "magenta-20"
+      }
+    },
+    {
+      "value": "#fdb0d2",
+      "name": "ds-magenta-30",
+      "attributes": {
+        "category": "colors",
+        "type": "magenta",
+        "item": "magenta-30"
+      }
+    },
+    {
+      "value": "#fd80b6",
+      "name": "ds-magenta-40",
+      "attributes": {
+        "category": "colors",
+        "type": "magenta",
+        "item": "magenta-40"
+      }
+    },
+    {
+      "value": "#ec5696",
+      "name": "ds-magenta-50",
+      "attributes": {
+        "category": "colors",
+        "type": "magenta",
+        "item": "magenta-50"
+      }
+    },
+    {
+      "value": "#cf2c71",
+      "name": "ds-magenta-60",
+      "attributes": {
+        "category": "colors",
+        "type": "magenta",
+        "item": "magenta-60"
+      }
+    },
+    {
+      "value": "#9d1c53",
+      "name": "ds-magenta-70",
+      "attributes": {
+        "category": "colors",
+        "type": "magenta",
+        "item": "magenta-70"
+      }
+    },
+    {
+      "value": "#730d37",
+      "name": "ds-magenta-80",
+      "attributes": {
+        "category": "colors",
+        "type": "magenta",
+        "item": "magenta-80"
+      }
+    },
+    {
+      "value": "#500424",
+      "name": "ds-magenta-90",
+      "attributes": {
+        "category": "colors",
+        "type": "magenta",
+        "item": "magenta-90"
+      }
+    },
+    {
+      "value": "#290b18",
+      "name": "ds-magenta-100",
+      "attributes": {
+        "category": "colors",
+        "type": "magenta",
+        "item": "magenta-100"
+      }
+    },
+    {
+      "value": "#fff6e6",
+      "name": "ds-orange-10",
+      "attributes": {
+        "category": "colors",
+        "type": "orange",
+        "item": "orange-10"
+      }
+    },
+    {
+      "value": "#fbebd0",
+      "name": "ds-orange-20",
+      "attributes": {
+        "category": "colors",
+        "type": "orange",
+        "item": "orange-20"
+      }
+    },
+    {
+      "value": "#fedca6",
+      "name": "ds-orange-30",
+      "attributes": {
+        "category": "colors",
+        "type": "orange",
+        "item": "orange-30"
+      }
+    },
+    {
+      "value": "#fecc7b",
+      "name": "ds-orange-40",
+      "attributes": {
+        "category": "colors",
+        "type": "orange",
+        "item": "orange-40"
+      }
+    },
+    {
+      "value": "#f9ba56",
+      "name": "ds-orange-50",
+      "attributes": {
+        "category": "colors",
+        "type": "orange",
+        "item": "orange-50"
+      }
+    },
+    {
+      "value": "#f39c28",
+      "name": "ds-orange-60",
+      "attributes": {
+        "category": "colors",
+        "type": "orange",
+        "item": "orange-60"
+      }
+    },
+    {
+      "value": "#a47125",
+      "name": "ds-orange-70",
+      "attributes": {
+        "category": "colors",
+        "type": "orange",
+        "item": "orange-70"
+      }
+    },
+    {
+      "value": "#744f17",
+      "name": "ds-orange-80",
+      "attributes": {
+        "category": "colors",
+        "type": "orange",
+        "item": "orange-80"
+      }
+    },
+    {
+      "value": "#4e330a",
+      "name": "ds-orange-90",
+      "attributes": {
+        "category": "colors",
+        "type": "orange",
+        "item": "orange-90"
+      }
+    },
+    {
+      "value": "#2c1f0a",
+      "name": "ds-orange-100",
+      "attributes": {
+        "category": "colors",
+        "type": "orange",
+        "item": "orange-100"
+      }
+    },
+    {
+      "value": "#f6f2ff",
+      "name": "ds-purple-10",
+      "attributes": {
+        "category": "colors",
+        "type": "purple",
+        "item": "purple-10"
+      }
+    },
+    {
+      "value": "#e8dbfe",
+      "name": "ds-purple-20",
+      "attributes": {
+        "category": "colors",
+        "type": "purple",
+        "item": "purple-20"
+      }
+    },
+    {
+      "value": "#d4bdfd",
+      "name": "ds-purple-30",
+      "attributes": {
+        "category": "colors",
+        "type": "purple",
+        "item": "purple-30"
+      }
+    },
+    {
+      "value": "#bd98fc",
+      "name": "ds-purple-40",
+      "attributes": {
+        "category": "colors",
+        "type": "purple",
+        "item": "purple-40"
+      }
+    },
+    {
+      "value": "#a473fc",
+      "name": "ds-purple-50",
+      "attributes": {
+        "category": "colors",
+        "type": "purple",
+        "item": "purple-50"
+      }
+    },
+    {
+      "value": "#8949f8",
+      "name": "ds-purple-60",
+      "attributes": {
+        "category": "colors",
+        "type": "purple",
+        "item": "purple-60"
+      }
+    },
+    {
+      "value": "#6932c1",
+      "name": "ds-purple-70",
+      "attributes": {
+        "category": "colors",
+        "type": "purple",
+        "item": "purple-70"
+      }
+    },
+    {
+      "value": "#492389",
+      "name": "ds-purple-80",
+      "attributes": {
+        "category": "colors",
+        "type": "purple",
+        "item": "purple-80"
+      }
+    },
+    {
+      "value": "#31175c",
+      "name": "ds-purple-90",
+      "attributes": {
+        "category": "colors",
+        "type": "purple",
+        "item": "purple-90"
+      }
+    },
+    {
+      "value": "#1c102f",
+      "name": "ds-purple-100",
+      "attributes": {
+        "category": "colors",
+        "type": "purple",
+        "item": "purple-100"
+      }
+    },
+    {
+      "value": "#fff1f1",
+      "name": "ds-red-10",
+      "attributes": {
+        "category": "colors",
+        "type": "red",
+        "item": "red-10"
+      }
+    },
+    {
+      "value": "#fed7d9",
+      "name": "ds-red-20",
+      "attributes": {
+        "category": "colors",
+        "type": "red",
+        "item": "red-20"
+      }
+    },
+    {
+      "value": "#fdb3b9",
+      "name": "ds-red-30",
+      "attributes": {
+        "category": "colors",
+        "type": "red",
+        "item": "red-30"
+      }
+    },
+    {
+      "value": "#fd848b",
+      "name": "ds-red-40",
+      "attributes": {
+        "category": "colors",
+        "type": "red",
+        "item": "red-40"
+      }
+    },
+    {
+      "value": "#f74f5a",
+      "name": "ds-red-50",
+      "attributes": {
+        "category": "colors",
+        "type": "red",
+        "item": "red-50"
+      }
+    },
+    {
+      "value": "#d8222f",
+      "name": "ds-red-60",
+      "attributes": {
+        "category": "colors",
+        "type": "red",
+        "item": "red-60"
+      }
+    },
+    {
+      "value": "#a01b24",
+      "name": "ds-red-70",
+      "attributes": {
+        "category": "colors",
+        "type": "red",
+        "item": "red-70"
+      }
+    },
+    {
+      "value": "#741017",
+      "name": "ds-red-80",
+      "attributes": {
+        "category": "colors",
+        "type": "red",
+        "item": "red-80"
+      }
+    },
+    {
+      "value": "#51050b",
+      "name": "ds-red-90",
+      "attributes": {
+        "category": "colors",
+        "type": "red",
+        "item": "red-90"
+      }
+    },
+    {
+      "value": "#2c070a",
+      "name": "ds-red-100",
+      "attributes": {
+        "category": "colors",
+        "type": "red",
+        "item": "red-100"
+      }
+    },
+    {
+      "value": "#d9fbfb",
+      "name": "ds-teal-10",
+      "attributes": {
+        "category": "colors",
+        "type": "teal",
+        "item": "teal-10"
+      }
+    },
+    {
+      "value": "#9ef0f0",
+      "name": "ds-teal-20",
+      "attributes": {
+        "category": "colors",
+        "type": "teal",
+        "item": "teal-20"
+      }
+    },
+    {
+      "value": "#3ddbd9",
+      "name": "ds-teal-30",
+      "attributes": {
+        "category": "colors",
+        "type": "teal",
+        "item": "teal-30"
+      }
+    },
+    {
+      "value": "#08bdba",
+      "name": "ds-teal-40",
+      "attributes": {
+        "category": "colors",
+        "type": "teal",
+        "item": "teal-40"
+      }
+    },
+    {
+      "value": "#009d9a",
+      "name": "ds-teal-50",
+      "attributes": {
+        "category": "colors",
+        "type": "teal",
+        "item": "teal-50"
+      }
+    },
+    {
+      "value": "#007d79",
+      "name": "ds-teal-60",
+      "attributes": {
+        "category": "colors",
+        "type": "teal",
+        "item": "teal-60"
+      }
+    },
+    {
+      "value": "#005d5d",
+      "name": "ds-teal-70",
+      "attributes": {
+        "category": "colors",
+        "type": "teal",
+        "item": "teal-70"
+      }
+    },
+    {
+      "value": "#004144",
+      "name": "ds-teal-80",
+      "attributes": {
+        "category": "colors",
+        "type": "teal",
+        "item": "teal-80"
+      }
+    },
+    {
+      "value": "#022b30",
+      "name": "ds-teal-90",
+      "attributes": {
+        "category": "colors",
+        "type": "teal",
+        "item": "teal-90"
+      }
+    },
+    {
+      "value": "#081a1c",
+      "name": "ds-teal-100",
+      "attributes": {
+        "category": "colors",
+        "type": "teal",
+        "item": "teal-100"
+      }
+    },
+    {
+      "value": "#fffff1",
+      "name": "ds-yellow-10",
+      "attributes": {
+        "category": "colors",
+        "type": "yellow",
+        "item": "yellow-10"
+      }
+    },
+    {
+      "value": "#fcfbd1",
+      "name": "ds-yellow-20",
+      "attributes": {
+        "category": "colors",
+        "type": "yellow",
+        "item": "yellow-20"
+      }
+    },
+    {
+      "value": "#fffea8",
+      "name": "ds-yellow-30",
+      "attributes": {
+        "category": "colors",
+        "type": "yellow",
+        "item": "yellow-30"
+      }
+    },
+    {
+      "value": "#fffd7e",
+      "name": "ds-yellow-40",
+      "attributes": {
+        "category": "colors",
+        "type": "yellow",
+        "item": "yellow-40"
+      }
+    },
+    {
+      "value": "#fbf95b",
+      "name": "ds-yellow-50",
+      "attributes": {
+        "category": "colors",
+        "type": "yellow",
+        "item": "yellow-50"
+      }
+    },
+    {
+      "value": "#f5f336",
+      "name": "ds-yellow-60",
+      "attributes": {
+        "category": "colors",
+        "type": "yellow",
+        "item": "yellow-60"
+      }
+    },
+    {
+      "value": "#a2a32b",
+      "name": "ds-yellow-70",
+      "attributes": {
+        "category": "colors",
+        "type": "yellow",
+        "item": "yellow-70"
+      }
+    },
+    {
+      "value": "#77761c",
+      "name": "ds-yellow-80",
+      "attributes": {
+        "category": "colors",
+        "type": "yellow",
+        "item": "yellow-80"
+      }
+    },
+    {
+      "value": "#4e4d0d",
+      "name": "ds-yellow-90",
+      "attributes": {
+        "category": "colors",
+        "type": "yellow",
+        "item": "yellow-90"
+      }
+    },
+    {
+      "value": "#2b2b0b",
+      "name": "ds-yellow-100",
+      "attributes": {
+        "category": "colors",
+        "type": "yellow",
+        "item": "yellow-100"
+      }
+    },
+    {
+      "value": "#ffffff",
+      "valueName": "white",
+      "description": "Default page background",
+      "name": "ds-theme-ui-background",
+      "attributes": {
+        "category": "colors",
+        "type": "theme",
+        "item": "core",
+        "subitem": "ui-background"
+      }
+    },
+    {
+      "value": "#0f62fe",
+      "valueName": "blue-60",
+      "description": "Primary interactive color; Interactive text; Selected elements; Featured elements",
+      "name": "ds-theme-interactive-01",
+      "attributes": {
+        "category": "colors",
+        "type": "theme",
+        "item": "core",
+        "subitem": "interactive-01"
+      }
+    },
+    {
+      "value": "#343a3f",
+      "valueName": "grey-80",
+      "description": "Secondary button",
+      "name": "ds-theme-interactive-02",
+      "attributes": {
+        "category": "colors",
+        "type": "theme",
+        "item": "core",
+        "subitem": "interactive-02"
+      }
+    },
+    {
+      "value": "#0f62fe",
+      "valueName": "blue-60",
+      "description": "Tertiary button",
+      "name": "ds-theme-interactive-03",
+      "attributes": {
+        "category": "colors",
+        "type": "theme",
+        "item": "core",
+        "subitem": "interactive-03"
+      }
+    },
+    {
+      "value": "#0f62fe",
+      "valueName": "blue-60",
+      "description": "Selected nav indicator; Active elements",
+      "name": "ds-theme-interactive-04",
+      "attributes": {
+        "category": "colors",
+        "type": "theme",
+        "item": "core",
+        "subitem": "interactive-04"
+      }
+    },
+    {
+      "value": "#d8222f",
+      "valueName": "red-60",
+      "description": "Danger button background; 3:1 AA contrast",
+      "name": "ds-theme-danger",
+      "attributes": {
+        "category": "colors",
+        "type": "theme",
+        "item": "core",
+        "subitem": "danger"
+      }
+    },
+    {
+      "value": "#f2f4f8",
+      "valueName": "grey-60",
+      "description": "Container background on $ui-background; Secondary page background",
+      "name": "ds-theme-ui-01",
+      "attributes": {
+        "category": "colors",
+        "type": "theme",
+        "item": "core",
+        "subitem": "ui-01"
+      }
+    },
+    {
+      "value": "#ffffff",
+      "valueName": "white",
+      "description": "Container background on $ui-01; `Light` variant background",
+      "name": "ds-theme-ui-02",
+      "attributes": {
+        "category": "colors",
+        "type": "theme",
+        "item": "core",
+        "subitem": "ui-02"
+      }
+    },
+    {
+      "value": "#dde1e6",
+      "valueName": "grey-20",
+      "description": "Subtle border; Tertiary background",
+      "name": "ds-theme-ui-03",
+      "attributes": {
+        "category": "colors",
+        "type": "theme",
+        "item": "core",
+        "subitem": "ui-03"
+      }
+    },
+    {
+      "value": "#878d96",
+      "valueName": "grey-50",
+      "description": "3:1 aa element contrast; Medium contrast border",
+      "name": "ds-theme-ui-04",
+      "attributes": {
+        "category": "colors",
+        "type": "theme",
+        "item": "core",
+        "subitem": "ui-04"
+      }
+    },
+    {
+      "value": "#121619",
+      "valueName": "grey-100",
+      "description": "4.5:1 aa element contrast; High contrast border; Emphasis elements",
+      "name": "ds-theme-ui-05",
+      "attributes": {
+        "category": "colors",
+        "type": "theme",
+        "item": "core",
+        "subitem": "ui-05"
+      }
+    },
+    {
+      "value": "#dde1e6",
+      "valueName": "grey-20",
+      "description": "3:1 aa element contrast; Fluid button separator",
+      "name": "ds-theme-button-separator",
+      "attributes": {
+        "category": "colors",
+        "type": "theme",
+        "item": "core",
+        "subitem": "button-separator"
+      }
+    },
+    {
+      "value": "#dde1e6",
+      "valueName": "grey-20",
+      "description": "“Light” variant elements",
+      "name": "ds-theme-decorative-01",
+      "attributes": {
+        "category": "colors",
+        "type": "theme",
+        "item": "core",
+        "subitem": "decorative-01"
+      }
+    },
+    {
+      "value": "#121619",
+      "valueName": "grey-100",
+      "description": "Primary text; Body copy; Headers; Hover text color for text-02",
+      "name": "ds-theme-text-01",
+      "attributes": {
+        "category": "colors",
+        "type": "theme",
+        "item": "core",
+        "subitem": "text-01"
+      }
+    },
+    {
+      "value": "#4d5358",
+      "valueName": "grey-70",
+      "description": "Secondary text; Input labels",
+      "name": "ds-theme-text-02",
+      "attributes": {
+        "category": "colors",
+        "type": "theme",
+        "item": "core",
+        "subitem": "text-02"
+      }
+    },
+    {
+      "value": "#a2a9b0",
+      "valueName": "grey-40",
+      "description": "Placeholder text",
+      "name": "ds-theme-text-03",
+      "attributes": {
+        "category": "colors",
+        "type": "theme",
+        "item": "core",
+        "subitem": "text-03"
+      }
+    },
+    {
+      "value": "#ffffff",
+      "valueName": "white",
+      "description": "Text on interactive colors",
+      "name": "ds-theme-text-04",
+      "attributes": {
+        "category": "colors",
+        "type": "theme",
+        "item": "core",
+        "subitem": "text-04"
+      }
+    },
+    {
+      "value": "#697077",
+      "valueName": "grey-60",
+      "description": "Tertiary text; Help text",
+      "name": "ds-theme-text-05",
+      "attributes": {
+        "category": "colors",
+        "type": "theme",
+        "item": "core",
+        "subitem": "text-05"
+      }
+    },
+    {
+      "value": "#d8222f",
+      "valueName": "red-60",
+      "description": "Error message text",
+      "name": "ds-theme-text-error",
+      "attributes": {
+        "category": "colors",
+        "type": "theme",
+        "item": "core",
+        "subitem": "text-error"
+      }
+    },
+    {
+      "value": "#0f62fe",
+      "valueName": "blue-60",
+      "description": "Primary links; Ghost button",
+      "name": "ds-theme-link-01",
+      "attributes": {
+        "category": "colors",
+        "type": "theme",
+        "item": "core",
+        "subitem": "link-01"
+      }
+    },
+    {
+      "value": "#78a9ff",
+      "valueName": "blue-40",
+      "description": "Links on $inverse-02 backgrounds",
+      "name": "ds-theme-inverse-link",
+      "attributes": {
+        "category": "colors",
+        "type": "theme",
+        "item": "core",
+        "subitem": "inverse-link"
+      }
+    },
+    {
+      "value": "#121619",
+      "valueName": "grey-100",
+      "description": "Primary icons",
+      "name": "ds-theme-icon-01",
+      "attributes": {
+        "category": "colors",
+        "type": "theme",
+        "item": "core",
+        "subitem": "icon-01"
+      }
+    },
+    {
+      "value": "#4d5358",
+      "valueName": "grey-70",
+      "description": "Secondary icons",
+      "name": "ds-theme-icon-02",
+      "attributes": {
+        "category": "colors",
+        "type": "theme",
+        "item": "core",
+        "subitem": "icon-02"
+      }
+    },
+    {
+      "value": "#ffffff",
+      "valueName": "white",
+      "description": "Icons on interactive colors; Icons on non-ui colors",
+      "name": "ds-theme-icon-03",
+      "attributes": {
+        "category": "colors",
+        "type": "theme",
+        "item": "core",
+        "subitem": "icon-03"
+      }
+    },
+    {
+      "value": "#f2f4f8",
+      "valueName": "grey-10",
+      "description": "Default input fields; Fields on $ui-backgrounds",
+      "name": "ds-theme-field-01",
+      "attributes": {
+        "category": "colors",
+        "type": "theme",
+        "item": "core",
+        "subitem": "field-01"
+      }
+    },
+    {
+      "value": "#ffffff",
+      "valueName": "white",
+      "description": "“Light” variant input fields; Fields on $ui-01 backgrounds",
+      "name": "ds-theme-field-02",
+      "attributes": {
+        "category": "colors",
+        "type": "theme",
+        "item": "core",
+        "subitem": "field-02"
+      }
+    },
+    {
+      "value": "#ffffff",
+      "valueName": "white",
+      "description": "Inverse text color; Inverse icon color",
+      "name": "ds-theme-inverse-01",
+      "attributes": {
+        "category": "colors",
+        "type": "theme",
+        "item": "core",
+        "subitem": "inverse-01"
+      }
+    },
+    {
+      "value": "#343a3f",
+      "valueName": "grey-80",
+      "description": "High contrast backgrounds; High contrast elements",
+      "name": "ds-theme-inverse-02",
+      "attributes": {
+        "category": "colors",
+        "type": "theme",
+        "item": "core",
+        "subitem": "inverse-02"
+      }
+    },
+    {
+      "value": "#d8222f",
+      "valueName": "red-60",
+      "description": "Error",
+      "name": "ds-theme-support-01",
+      "attributes": {
+        "category": "colors",
+        "type": "theme",
+        "item": "core",
+        "subitem": "support-01"
+      }
+    },
+    {
+      "value": "#24a148",
+      "valueName": "green-50",
+      "description": "Success",
+      "name": "ds-theme-support-02",
+      "attributes": {
+        "category": "colors",
+        "type": "theme",
+        "item": "core",
+        "subitem": "support-02"
+      }
+    },
+    {
+      "value": "#fbf95b",
+      "valueName": "yellow-50",
+      "description": "Warning",
+      "name": "ds-theme-support-03",
+      "attributes": {
+        "category": "colors",
+        "type": "theme",
+        "item": "core",
+        "subitem": "support-03"
+      }
+    },
+    {
+      "value": "#0043ce",
+      "valueName": "blue-70",
+      "description": "Information",
+      "name": "ds-theme-support-04",
+      "attributes": {
+        "category": "colors",
+        "type": "theme",
+        "item": "core",
+        "subitem": "support-04"
+      }
+    },
+    {
+      "value": "#f74f5a",
+      "valueName": "red-50",
+      "description": "Danger in high contrast moments",
+      "name": "ds-theme-inverse-support-01",
+      "attributes": {
+        "category": "colors",
+        "type": "theme",
+        "item": "core",
+        "subitem": "inverse-support-01"
+      }
+    },
+    {
+      "value": "#42be65",
+      "valueName": "green-40",
+      "description": "Success in high contrast moments",
+      "name": "ds-theme-inverse-support-02",
+      "attributes": {
+        "category": "colors",
+        "type": "theme",
+        "item": "core",
+        "subitem": "inverse-support-02"
+      }
+    },
+    {
+      "value": "#fffd7e",
+      "valueName": "yellow-40",
+      "description": "Warning in high contrast moments",
+      "name": "ds-theme-inverse-support-03",
+      "attributes": {
+        "category": "colors",
+        "type": "theme",
+        "item": "core",
+        "subitem": "inverse-support-03"
+      }
+    },
+    {
+      "value": "#4589ff",
+      "valueName": "blue-50",
+      "description": "Information in high contrast moments",
+      "name": "ds-theme-inverse-support-04",
+      "attributes": {
+        "category": "colors",
+        "type": "theme",
+        "item": "core",
+        "subitem": "inverse-support-04"
+      }
+    },
+    {
+      "value": "#121619",
+      "valueName": "grey-100",
+      "description": "Background overlay",
+      "name": "ds-theme-overlay-01",
+      "attributes": {
+        "category": "colors",
+        "type": "theme",
+        "item": "core",
+        "subitem": "overlay-01"
+      }
+    },
+    {
+      "value": "#0f62fe",
+      "valueName": "blue-60",
+      "description": "Focus border; Focus underline",
+      "name": "ds-theme-focus",
+      "attributes": {
+        "category": "colors",
+        "type": "theme",
+        "item": "interactive",
+        "subitem": "focus"
+      }
+    },
+    {
+      "value": "#ffffff",
+      "valueName": "white",
+      "description": "Focus on high contrast moments",
+      "name": "ds-theme-inverse-focus-ui",
+      "attributes": {
+        "category": "colors",
+        "type": "theme",
+        "item": "interactive",
+        "subitem": "inverse-focus-ui"
+      }
+    },
+    {
+      "value": "#002d9c",
+      "valueName": "blue-80",
+      "description": "$interactive-01 hover",
+      "name": "ds-theme-hover-primary",
+      "attributes": {
+        "category": "colors",
+        "type": "theme",
+        "item": "interactive",
+        "subitem": "hover-primary"
+      }
+    },
+    {
+      "value": "#0043ce",
+      "valueName": "blue-70",
+      "description": "$interactive-01 text hover",
+      "name": "ds-theme-hover-primary-text",
+      "attributes": {
+        "category": "colors",
+        "type": "theme",
+        "item": "interactive",
+        "subitem": "hover-primary-text"
+      }
+    },
+    {
+      "value": "#464c51",
+      "valueName": "grey-hover-80",
+      "description": "$interactive-02 hover",
+      "name": "ds-theme-hover-secondary",
+      "attributes": {
+        "category": "colors",
+        "type": "theme",
+        "item": "interactive",
+        "subitem": "hover-secondary"
+      }
+    },
+    {
+      "value": "#0f62fe",
+      "valueName": "blue-60",
+      "description": "$interactive-03 hover; $inverse-01 hover",
+      "name": "ds-theme-hover-tertiary",
+      "attributes": {
+        "category": "colors",
+        "type": "theme",
+        "item": "interactive",
+        "subitem": "hover-tertiary"
+      }
+    },
+    {
+      "value": "#e0e4ea",
+      "valueName": "grey-hover-10",
+      "description": "$ui-01 hover; $ui-02 hover; Transparent background hover",
+      "name": "ds-theme-hover-ui",
+      "attributes": {
+        "category": "colors",
+        "type": "theme",
+        "item": "interactive",
+        "subitem": "hover-ui"
+      }
+    },
+    {
+      "value": "#e0e4ea",
+      "valueName": "grey-hover-10",
+      "description": "“Light” variant hover",
+      "name": "ds-theme-hover-ui-light",
+      "attributes": {
+        "category": "colors",
+        "type": "theme",
+        "item": "interactive",
+        "subitem": "hover-ui-light"
+      }
+    },
+    {
+      "value": "#c4c9d1",
+      "valueName": "grey-hover-20",
+      "description": "Selected row hover",
+      "name": "ds-theme-hover-selected-ui",
+      "attributes": {
+        "category": "colors",
+        "type": "theme",
+        "item": "interactive",
+        "subitem": "hover-selected-ui"
+      }
+    },
+    {
+      "value": "#d8222f",
+      "valueName": "red-60",
+      "description": "Danger hover; $support-01 hover",
+      "name": "ds-theme-hover-danger",
+      "attributes": {
+        "category": "colors",
+        "type": "theme",
+        "item": "interactive",
+        "subitem": "hover-danger"
+      }
+    },
+    {
+      "value": "#e0e4ea",
+      "valueName": "grey-hover-10",
+      "description": "Row hover",
+      "name": "ds-theme-hover-row",
+      "attributes": {
+        "category": "colors",
+        "type": "theme",
+        "item": "interactive",
+        "subitem": "hover-row"
+      }
+    },
+    {
+      "value": "#464c51",
+      "valueName": "grey-hover-80",
+      "description": "Hover for $inverse-02",
+      "name": "ds-theme-inverse-hover-ui",
+      "attributes": {
+        "category": "colors",
+        "type": "theme",
+        "item": "interactive",
+        "subitem": "inverse-hover-ui"
+      }
+    },
+    {
+      "value": "#002d9c",
+      "valueName": "blue-80",
+      "description": "$interactive-01 active",
+      "name": "ds-theme-active-primary",
+      "attributes": {
+        "category": "colors",
+        "type": "theme",
+        "item": "interactive",
+        "subitem": "active-primary"
+      }
+    },
+    {
+      "value": "#5f656b",
+      "valueName": "grey-hover-60",
+      "description": "$interactive-02 active; $inverse-01 active",
+      "name": "ds-theme-active-secondary",
+      "attributes": {
+        "category": "colors",
+        "type": "theme",
+        "item": "interactive",
+        "subitem": "active-secondary"
+      }
+    },
+    {
+      "value": "#002d9c",
+      "valueName": "blue-80",
+      "description": "$interactive-03 active",
+      "name": "ds-theme-active-tertiary",
+      "attributes": {
+        "category": "colors",
+        "type": "theme",
+        "item": "interactive",
+        "subitem": "active-tertiary"
+      }
+    },
+    {
+      "value": "#aaafb7",
+      "valueName": "grey-hover-30",
+      "description": "$ui-01 active; $ui-02 active",
+      "name": "ds-theme-active-ui",
+      "attributes": {
+        "category": "colors",
+        "type": "theme",
+        "item": "interactive",
+        "subitem": "active-ui"
+      }
+    },
+    {
+      "value": "#741017",
+      "valueName": "red-80",
+      "description": "Danger active; $support-01 active",
+      "name": "ds-theme-active-danger",
+      "attributes": {
+        "category": "colors",
+        "type": "theme",
+        "item": "interactive",
+        "subitem": "active-danger"
+      }
+    },
+    {
+      "value": "#c4c9d1",
+      "valueName": "grey-hover-20",
+      "description": "Selected UI elements",
+      "name": "ds-theme-selected-ui",
+      "attributes": {
+        "category": "colors",
+        "type": "theme",
+        "item": "interactive",
+        "subitem": "selected-ui"
+      }
+    },
+    {
+      "value": "#d0e2ff",
+      "valueName": "blue-20",
+      "description": "$interactive-01 highlight",
+      "name": "ds-theme-highlight",
+      "attributes": {
+        "category": "colors",
+        "type": "theme",
+        "item": "interactive",
+        "subitem": "highlight"
+      }
+    },
+    {
+      "value": "#c4c9d1",
+      "valueName": "grey-hover-20",
+      "description": "Skeleton state of graphics",
+      "name": "ds-theme-skeleton-01",
+      "attributes": {
+        "category": "colors",
+        "type": "theme",
+        "item": "interactive",
+        "subitem": "skeleton-01"
+      }
+    },
+    {
+      "value": "#aaafb7",
+      "valueName": "grey-hover-30",
+      "description": "Skeleton state of texts",
+      "name": "ds-theme-skeleton-02",
+      "attributes": {
+        "category": "colors",
+        "type": "theme",
+        "item": "interactive",
+        "subitem": "skeleton-02"
+      }
+    },
+    {
+      "value": "#8949f8",
+      "valueName": "purple-60",
+      "description": "Visited links",
+      "name": "ds-theme-visited-link",
+      "attributes": {
+        "category": "colors",
+        "type": "theme",
+        "item": "interactive",
+        "subitem": "visited-link"
+      }
+    },
+    {
+      "value": "#e0e4ea",
+      "valueName": "grey-hover-10",
+      "description": "Disabled fields; Disabled backgrounds; Disabled border",
+      "name": "ds-theme-disabled-01",
+      "attributes": {
+        "category": "colors",
+        "type": "theme",
+        "item": "interactive",
+        "subitem": "disabled-01"
+      }
+    },
+    {
+      "value": "#aaafb7",
+      "valueName": "grey-hover-30",
+      "description": "Disabled elements on $disabled-01; Disabled label; Disabled text on $disabled-01; Disabled icons; Disabled border",
+      "name": "ds-theme-disabled-02",
+      "attributes": {
+        "category": "colors",
+        "type": "theme",
+        "item": "interactive",
+        "subitem": "disabled-02"
+      }
+    },
+    {
+      "value": "#747c83",
+      "valueName": "grey-hover-50",
+      "description": "Disabled text on $disabled-02; Disabled icons on $disabled-02",
+      "name": "ds-theme-disabled-03",
+      "attributes": {
+        "category": "colors",
+        "type": "theme",
+        "item": "interactive",
+        "subitem": "disabled-03"
       }
     }
   ],

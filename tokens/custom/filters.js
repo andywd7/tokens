@@ -34,13 +34,32 @@ module.exports = StyleDictionary => {
   })
 
   StyleDictionary.registerFilter({
-    name: "isTheme",
+    name: "isThemeMap",
     matcher: function(prop) {
       return (
         prop.path[0] === "theme" ||
         prop.path[1] === "theme" ||
         (prop.path[0] === "typography" && prop.attributes.item !== "docs") ||
         prop.theme
+      )
+    }
+  })
+
+  StyleDictionary.registerFilter({
+    name: "isTheme",
+    matcher: function(prop) {
+      return prop.path[0] === "theme" || prop.path[1] === "theme"
+    }
+  })
+
+  StyleDictionary.registerFilter({
+    name: "isNotTheme",
+    matcher: function(prop) {
+      return (
+        prop.attributes.category !== "theme" ||
+        prop.attributes.type !== "theme" ||
+        prop.attributes.category !== "typography"
+        // !prop.theme
       )
     }
   })

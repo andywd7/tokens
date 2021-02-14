@@ -8,6 +8,7 @@
     "test:unit": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint",
     "stylelint": "stylelint '**/*.{scss,vue}'",
+    "transform-tokens": "node ./tokens/scripts/build.js",
     "tokens": "node ./tokens/scripts/build.js",
     "themes": "node ./tokens/scripts/buildThemes.js",
     "figma": "node ./tokens/scripts/build.js",
